@@ -28,15 +28,15 @@ Leia obrigatoriamente o [Guia para definir o escopo de IHC a partir do tema do T
 
 | Nome completo | Matrícula | GitHub | Responsabilidade principal |
 |---|---:|---|---|
-| {{Beatriz Cristina Emerenciano}} | {{22.222.041-0}} | {{Beatriz-emerenciano}} | {{desenvolvimento e pesquisa}} |
-| {{Larissa Fiuza dos Santos}} | {{22.123.042-8}} | {{LarissaFiuza7}} | {{Desenvolvimento e pesquisa}} |
+| Beatriz Cristina Emerenciano | 22.222.041-0 | Beatriz-emerenciano| desenvolvimento e pesquisa |
+| Larissa Fiuza dos Santos | 22.123.042-8}} | LarissaFiuza7 | Desenvolvimento e pesquisa |
 
 ## Relação entre TCC e projeto de IHC
 
 | Item | Descrição |
 |---|---|
 | Tema central do TCC | {{Desenvolvimento de um Jogo sério e Estudo Experimental de Abordagens para Ensino de Montagem de Hardware}} |
-| Resultado técnico esperado do TCC | {{ modelo, estudo}} |
+| Resultado técnico esperado do TCC |  modelo, estudo |
 | O TCC já previa interface? | sim |
 | Capacidade técnica que pode gerar valor para pessoas | {{sim, conhecimento sobre hardware}} |
 | Usuário principal adotado em IHC | {{estudante e/ou pessoas que não possuem conhecimento sobre hardware}} |

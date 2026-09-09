@@ -17,31 +17,31 @@ Leia obrigatoriamente o [Guia para definir o escopo de IHC a partir do tema do T
 
 ## Identificação
 
-**Título do projeto de IHC:** {{TÍTULO DO PROJETO}}  
-**TCC/projeto de origem:** {{TÍTULO ORIGINAL DO TCC}}  
-**Orientador(a):** {{NOME}}  
+**Título do projeto de IHC:** {{Montagem e treinamento de hardware}}  
+**TCC/projeto de origem:** {{Desenvolvimento de um Jogo Sério e Estudo Experimental de Abordagens Combinadas para Ensino de Montagem de Hardware}}  
+**Orientador(a):** {{Rafael Gomes Alves}}  
 **Disciplina:** Interação Humano-Computador  
-**Instituição:** {{INSTITUIÇÃO}}  
-**Semestre:** {{ANO/SEMESTRE}}
+**Instituição:** {{Centro Universitário FEI}}  
+**Semestre:** {{2026/8°}}
 
 ### Equipe
 
 | Nome completo | Matrícula | GitHub | Responsabilidade principal |
 |---|---:|---|---|
-| {{Nome 1}} | {{matrícula}} | {{@usuario}} | {{...}} |
-| {{Nome 2}} | {{matrícula}} | {{@usuario}} | {{...}} |
+| {{Beatriz Cristina Emerenciano}} | {{22.222.041-0}} | {{Beatriz-emerenciano}} | {{desenvolvimento e pesquisa}} |
+| {{Larissa Fiuza dos Santos}} | {{22.123.042-8}} | {{LarissaFiuza7}} | {{Desenvolvimento e pesquisa}} |
 
 ## Relação entre TCC e projeto de IHC
 
 | Item | Descrição |
 |---|---|
-| Tema central do TCC | {{...}} |
-| Resultado técnico esperado do TCC | {{algoritmo, estudo, sistema, modelo, análise, API...}} |
-| O TCC já previa interface? | sim / não / parcialmente |
-| Capacidade técnica que pode gerar valor para pessoas | {{...}} |
-| Usuário principal adotado em IHC | {{...}} |
-| Objetivo principal desse usuário | {{...}} |
-| Interface/recorte explorado na disciplina | {{...}} |
+| Tema central do TCC | {{Desenvolvimento de um Jogo sério e Estudo Experimental de Abordagens para Ensino de Montagem de Hardware}} |
+| Resultado técnico esperado do TCC | {{ modelo, estudo}} |
+| O TCC já previa interface? | sim |
+| Capacidade técnica que pode gerar valor para pessoas | {{sim, conhecimento sobre hardware}} |
+| Usuário principal adotado em IHC | {{estudante e/ou pessoas que não possuem conhecimento sobre hardware}} |
+| Objetivo principal desse usuário | {{Compreendersobre o funcionanmentoddos componentes principais de hardware e montagem básica de hardware}} |
+| Interface/recorte explorado na disciplina | {{Treinamento/Montagem}} |
 | Relação com o escopo formal do TCC | parte prevista / extensão conceitual / protótipo demonstrativo / outra |
 
 > **Importante:** a tabela acima explica a relação entre os dois trabalhos. Ela não altera o compromisso formal do TCC.

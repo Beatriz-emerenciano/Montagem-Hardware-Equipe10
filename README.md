@@ -17,12 +17,12 @@ Leia obrigatoriamente o [Guia para definir o escopo de IHC a partir do tema do T
 
 ## Identificação
 
-**Título do projeto de IHC:** {{Montagem e treinamento de hardware}}  
-**TCC/projeto de origem:** {{Desenvolvimento de um Jogo Sério e Estudo Experimental de Abordagens Combinadas para Ensino de Montagem de Hardware}}  
-**Orientador(a):** {{Rafael Gomes Alves}}  
+**Título do projeto de IHC:** Montagem e treinamento de hardware
+**TCC/projeto de origem:** Desenvolvimento de um Jogo Sério e Estudo Experimental de Abordagens Combinadas para Ensino de Montagem de Hardware
+**Orientador(a):** Rafael Gomes Alves
 **Disciplina:** Interação Humano-Computador  
-**Instituição:** {{Centro Universitário FEI}}  
-**Semestre:** {{2026/8°}}
+**Instituição:** Centro Universitário FEI
+**Semestre:** 2026/8°
 
 ### Equipe
 
@@ -38,10 +38,10 @@ Leia obrigatoriamente o [Guia para definir o escopo de IHC a partir do tema do T
 | Tema central do TCC | {{Desenvolvimento de um Jogo sério e Estudo Experimental de Abordagens para Ensino de Montagem de Hardware}} |
 | Resultado técnico esperado do TCC |  modelo, estudo |
 | O TCC já previa interface? | sim |
-| Capacidade técnica que pode gerar valor para pessoas | {{sim, conhecimento sobre hardware}} |
-| Usuário principal adotado em IHC | {{estudante e/ou pessoas que não possuem conhecimento sobre hardware}} |
-| Objetivo principal desse usuário | {{Compreendersobre o funcionanmentoddos componentes principais de hardware e montagem básica de hardware}} |
-| Interface/recorte explorado na disciplina | {{Treinamento/Montagem}} |
+| Capacidade técnica que pode gerar valor para pessoas | sim, conhecimento sobre hardware |
+| Usuário principal adotado em IHC | estudante e/ou pessoas que não possuem conhecimento sobre hardware |
+| Objetivo principal desse usuário | Compreendersobre o funcionanmentoddos componentes principais de hardware e montagem básica de hardware |
+| Interface/recorte explorado na disciplina | Treinamento/Montagem |
 | Relação com o escopo formal do TCC | parte prevista / extensão conceitual / protótipo demonstrativo / outra |
 
 > **Importante:** a tabela acima explica a relação entre os dois trabalhos. Ela não altera o compromisso formal do TCC.

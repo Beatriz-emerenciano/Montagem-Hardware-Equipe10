@@ -34,8 +34,8 @@ Leia obrigatoriamente o [Guia para definir o escopo de IHC a partir do tema do T
 ## Relação entre TCC e projeto de IHC
 
 | Item | Descrição |
-|---|---|
-| Tema central do TCC | {{Desenvolvimento de um Jogo sério e Estudo Experimental de Abordagens para Ensino de Montagem de Hardware}} |
+|---|---
+| Tema central do TCC | Desenvolvimento de um Jogo sério e Estudo Experimental de Abordagens para Ensino de Montagem de Hardware |
 | Resultado técnico esperado do TCC |  modelo, estudo |
 | O TCC já previa interface? | sim |
 | Capacidade técnica que pode gerar valor para pessoas | sim, conhecimento sobre hardware |

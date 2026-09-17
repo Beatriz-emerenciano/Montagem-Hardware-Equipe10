@@ -38,44 +38,55 @@ Se uma hipótese da Entrega 1 for confirmada ou refutada durante esta análise, 
 
 ## 1. Público-alvo desta análise
 
-{{descrever e ligar à Entrega 1}}
+{{Estudantes de ciência da computação/e ou pessoas que não possuem ou possuem pouco conhecimento em hardware}}
 
 ## 2. Concorrentes diretos/indiretos
 
-### Análise C01 — {{produto}}
+### Análise C01 — {{Pc Building Simulator}}
 
-**Autor(a):** {{nome — matrícula}}  
-**Tipo:** direto / indireto / análogo  
-**Link oficial:** {{URL}}  
-**Data de acesso:** {{dd/mm/aaaa}}
+**Autor(a):** {{Beatriz Cristina Emerenciano — 22.222.041-0}}  
+**Tipo:** direto   
+**Link oficial:** {{https://store.epicgames.com/p/pc-building-simulator-2?lang=pt-BR}}  
+**Data de acesso:** {{17/09/2026}}
+
+### Análise C02 — {{produto}}
+
+**Autor(a):** {{Larissa dos Santos Fiuza — matrícula}}  
+**Tipo:**  indireto  
+**Link oficial:** {{https://manus.im/pt-br/playbook/pc-builder}}  
+**Data de acesso:** {{10/09/2026}}
 
 #### Contexto e proposta
 
-{{...}}
+{{ A proposta de ambas concorrências é auxiliar no aprendizado e  montagem de hardware mas ambas possuem diferentes propostas, o  PC building simulator é voltada para a gamificação(jogo sério) em modelagem 3d, enquanto Manu é voltada pra o uso de IA omo auxiliar para montagem de hardware   }}
 
 #### Funcionalidades relevantes
 
 | Funcionalidade | Como é realizada | Evidência/print | Observação de IHC |
 |---|---|---|---|
-| {{...}} | {{...}} | `../assets/02_concorrencia/...` | {{...}} |
+| {{ tela menu}} | {{há botões opcionais de iniciar jogo, recomeçar e continuar,sair,opções para configurações }} | <img width="1038" height="583" alt="image" src="https://github.com/user-attachments/assets/d233be6a-d3b4-44bb-a038-14e5537c7f3b" />
+` | {{componentes descritivos,chamativos e claros}} |
+| {{tela de execução de montagem de hardware}} | {{o usuário interage arrastando os componentes do hardware no gabinete acompanhado de um cheklist de validaçãod e etapas }} | <<img width="1045" height="589" alt="image" src="https://github.com/user-attachments/assets/22639920-e648-4cee-aecf-2f3ddf6e5d61" />
+/>
+` | {{ o cenário ambiente(imagem) ocupa a tela toda, ao lado direito há um descritivo que acompanha todas a interatividade que o usuário tem com os componentes de arrastar.}} |
 
 #### Experiência do usuário e opiniões
 
-Use avaliações públicas, relatos, estudos, testes próprios ou outra fonte identificável. Não trate opinião isolada como verdade universal.
+Segundo avaliações do software concorrente, de modo geral, o softare é  bom, principalmente pars quem é iniciante e busca aprender sobre os componentes e a montagem de hardware, porém para usuários que já possuem experiência pode ser repetitivo e cansativo, e a grande critica foi o execesso de propaganda duranda a interatividade com o software.
 
 #### Preço/modelo de negócio
 
-{{...}}
+{{77 reais }}
 
 #### Padrões e tendências percebidos
 
-{{...}}
+{{Grande interatividade com imagem seguido de campo em cantos superiores descritivos sobre a atividade do usuário}}
 
 #### Pontos positivos, limitações e lições
 
 | Ponto | Evidência | Implicação para nosso projeto |
 |---|---|---|
-| {{...}} | {{...}} | {{...}} |
+| {{estilização da tela, a forma como os elementos como imagem e botões são distribidos na tela d emaneir harmonica}} | {{imagens e botões}} | {{aplicaremos a distribuição dos elementos como botoes e texto em nosso jogo}} |
 
 > Repita a subseção para C02, C03... até atender à quantidade da equipe.
 
@@ -125,12 +136,12 @@ Liste recomendações com origem explícita.
 
 ## Checklist
 
-- [ ] O mapa inicial de alternativas da Entrega 1 foi revisitado e aprofundado.
-- [ ] Hipóteses relevantes sobre mercado/padrões foram atualizadas na rastreabilidade quando surgiram evidências.
-- [ ] Há pelo menos uma análise completa por integrante.
-- [ ] Cada análise contém prints legíveis da interface.
-- [ ] Prints mostram telas/estados relevantes, não apenas logos/homepage.
-- [ ] Foram analisados concorrentes e/ou interfaces representativas ao público.
+- [x] O mapa inicial de alternativas da Entrega 1 foi revisitado e aprofundado.
+- [x] Hipóteses relevantes sobre mercado/padrões foram atualizadas na rastreabilidade quando surgiram evidências.
+- [] Há pelo menos uma análise completa por integrante.
+- [x] Cada análise contém prints legíveis da interface.
+- [x] Prints mostram telas/estados relevantes, não apenas logos/homepage.
+- [x] Foram analisados concorrentes e/ou interfaces representativas ao público.
 - [ ] Em TCC sem interface original, foram investigadas ferramentas profissionais análogas às atividades do usuário escolhido.
 - [ ] Padrões como dashboard, relatório, filtros e CRUD foram analisados como soluções para tarefas, não como requisitos automáticos.
 - [ ] Opiniões de UX têm fonte.

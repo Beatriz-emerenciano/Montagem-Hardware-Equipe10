@@ -38,7 +38,7 @@ Se uma hipótese da Entrega 1 for confirmada ou refutada durante esta análise, 
 
 ## 1. Público-alvo desta análise
 
-{{Estudantes de ciência da computação/e ou pessoas que não possuem ou possuem pouco conhecimento em hardware}}
+{{O público-alvo do Serious Game é composto por indivíduos iniciantes no estudo de hardware e montagem de computadores, incluindo estudantes de cursos relacionados à área de Computação e pessoas que buscam adquirir conhecimentos de forma autodidata.}}
 
 ## 2. Concorrentes diretos/indiretos
 
@@ -64,15 +64,15 @@ Se uma hipótese da Entrega 1 for confirmada ou refutada durante esta análise, 
 
 | Funcionalidade | Como é realizada | Evidência/print | Observação de IHC |
 |---|---|---|---|
-| {{ tela menu}} | {{há botões opcionais de iniciar jogo, recomeçar e continuar,sair,opções para configurações }} | <img width="1038" height="583" alt="image" src="https://github.com/user-attachments/assets/d233be6a-d3b4-44bb-a038-14e5537c7f3b" />
+| {{ tela menu}} | {{  O usuário interage com botões opcionais de iniciar jogo, recomeçar e continuar,sair,opções para configurações }} | <img width="1038" height="583" alt="image" src="https://github.com/user-attachments/assets/d233be6a-d3b4-44bb-a038-14e5537c7f3b" />
 ` | {{componentes descritivos,chamativos e claros}} |
 | {{tela de execução de montagem de hardware}} | {{o usuário interage arrastando os componentes do hardware no gabinete acompanhado de um cheklist de validaçãod e etapas }} | <<img width="1045" height="589" alt="image" src="https://github.com/user-attachments/assets/22639920-e648-4cee-aecf-2f3ddf6e5d61" />
 />
-` | {{ o cenário ambiente(imagem) ocupa a tela toda, ao lado direito há um descritivo que acompanha todas a interatividade que o usuário tem com os componentes de arrastar.}} |
+` | {{ O cenário ambiente(imagem) ocupa a tela toda, ao lado direito há um descritivo que acompanha todas a interatividade que o usuário tem com os componentes de arrastar, o usuário interage com os elementos 3D's.}} |
 
 #### Experiência do usuário e opiniões
 
-Segundo avaliações do software concorrente, de modo geral, o softare é  bom, principalmente pars quem é iniciante e busca aprender sobre os componentes e a montagem de hardware, porém para usuários que já possuem experiência pode ser repetitivo e cansativo, e a grande critica foi o execesso de propaganda duranda a interatividade com o software.
+Segundo avaliações do software concorrente, de modo geral, o softare é  bom, principalmente para quem é iniciante e busca aprender sobre os componentes e a montagem de hardware, porém para usuários que já possuem experiência pode ser repetitivo e cansativo, e a grande critica foi o execesso de propaganda duranda a interatividade com o software.
 
 #### Preço/modelo de negócio
 
@@ -96,7 +96,7 @@ Analise interfaces que moldam a expectativa do público, mesmo que não sejam co
 
 | Software | Por que o público usa | Padrões relevantes | Prints | O que aprender |
 |---|---|---|---|---|
-| {{...}} | {{...}} | {{...}} | {{link local}} | {{...}} |
+| {{Pc Building Simulator}} | {{Para aprender aprender a montacar um hardware,realizar manutenção e gestão de maneira simulada}} | {{Navegação}} | {{link local}} | {{...}} |
 
 ## 3.1 Padrões de interface relevantes ao escopo de IHC
 

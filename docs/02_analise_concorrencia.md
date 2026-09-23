@@ -65,12 +65,10 @@ Esse grupo inclui estudantes em início de formação acadêmica na área de com
 
 | Funcionalidade | Como é realizada | Evidência/print | Observação de IHC |
 |---|---|---|---|
-| {{ tela menu}} | {{  O usuário interage com botões opcionais de iniciar jogo, recomeçar e continuar,sair,opções para configurações }} | <img width="1038" height="583" alt="image" src="https://github.com/user-attachments/assets/d233be6a-d3b4-44bb-a038-14e5537c7f3b" />
-` | {{componentes descritivos,chamativos e claros}} |
-| {{tela de execução de montagem de hardware}} | {{o usuário interage arrastando os componentes do hardware no gabinete acompanhado de um cheklist de validaçãod e etapas }} | <<img width="1045" height="589" alt="image" src="https://github.com/user-attachments/assets/22639920-e648-4cee-aecf-2f3ddf6e5d61" />
-| {{tela de execução de montagem de hardware}} | {{abaixo da tela há botões de interação }} | <img width="796" height="456" alt="image" src="https://github.com/user-attachments/assets/9967fb65-3d44-4dec-8001-e075ec9c77a2" />
- />
-/>
+| {{ tela menu}} | {{  O usuário interage com botões opcionais de iniciar jogo, recomeçar e continuar,sair,opções para configurações }} |{{ <img width="1038" height="583" alt="image" src="https://github.com/user-attachments/assets/d233be6a-d3b4-44bb-a038-14e5537c7f3b" />`}} | {{Componentes descritivos,chamativos e claros}}|
+ 
+| {{tela de execução de montagem de hardware}} | {{o usuário interage arrastando os componentes do hardware no gabinete acompanhado de um cheklist de validaçãod e etapas }} |{{ <<img width="1045" height="589" alt="image" src="https://github.com/user-attachments/assets/22639920-e648-4cee-aecf-2f3ddf6e5d61" />}}|Como o usuário seleciona, movimenta ou instala componentes}}|
+| {{tela de execução de montagem de hardware}} | {{abaixo da tela há botões de interação }} {{| <img width="796" height="456" alt="image" src="https://github.com/user-attachments/assets/9967fb65-3d44-4dec-8001-e075ec9c77a2" />}}|{{Se botões, ícones e comandos seguem um padrão}}|
 
 
 #### Experiência do usuário e opiniões

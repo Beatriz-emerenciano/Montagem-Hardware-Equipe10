@@ -68,6 +68,8 @@ Esse grupo inclui estudantes em início de formação acadêmica na área de com
 | {{ tela menu}} | {{  O usuário interage com botões opcionais de iniciar jogo, recomeçar e continuar,sair,opções para configurações }} | <img width="1038" height="583" alt="image" src="https://github.com/user-attachments/assets/d233be6a-d3b4-44bb-a038-14e5537c7f3b" />
 ` | {{componentes descritivos,chamativos e claros}} |
 | {{tela de execução de montagem de hardware}} | {{o usuário interage arrastando os componentes do hardware no gabinete acompanhado de um cheklist de validaçãod e etapas }} | <<img width="1045" height="589" alt="image" src="https://github.com/user-attachments/assets/22639920-e648-4cee-aecf-2f3ddf6e5d61" />
+| {{tela de execução de montagem de hardware}} | {{abaixo da tela há botões de interação }} | <img width="796" height="456" alt="image" src="https://github.com/user-attachments/assets/9967fb65-3d44-4dec-8001-e075ec9c77a2" />
+ />
 />
 
 

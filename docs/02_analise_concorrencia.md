@@ -117,8 +117,8 @@ Registre somente padrões encontrados nas soluções analisadas e que possam ter
 
 | Critério | C01 | C02 | C03 | Oportunidade para o projeto |
 |---|---|---|---|---|
-| Navegação | oportunidade para o projeto|  
-| Feedback/estado | Oportunidade para o projeto 
+| Navegação | Oportunidade para o projeto|  
+| Feedback/estado | Oportunidade para o projeto |
 | Prevenção/recuperação de erro |  |  |  |  |
 | Terminologia |  |  |  |  |
 | Acessibilidade |  |  |  |  |

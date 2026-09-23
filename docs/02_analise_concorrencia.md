@@ -69,7 +69,7 @@ Esse grupo inclui estudantes em início de formação acadêmica na área de com
 ` | {{componentes descritivos,chamativos e claros}} |
 | {{tela de execução de montagem de hardware}} | {{o usuário interage arrastando os componentes do hardware no gabinete acompanhado de um cheklist de validaçãod e etapas }} | <<img width="1045" height="589" alt="image" src="https://github.com/user-attachments/assets/22639920-e648-4cee-aecf-2f3ddf6e5d61" />
 />
-` | {{ O cenário ambiente(imagem) ocupa a tela toda, ao lado direito há um descritivo que acompanha todas a interatividade que o usuário tem com os componentes de arrastar, o usuário interage com os elementos 3D's.}} |
+
 
 #### Experiência do usuário e opiniões
 

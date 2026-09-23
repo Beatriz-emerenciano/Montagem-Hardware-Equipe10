@@ -67,7 +67,8 @@ Esse grupo inclui estudantes em início de formação acadêmica na área de com
 |---|---|---|---|
 | {{ tela menu}} | {{  O usuário interage com botões opcionais de iniciar jogo, recomeçar e continuar,sair,opções para configurações }} |{{ <img width="1038" height="583" alt="image" src="https://github.com/user-attachments/assets/d233be6a-d3b4-44bb-a038-14e5537c7f3b" />`}} | {{Componentes descritivos,chamativos e claros}}|
  
-| {{tela de execução de montagem de hardware}} | {{o usuário interage arrastando os componentes do hardware no gabinete acompanhado de um cheklist de validaçãod e etapas }} |{{ <<img width="1045" height="589" alt="image" src="https://github.com/user-attachments/assets/22639920-e648-4cee-aecf-2f3ddf6e5d61" />}}|Como o usuário seleciona, movimenta ou instala componentes}}|
+| {{tela de execução de montagem de hardware}} | {{o usuário interage arrastando os componentes do hardware no gabinete acompanhado de um cheklist de validaçãod e etapas }} |{{<img width="500" height="281" alt="D_NQ_NP_787608-MLB107258408279_022026-O-pc-building-simulator-2" src="https://github.com/user-attachments/assets/09a38004-856a-49ec-af51-aa6a215c48c2" />
+}}|Como o usuário seleciona, movimenta ou instala componentes}}|
 | {{tela de execução de montagem de hardware}} | {{abaixo da tela há botões de interação }} {{| <img width="796" height="456" alt="image" src="https://github.com/user-attachments/assets/9967fb65-3d44-4dec-8001-e075ec9c77a2" />}}|{{Se botões, ícones e comandos seguem um padrão}}|
 
 
@@ -87,7 +88,7 @@ Segundo avaliações do software concorrente PC Building, de modo geral, o softa
 
 | Ponto | Evidência | Implicação para nosso projeto |
 |---|---|---|
-| {{Centralização de imagens e texto na tela}} | {{imagens e textos, posiiconamentos dos botões de interação}} | {{aplicaremos a distribuição dos elementos como imagens,textos e botões em nosso jogo}} |
+| {{Centralização de imagens e texto na tela}} | {{imagens e textos, posiiconamentos dos botões de interação}} | {{Aplicaremos a distribuição dos elementos como imagens,textos e botões na etapa de montagem de hardware nosso projeto}} |
 
 > Repita a subseção para C02, C03... até atender à quantidade da equipe.
 

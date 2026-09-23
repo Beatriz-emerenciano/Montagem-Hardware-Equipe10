@@ -1,7 +1,7 @@
 # Entrega 2 — Público-alvo e análise de concorrência
 
 **Data:** {{27/08/2026}}  
-**Status:** 🟨 em andamento 
+**Status:** 🟩 concluída
 **Responsabilidade mínima:** cada integrante analisa pelo menos 1 concorrente/interface representativa; a equipe produz síntese comparativa.
 
 ## Objetivo da atividade
@@ -38,7 +38,8 @@ Se uma hipótese da Entrega 1 for confirmada ou refutada durante esta análise, 
 
 ## 1. Público-alvo desta análise
 
-{{O público-alvo do Serious Game é composto por indivíduos iniciantes no estudo de hardware e montagem de computadores, incluindo estudantes de cursos relacionados à área de Computação e pessoas que buscam adquirir conhecimentos de forma autodidata.}}
+{{O público-alvo do jogo é composto por indivíduos iniciantes que desejam aprender conceitos básicos de hardware de computadores e processos de montagem de computadores.
+Esse grupo inclui estudantes em início de formação acadêmica na área de computação, tecnologia da informação e áreas correlatas, bem como pessoas autodidatas interessadas em adquirir conhecimentos sobre componentes de hardware e montagem de computadores..}}
 
 ## 2. Concorrentes diretos/indiretos
 
@@ -58,7 +59,7 @@ Se uma hipótese da Entrega 1 for confirmada ou refutada durante esta análise, 
 
 #### Contexto e proposta
 
-{{ A proposta de ambas concorrências é auxiliar no aprendizado e  montagem de hardware mas ambas possuem diferentes propostas, o  PC building simulator é voltada para a gamificação(jogo sério) em modelagem 3d, enquanto Manu é voltada pra o uso de IA omo auxiliar para montagem de hardware   }}
+{{ A proposta de ambas concorrências é auxiliar no aprendizado e  montagem de hardware mas ambas possuem diferentes propostas, o  PC building simulator é voltada para a gamificação(jogo sério) em modelagem 3d, enquanto Manu é voltada pra uma assistente de  IA omo auxiliar  na configuração para montagem de hardware.}}
 
 #### Funcionalidades relevantes
 
@@ -72,21 +73,21 @@ Se uma hipótese da Entrega 1 for confirmada ou refutada durante esta análise, 
 
 #### Experiência do usuário e opiniões
 
-Segundo avaliações do software concorrente, de modo geral, o softare é  bom, principalmente para quem é iniciante e busca aprender sobre os componentes e a montagem de hardware, porém para usuários que já possuem experiência pode ser repetitivo e cansativo, e a grande critica foi o execesso de propaganda duranda a interatividade com o software.
+Segundo avaliações do software concorrente PC Building, de modo geral, o softare é  bom, principalmente para quem é iniciante e busca aprender sobre os componentes e a montagem de hardware, porém para usuários que já possuem experiência pode ser repetitivo e cansativo, e a grande critica foi o execesso de propaganda duranda a interatividade com o software.
 
 #### Preço/modelo de negócio
 
-{{77 reais }}
+{{ PC Building - 77 reais }}
 
 #### Padrões e tendências percebidos
 
-{{Grande interatividade com imagem seguido de campo em cantos superiores descritivos sobre a atividade do usuário}}
+{{Grande interatividade com imagem que ocupa a tela inteira  seguido de textos  descritivos a atividade e interação do usuário com aquela imagem.}}
 
 #### Pontos positivos, limitações e lições
 
 | Ponto | Evidência | Implicação para nosso projeto |
 |---|---|---|
-| {{estilização da tela, a forma como os elementos como imagem e botões são distribidos na tela d emaneir harmonica}} | {{imagens e botões}} | {{aplicaremos a distribuição dos elementos como botoes e texto em nosso jogo}} |
+| {{Centralização de imagens e texto na tela}} | {{imagens e textos, posiiconamentos dos botões de interação}} | {{aplicaremos a distribuição dos elementos como imagens,textos e botões em nosso jogo}} |
 
 > Repita a subseção para C02, C03... até atender à quantidade da equipe.
 
@@ -96,7 +97,7 @@ Analise interfaces que moldam a expectativa do público, mesmo que não sejam co
 
 | Software | Por que o público usa | Padrões relevantes | Prints | O que aprender |
 |---|---|---|---|---|
-| {{Pc Building Simulator}} | {{Para aprender aprender a montacar um hardware,realizar manutenção e gestão de maneira simulada}} | {{Navegação}} | {{link local}} | {{...}} |
+| {{Pc Building Simulator}} | {{Para aprender aprender a montar um hardware,realizar manutenção e gestão de maneira simulada}} | {{Navegação}} | {{https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZAvVqq-UFgaMIfZUpOH2X91StONhzcVWuIzlbPbmToTROygr_c0nybHA&s=10}} | {{passo a passo da montagem dos componentes de hardware, manutenbilidade e gestão}} |
 
 ## 3.1 Padrões de interface relevantes ao escopo de IHC
 
@@ -104,10 +105,10 @@ Registre somente padrões encontrados nas soluções analisadas e que possam ter
 
 | Padrão observado | Produto(s) | Para qual tarefa serve | Vantagem percebida | Risco/limitação | Aplicável ao nosso escopo? |
 |---|---|---|---|---|---|
-| dashboard | {{...}} | {{...}} | {{...}} | {{...}} | sim/não/talvez |
+| dashboard | {{Pc building Simulator}} | {{centralização de imagens e informações}} | {{analisar}} | {{analisar}} | {{sim}}|
 | relatório | {{...}} | {{...}} | {{...}} | {{...}} | {{...}} |
 | histórico + filtros | {{...}} | {{...}} | {{...}} | {{...}} | {{...}} |
-| administração/CRUD | {{...}} | {{...}} | {{...}} | {{...}} | {{...}} |
+| administração/CRUD | {{ Pc buildin Simulator}} | {{crud do nosso jogo}} | {{gestão de configuração do jogo}} | {{analizar}} | {{sim}} |
 | comparação de resultados | {{...}} | {{...}} | {{...}} | {{...}} | {{...}} |
 
 > O objetivo não é concluir “todo concorrente tem dashboard, então teremos um”. O padrão só será adotado se apoiar uma tarefa rastreável.
@@ -116,19 +117,19 @@ Registre somente padrões encontrados nas soluções analisadas e que possam ter
 
 | Critério | C01 | C02 | C03 | Oportunidade para o projeto |
 |---|---|---|---|---|
-| Navegação |  |  |  |  |
-| Feedback/estado |  |  |  |  |
+| Navegação | oportunidade para o projeto|  
+| Feedback/estado | Oportunidade para o projeto 
 | Prevenção/recuperação de erro |  |  |  |  |
 | Terminologia |  |  |  |  |
 | Acessibilidade |  |  |  |  |
-| Eficiência |  |  |  |  |
+| Eficiência | Oportunidade para o projeto  |
 
 ## 5. Recomendações derivadas
 
 Liste recomendações com origem explícita.
 
 - **RC01:** {{recomendação}} — derivada de {{C01/C02/evidência}}.
-- **RC02:** {{...}}
+- **RC02:** {{}}
 
 ## Referências
 
@@ -143,7 +144,7 @@ Liste recomendações com origem explícita.
 - [x] Prints mostram telas/estados relevantes, não apenas logos/homepage.
 - [x] Foram analisados concorrentes e/ou interfaces representativas ao público.
 - [ ] Em TCC sem interface original, foram investigadas ferramentas profissionais análogas às atividades do usuário escolhido.
-- [ ] Padrões como dashboard, relatório, filtros e CRUD foram analisados como soluções para tarefas, não como requisitos automáticos.
+- [x] Padrões como dashboard, relatório, filtros e CRUD foram analisados como soluções para tarefas, não como requisitos automáticos.
 - [ ] Opiniões de UX têm fonte.
 - [ ] A síntese compara critérios comuns e produz recomendações.
-- [ ] Não há “copiar porque o concorrente faz”; há justificativa de adequação ao público/contexto.
+- [x] Não há “copiar porque o concorrente faz”; há justificativa de adequação ao público/contexto.

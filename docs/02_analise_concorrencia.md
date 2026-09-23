@@ -97,7 +97,8 @@ Analise interfaces que moldam a expectativa do público, mesmo que não sejam co
 
 | Software | Por que o público usa | Padrões relevantes | Prints | O que aprender |
 |---|---|---|---|---|
-| {{Pc Building Simulator}} | {{Para aprender aprender a montar um hardware,realizar manutenção e gestão de maneira simulada}} | {{Navegação}} | {{https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZAvVqq-UFgaMIfZUpOH2X91StONhzcVWuIzlbPbmToTROygr_c0nybHA&s=10}} | {{passo a passo da montagem dos componentes de hardware, manutenbilidade e gestão}} |
+| {{Pc Building Simulator}} | {{Para aprender aprender a montar um hardware,realizar manutenção e gestão de maneira simulada}} | {{Navegação}} | {{<img width="796" height="456" alt="image" src="https://github.com/user-attachments/assets/02f22d8f-df92-4e2c-b660-a92d0b8e80b2" />
+}} | {{passo a passo da montagem dos componentes de hardware, manutenbilidade e gestão}} |
 
 ## 3.1 Padrões de interface relevantes ao escopo de IHC
 

@@ -29,7 +29,7 @@ Leia obrigatoriamente o [Guia para definir o escopo de IHC a partir do tema do T
 | Nome completo | Matrícula | GitHub | Responsabilidade principal |
 |---|---:|---|---|
 | Beatriz Cristina Emerenciano | 22.222.041-0 | Beatriz-emerenciano| desenvolvimento e pesquisa |
-| Larissa Fiuza dos Santos | 22.123.042-8}} | LarissaFiuza7 | Desenvolvimento e pesquisa |
+| Larissa Fiuza dos Santos | 22.123.042-8 | LarissaFiuza7 | Desenvolvimento e pesquisa |
 
 ## Relação entre TCC e projeto de IHC
 

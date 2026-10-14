@@ -42,7 +42,6 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 **Base de evidências:**  observação
 **Hipóteses da Entrega 1 relacionadas:** {{H01}}
 
-![Persona P01](../assets/03_personas/persona_p01.svg)
 
 | Campo | Descrição |
 |---|---|

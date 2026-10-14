@@ -1,44 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
 <rect width="100%" height="100%" fill="#ffffff"/>
-<text x="600" y="42" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" fill="#172033">Mapa de Empatia — Persona 1: Lucas Ferreira</text>
-<text x="600" y="75" font-family="Arial,sans-serif" font-size="17" text-anchor="middle" fill="#4b5563">Estudante iniciante de TI · 22 anos · Conhecimento básico de hardware</text>
+<text x="600" y="42" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" fill="#172033">Mapa de Empatia — Persona 2: Mariana Oliveira</text>
+<text x="600" y="75" font-family="Arial,sans-serif" font-size="17" text-anchor="middle" fill="#4b5563">Profissional da área administrativa · 28 anos · Sem conhecimento prévio de hardware</text>
 <rect x="35" y="120" width="550" height="205" rx="16" fill="#e9f1fb" stroke="#9ca3af" stroke-width="1.5"/>
 <text x="57" y="154" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#172033">O que pensa e sente?</text>
-<text x="57" y="186" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">Quer transformar o conteúdo teórico da faculdade em</text>
-<text x="57" y="208" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">conhecimento prático. Sente insegurança ao pensar em</text>
-<text x="57" y="230" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">montar um computador real e teme instalar componentes</text>
-<text x="57" y="252" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">incorretamente. Fica motivado quando percebe sua</text>
-<text x="57" y="274" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">evolução.</text>
+<text x="57" y="186" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">Tem curiosidade sobre como um computador funciona por</text>
+<text x="57" y="208" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">dentro e quer aprender sem precisar de conhecimentos</text>
+<text x="57" y="230" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">técnicos prévios. Pode sentir receio de não entender os</text>
+<text x="57" y="252" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">termos ou de errar. Sente-se mais confiante quando as</text>
+<text x="57" y="274" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">explicações são simples e visuais.</text>
 <rect x="35" y="345" width="550" height="160" rx="16" fill="#f3edf9" stroke="#9ca3af" stroke-width="1.5"/>
 <text x="57" y="379" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#172033">O que ouve?</text>
-<text x="57" y="411" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">Ouve professores e colegas falarem sobre componentes e</text>
-<text x="57" y="433" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">montagem. Recebe recomendações de assistir a tutoriais e</text>
-<text x="57" y="455" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">vídeos técnicos. Pode ouvir que a prática é importante</text>
-<text x="57" y="477" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">para consolidar o conteúdo estudado.</text>
+<text x="57" y="411" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">Ouve colegas, amigos ou técnicos mencionarem peças como</text>
+<text x="57" y="433" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">memória RAM, processador e placa-mãe, sem necessariamente</text>
+<text x="57" y="455" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">compreender as diferenças. Pode receber recomendações</text>
+<text x="57" y="477" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">para procurar explicações na internet ou pedir ajuda a…</text>
 <rect x="615" y="120" width="550" height="205" rx="16" fill="#e8f4ee" stroke="#9ca3af" stroke-width="1.5"/>
 <text x="637" y="154" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#172033">O que vê?</text>
-<text x="637" y="186" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">Vê vídeos, imagens, diagramas e conteúdos on-line sobre</text>
-<text x="637" y="208" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">hardware. Encontra imagens de componentes por diferentes</text>
-<text x="637" y="230" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">ângulos, mas nem sempre consegue relacioná-las à posição</text>
-<text x="637" y="252" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">das peças dentro do computador.</text>
+<text x="637" y="186" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">Vê computadores e notebooks no cotidiano, mas normalmente</text>
+<text x="637" y="208" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">não observa seus componentes internos. Encontra vídeos e</text>
+<text x="637" y="230" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">páginas com termos técnicos e imagens que podem parecer</text>
+<text x="637" y="252" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">complexos ou difíceis de associar às funções das peças.</text>
 <rect x="615" y="345" width="550" height="160" rx="16" fill="#fff2df" stroke="#9ca3af" stroke-width="1.5"/>
 <text x="637" y="379" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#172033">O que fala e faz?</text>
-<text x="637" y="411" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">Pesquisa dúvidas na internet, assiste a tutoriais e</text>
-<text x="637" y="433" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">revisa materiais das disciplinas. Reconhece alguns nomes</text>
-<text x="637" y="455" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">de componentes, mas pode hesitar ao identificar encaixes</text>
-<text x="637" y="477" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">e a sequência de montagem. Aprende experimentando e…</text>
+<text x="637" y="411" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">Utiliza computador e smartphone para tarefas cotidianas.</text>
+<text x="637" y="433" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">Quando tem dúvidas, procura explicações simples ou pede</text>
+<text x="637" y="455" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">ajuda. Explora melhor uma atividade quando as instruções</text>
+<text x="637" y="477" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">são claras; pode interromper a tentativa se a interface…</text>
 <rect x="35" y="525" width="550" height="255" rx="16" fill="#fdeaea" stroke="#9ca3af" stroke-width="1.5"/>
 <text x="57" y="559" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#172033">Dores</text>
-<text x="57" y="591" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">Dificuldade de relacionar teoria e prática; confusão</text>
-<text x="57" y="613" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">entre componentes visualmente parecidos; receio de</text>
-<text x="57" y="635" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">danificar peças reais; falta de oportunidade para</text>
-<text x="57" y="657" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">praticar; feedback insuficiente em materiais apenas</text>
-<text x="57" y="679" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">teóricos.</text>
+<text x="57" y="591" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">Não conhece os nomes e as funções dos componentes;</text>
+<text x="57" y="613" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">dificuldade com vocabulário técnico; não sabe por onde</text>
+<text x="57" y="635" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">começar; receio de errar; risco de frustração diante de</text>
+<text x="57" y="657" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">instruções longas, comandos pouco claros ou tarefas sem</text>
+<text x="57" y="679" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">orientação.</text>
 <rect x="615" y="525" width="550" height="255" rx="16" fill="#e6f3f5" stroke="#9ca3af" stroke-width="1.5"/>
 <text x="637" y="559" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#172033">Necessidades</text>
-<text x="637" y="591" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">Modelos 3D manipuláveis; desafios de identificação e</text>
-<text x="637" y="613" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">posicionamento; instruções objetivas; feedback imediato</text>
-<text x="637" y="635" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">que explique os erros; possibilidade de repetir tarefas;</text>
-<text x="637" y="657" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">indicação de progresso e dificuldade gradual.</text>
+<text x="637" y="591" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">Tutorial desde o básico; linguagem acessível; modelos 3D</text>
+<text x="637" y="613" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">ou imagens acompanhados de nomes e funções; orientação</text>
+<text x="637" y="635" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">passo a passo; interface intuitiva e responsiva; feedback</text>
+<text x="637" y="657" font-family="Arial,sans-serif" font-size="15.5" fill="#263244">acolhedor; novas tentativas sem penalização excessiva.</text>
 <text x="600" y="842" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="#6b7280">Mapa elaborado como hipótese de persona para o projeto de Serious Game de hardware; validar com usuários reais.</text>
 </svg>

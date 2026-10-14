@@ -17,22 +17,32 @@ A disciplina utiliza **preferencialmente o tema do TCC em andamento** como domí
 
 ### Equipe
 
-| Nome completo | Matrícula | GitHub | Responsabilidade principal |
-| Beatriz Cristina Emerenciano | 22.222.041-0 | Beatriz-emerenciano| Pesquisa |
-| Larissa Fiuza dos Santos | 22.123.042-8 | LarissaFiuza7 | Desenvolvimento  |
+ Nome completo | Matrícula | GitHub | Responsabilidade principal 
+
+ Beatriz Cristina Emerenciano | 22.222.041-0 | Beatriz-emerenciano| Pesquisa 
+
+ Larissa Fiuza dos Santos | 22.123.042-8 | LarissaFiuza7 | Desenvolvimento  
 
 ## Relação entre TCC e projeto de IHC
 
 | Item | Descrição |
-
+|...|...|
 | Tema central do TCC | Desenvolvimento de um Jogo sério e Estudo Experimental de Abordagens para Ensino de Montagem de Hardware |
+
 | Resultado técnico esperado do TCC |  modelo, estudo |
+
 | O TCC já previa interface? | sim |
+
 | Capacidade técnica que pode gerar valor para pessoas | sim, conhecimento sobre hardware |
-| Usuário principal adotado em IHC | estudante e/ou pessoas que não possuem conhecimento sobre hardware |
+
+| Usuário principal adotado em IHC | estudante e/ou pessoas que não possuem conhecimento sobre hardware | 
+
 | Objetivo principal desse usuário | Compreendersobre o funcionanmentoddos componentes principais de hardware e montagem básica de hardware |
+
 | Interface/recorte explorado na disciplina | Treinamento/Montagem |
+
 | Relação com o escopo formal do TCC |  protótipo demonstrativo |
+
 
 ## Resumo do projeto pela perspectiva do usuário
 

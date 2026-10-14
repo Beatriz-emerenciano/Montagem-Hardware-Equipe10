@@ -26,8 +26,10 @@ A disciplina utiliza **preferencialmente o tema do TCC em andamento** como domí
 ## Relação entre TCC e projeto de IHC
 
 | Item | Descrição |
-|...|...|
+
+
 | Tema central do TCC | Desenvolvimento de um Jogo sério e Estudo Experimental de Abordagens para Ensino de Montagem de Hardware |
+
 
 | Resultado técnico esperado do TCC |  modelo, estudo |
 

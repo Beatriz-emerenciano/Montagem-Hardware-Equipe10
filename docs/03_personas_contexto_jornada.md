@@ -34,7 +34,7 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 ## 1. Personas
 
 ### Persona P01 — {{Lucas Ferreira - Estudante de Ciência da Computação}}
-<img width="150" height="150" alt="persona1 (1)" src="https://github.com/user-attachments/assets/71f49f6c-d8be-4150-9b93-4d75fa8f0a09" />
+<img width="240" height="150" alt="persona1 (1)" src="https://github.com/user-attachments/assets/71f49f6c-d8be-4150-9b93-4d75fa8f0a09" />
 
 
 **Autor(a):** {{Beatriz Cristina Emerenciano — 22.222041-0}}  
@@ -69,7 +69,7 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 **Hipóteses da Entrega 1 relacionadas:** {{H01}}
 
 
-<img width="150" height="150" alt="perosna02 (1)" src="https://github.com/user-attachments/assets/939a1a94-dc25-4bd8-9ee0-f975315ae650" />
+<img width="240" height="150" alt="perosna02 (1)" src="https://github.com/user-attachments/assets/939a1a94-dc25-4bd8-9ee0-f975315ae650" />
 
 ![Persona P01](../assets/03_personas/persona_p01.svg)
 
@@ -80,20 +80,12 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 | Ocupação/papel | {{profissional da área administrativa}} |
 | Conhecimento do domínio | {{ensino superior completo em área não relacionada à TI,praticamente inexistente; não sabe diferenciar processador, memória RAM, armazenamento e placa-mãe.}}|
 | Experiência tecnológica | {{básica a intermediária; utiliza navegadores, aplicativos e ferramentas de escritório.}} |
-| Objetivos | {{Entender quais são os principais componentes de um computador.
-Aprender a função de cada peça utilizando exemplos visuais.
-Descobrir como os componentes se relacionam dentro do equipamento.
-Adquirir conhecimentos básicos para conversar com técnicos e tomar decisões mais informadas sobre computadores.
-Aprender de maneira leve, interativa e sem a necessidade de conhecimento técnico anterior.}} |
-| Necessidades | {{Tutorial inicial simples, com linguagem acessível e sem pressupor conhecimentos técnicos.
-Modelos 3D acompanhados de nomes, imagens e descrições das funções.
-Instruções passo a passo, apresentadas conforme a necessidade.
-Interface intuitiva, com poucos comandos e elementos visuais claros.
-Feedback acolhedor e explicativo, sem penalizações excessivas por erros.
-Compatibilidade com navegadores de computador e smartphone.
-Possibilidade de repetir atividades e consultar explicações sempre que necessário.}} |
-| Dores/frustrações | {{...}} |
-| Motivadores | {{...}} |
+| Objetivos | {{Entender quais são os principais componentes de um computador, aprender a função de cada peça utilizando exemplos visuais.
+Descobrir como os componentes se relacionam dentro do equipamento ,adquirir conhecimentos básicos para conversar com técnicos e tomar decisões mais informadas sobre computadores, aprender de maneira leve, interativa e sem a necessidade de conhecimento técnico anterior.}} |
+| Necessidades | {{Tutorial inicial simples, com linguagem acessível e sem pressupor conhecimentos técnicos, modelos 3D acompanhados de nomes, imagens e descrições das funções.Instruções passo a passo, apresentadas conforme a necessidade.Interface intuitiva, com poucos comandos e elementos visuais claros.
+Feedback acolhedor e explicativo, sem penalizações excessivas por erros.Compatibilidade com navegadores de computador e smartphone.Possibilidade de repetir atividades e consultar explicações sempre que necessário.}} |
+| Dores/frustrações | {{Uma interface com muitos comandos, instruções complexas ou erros sem explicação pode desmotivá-la antes mesmo de aprender os conceitos básicos.}} |
+| Motivadores | {{Aprender como funciona o hardware de um computador, identificando seus principais componentes e compreendendo suas funções de maneira simples, visual e interativa. Busca adquirir conhecimentos básicos para utilizar a tecnologia com mais autonomia e segurança, sem depender de terceiros ou precisar de conhecimentos técnicos prévios. Sente-se motivada por uma experiência de aprendizagem acessível, intuitiva e gamificada, que permita aprender no próprio ritmo, experimentar e corrigir erros sem medo de danificar equipamentos reais.}} |
 | Restrições/acessibilidade | {{Não possui conhecimentos prévios sobre hardware e pode ter dificuldade com termos técnicos e instruções complexas. Precisa de linguagem simples, elementos visuais intuitivos, tutorial guiado, comandos fáceis de compreender e feedback explicativo.}} |
 | Ambiente típico de uso | {{Utiliza o jogo em casa, nos horários livres, por meio do navegador do smartphone ou notebook. Prefere acessar a plataforma sem precisar instalar programas ou equipamentos adicionais.}} |
 | Comportamentos relevantes | {{relevantes	Utiliza computadores para atividades cotidianas, mas raramente procura conteúdos técnicos sobre seus componentes. Explora o jogo conforme as instruções apresentadas, consulta explicações quando tem dúvidas e pode desistir se encontrar dificuldades sem orientação adequada.}} |

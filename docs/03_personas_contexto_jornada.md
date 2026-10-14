@@ -33,6 +33,8 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 ## 1. Personas
 
 ### Persona P01 — {{Lucas Ferreira - Estudante de Ciência da Computação}}
+<img width="527" height="351" alt="persona1 (1)" src="https://github.com/user-attachments/assets/71f49f6c-d8be-4150-9b93-4d75fa8f0a09" />
+
 
 **Autor(a):** {{Beatriz Cristina Emerenciano — 22.222041-0}}  
 **Tipo:** primária 
@@ -65,8 +67,9 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 **Base de evidências:**  observação
 **Hipóteses da Entrega 1 relacionadas:** {{H01}}
 
-<img width="819" height="482" alt="image" src="https://github.com/user-attachments/assets/acad1280-806e-4d9c-b983-e711fe8e9939" />
-imagem gerada por IA.
+
+<img width="240" height="186" alt="perosna02 (1)" src="https://github.com/user-attachments/assets/939a1a94-dc25-4bd8-9ee0-f975315ae650" />
+
 
 
 ![Persona P01](../assets/03_personas/persona_p01.svg)

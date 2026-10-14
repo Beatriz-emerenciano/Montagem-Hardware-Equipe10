@@ -1,8 +1,8 @@
-![Uploading mapa_empatia_persona_2_mariana (1).svg…]()
+
 # Entrega 3 — Personas, mapa de empatia, contexto de uso e jornada
 
 **Data:** {08/10/2026}  
-**Status:** 🟨 em andamento
+**Status:** 🟩 concluída
 **Responsabilidade:** 1 persona por integrante; 1 mapa de empatia, 1 contexto de uso consolidado e 1 jornada por equipe (salvo orientação diferente do docente).
 
 ## Objetivo da atividade
@@ -76,12 +76,11 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 
 | Campo | Descrição |
 |---|---|
-| {{28 anos}}| Mariana trabalha na área administrativa e utiliza computadores em suas atividades cotidianas, mas não possui conhecimentos prévios sobre hardware ou montagem de computadores. Ao tentar compreender o funcionamento interno de um computador, encontra dificuldades para identificar os componentes, entender suas funções e compreender os termos técnicos. Busca uma forma simples e interativa de aprender, utilizando o Serious Game por meio de um navegador web, no smartphone ou notebook, sem precisar manipular equipamentos físicos.| {{A ausência de conhecimentos prévios sobre hardware impacta diretamente a compreensão das instruções e a identificação dos componentes. O uso de termos técnicos, interfaces complexas e atividades sem orientação pode gerar confusão e frustração. Por isso, a aplicação deve oferecer linguagem acessível, modelos visuais claros, tutorial passo a passo, feedback explicativo e comandos intuitivos. A compatibilidade com diferentes tamanhos de tela também é importante para permitir o uso tanto em smartphones quanto em computadores.}} |
+| {{35 anos}}| Mariana trabalha na área administrativa e utiliza computadores em suas atividades cotidianas, mas não possui conhecimentos prévios sobre hardware ou montagem de computadores. Ao tentar compreender o funcionamento interno de um computador, encontra dificuldades para identificar os componentes, entender suas funções e compreender os termos técnicos. Busca uma forma simples e interativa de aprender, utilizando o Serious Game por meio de um navegador web, no smartphone ou notebook, sem precisar manipular equipamentos físicos.| {{A ausência de conhecimentos prévios sobre hardware impacta diretamente a compreensão das instruções e a identificação dos componentes. O uso de termos técnicos, interfaces complexas e atividades sem orientação pode gerar confusão e frustração. Por isso, a aplicação deve oferecer linguagem acessível, modelos visuais claros, tutorial passo a passo, feedback explicativo e comandos intuitivos. A compatibilidade com diferentes tamanhos de tela também é importante para permitir o uso tanto em smartphones quanto em computadores.}} |
 | Ocupação/papel | {{profissional da área administrativa}} |
 | Conhecimento do domínio | {{ensino superior completo em área não relacionada à TI,praticamente inexistente; não sabe diferenciar processador, memória RAM, armazenamento e placa-mãe.}}|
 | Experiência tecnológica | {{básica a intermediária; utiliza navegadores, aplicativos e ferramentas de escritório.}} |
-| Objetivos | {{Entender quais são os principais componentes de um computador, aprender a função de cada peça utilizando exemplos visuais.
-Descobrir como os componentes se relacionam dentro do equipamento ,adquirir conhecimentos básicos para conversar com técnicos e tomar decisões mais informadas sobre computadores, aprender de maneira leve, interativa e sem a necessidade de conhecimento técnico anterior.}} |
+| Objetivos | {{Entender quais são os principais componentes de um computador, aprender a função de cada peça utilizando exemplos visuais.Descobrir como os componentes se relacionam dentro do equipamento ,adquirir conhecimentos básicos para conversar com técnicos e tomar decisões mais informadas sobre computadores, aprender de maneira leve, interativa e sem a necessidade de conhecimento técnico anterior.}} |
 | Necessidades | {{Tutorial inicial simples, com linguagem acessível e sem pressupor conhecimentos técnicos, modelos 3D acompanhados de nomes, imagens e descrições das funções.Instruções passo a passo, apresentadas conforme a necessidade.Interface intuitiva, com poucos comandos e elementos visuais claros.
 Feedback acolhedor e explicativo, sem penalizações excessivas por erros.Compatibilidade com navegadores de computador e smartphone.Possibilidade de repetir atividades e consultar explicações sempre que necessário.}} |
 | Dores/frustrações | {{Uma interface com muitos comandos, instruções complexas ou erros sem explicação pode desmotivá-la antes mesmo de aprender os conceitos básicos.}} |
@@ -119,39 +118,54 @@ Documente também em texto: o que vê; ouve; diz/faz; pensa/sente; dores; ganhos
 
 | Dimensão | Descrição | Implicação de design |
 |---|---|---|
-| Usuários | {{...}} | {{...}} |
-| Tarefas | {{...}} | {{...}} |
-| Equipamentos | {{...}} | {{...}} |
-| Ambiente físico | {{...}} | {{...}} |
-| Ambiente social/organizacional | {{...}} | {{...}} |
-| Papéis/permissões/governança | {{...}} | {{...}} |
-| Volume de dados/histórico | {{...}} | {{...}} |
+| Usuários | {{Estudantes iniciantes de TI, pessoas leigas sem conhecimentos prévios de hardware e, para validação técnica, especialistas da área.}} | {{Utilizar linguagem acessível, apresentar conceitos básicos e oferecer orientações graduais, atendendo a diferentes níveis de conhecimento.}} |
+| Tarefas | {{Consultar informações sobre os componentes, identificar suas características e funções, visualizar modelos 3D, selecionar peças e posicioná-las nos locais corretos durante a montagem virtual.}} | {{Organizar o jogo em etapas de revisão e montagem, com instruções claras, interação intuitiva e feedback imediato sobre as ações realizadas.}} |
+| Equipamentos | {{Computadores, notebooks, tablets ou smartphones com navegador web e acesso à internet}} | {{Desenvolver uma interface responsiva, compatível com diferentes tamanhos de tela e que não exija equipamentos especializados.}} |
+| Ambiente físico | {{Ambientes variados, como residências, salas de aula e laboratórios de informática, com diferentes condições de iluminação, ruído e espaço disponível.}} | {{Evitar dependência de condições físicas específicas e permitir a utilização do jogo em diferentes ambientes.}} |
+| Ambiente social/organizacional | {{Uso individual para aprendizagem autônoma ou em contexto educacional, como atividade complementar às aulas de arquitetura de computadores e hardware, com possível orientação de professores.}} | {{Permitir que o usuário realize as atividades de forma independente e que o jogo possa ser utilizado como recurso de apoio ao ensino.}} |
+| Papéis/permissões/governança | {{Usuários acessam as atividades de aprendizagem; professores ou pesquisadores podem orientar a aplicação e analisar os resultados dos testes. Especialistas podem validar a correção técnica do conteúdo.}} | {{Manter as atividades acessíveis aos participantes e organizar o registro dos resultados de forma adequada, respeitando a privacidade dos dados coletados.}} |
+| Volume de dados/histórico | {{O jogo pode registrar respostas, acertos, erros, tentativas, pontuações e progresso nas atividades, além dos resultados de testes de conhecimento antes e depois da utilização.}} | {{Armazenar apenas os dados necessários para acompanhar o progresso e avaliar a aprendizagem, com apresentação clara dos resultados e cuidados com a privacidade.}} |
 
 ## 4. Jornada do usuário — equipe
 
-**Persona:** {{P01}}  
-**Objetivo da jornada:** {{...}}  
-**Início e fim da jornada:** {{...}}
+**Persona:** {{P02 - Mariana Oliveira}}  
+**Objetivo da jornada:** {{Aprender a identificar os principais componentes de hardware, compreender suas funções e realizar uma montagem virtual básica de computador de forma intuitiva, acessível e sem conhecimentos prévios.}}  
+**Início e fim da jornada:** {{Começa quando Mariana percebe que precisa ou deseja aprender sobre hardware e procura uma ferramenta educativa; termina quando conclui a atividade de montagem virtual e recebe feedback sobre seu desempenho.}}
 
 | Etapa | Situação/ação | Objetivo | Pensamento/emoção | Dor | Oportunidade de design | Evidência |
 |---|---|---|---|---|---|---|
-| 1 | {{...}} | {{...}} | {{...}} | {{...}} | {{...}} | {{...}} |
+| 1 Descoberta | {{Mariana percebe que conhece pouco sobre os componentes internos de um computador e procura recursos para aprender.}} | {{Encontrar uma maneira simples de aprender sobre hardware.}} | {{Curiosidade e insegurança: “Por onde eu começo?”}}|{{Dificuldade para encontrar materiais adequados para iniciantes.}} | {{Apresentar o Serious Game como uma ferramenta educativa acessível, com descrição clara de sua finalidade.}} | {{Necessidade identificada no perfil da Persona 2; validar por entrevista ou questionário.}} |
+| 2 Acesso ao jogo| {{Acessa a plataforma pelo navegador do celular ou notebook e observa a tela inicial.}} | {{Entender como começar e quais atividades estão disponíveis na tela de menu.}} | {{Expectativa e receio de não saber utilizar o sistema.}} | {{Menus confusos, excesso de informações ou instruções pouco claras.}} | {{Criar uma tela inicial simples, com opções bem identificadas, como “Aprender” e “Iniciar montagem”.}} | {{Necessidade de facilidade de uso identificada no perfil; validar por teste de usabilidade.}} |
+| 3 Revisão dos componentes | {{ Na tela de revisão de componentes Acessa a etapa de revisão, visualiza os componentes e consulta suas descrições e funções.}} | {{Reconhecer as peças e compreender para que servem.}} | {{Curiosidade, com possível confusão diante de termos desconhecidos.}} | {{Vocabulário técnico e dificuldade para diferenciar os componentes.}} | {{Utilizar modelos 3D ou imagens, nomes, descrições curtas e linguagem acessível.}} | {{Necessidade de aprendizagem desde o básico; validar a compreensão das explicações.}} |
+| 4 Inicio da montagem | {{ Na tela de montagem Inicia o desafio, seleciona um componente e procura identificar onde ele deve ser colocado.}} | {{Aplicar o que aprendeu na etapa de revisão.} | {{Motivação misturada com insegurança: “Será que esta peça vai aqui?”}} | {{Dificuldade de relacionar o formato da peça ao local correto de instalação.}} | {{Destacar visualmente as áreas de posicionamento e oferecer instruções graduais.}} | {{Dificuldade prevista no perfil da persona; observar erros e pedidos de ajuda durante os testes.}} |
+| 5 Feedback| {{Na tela de montagem posiciona o componente e recebe uma resposta do jogo indicando se a ação está correta.}} | {{Compreender o resultado da ação e corrigir eventuais erros.}} | {{Satisfação ao acertar ou frustração ao errar sem entender o motivo.}} | {{Feedback genérico ou ausência de explicação sobre o erro.}} | {{Fornecer feedback imediato, explicativo e acolhedor, permitindo novas tentativas.}} | {{Necessidade de orientação e prevenção da frustração; medir erros repetidos e compreensão do feedback.}} |
+| 6 Conclusção e avaliação | {{tela de montagem Finaliza a montagem virtual, consulta o resultado e reflete sobre o que aprendeu.}} | {{Verificar seu progresso e consolidar os conhecimentos adquiridos.}} | {{Satisfação por concluir a tarefa e interesse em melhorar.}} | {{Não saber quais conceitos aprendeu ou em quais precisa melhorar.}} | {{Apresentar resumo do desempenho, acertos, erros e sugestões de revisão.}} | {{Avaliar conclusão da tarefa, desempenho e resultados de testes de conhecimento antes e depois da atividade.}} |
 
 > A jornada pode incluir etapas **antes, durante e depois** do uso do produto. Não transforme a jornada em lista de telas.
 
 ## Síntese
 
 Quais necessidades e objetivos devem obrigatoriamente aparecer nos cenários e nas tarefas seguintes?
+Aprender do zero	Mariana precisa conseguir utilizar o sistema sem conhecer previamente os componentes de um computador.
+Identificar os componentes	Ela deve visualizar os componentes e reconhecer seus nomes e características.
+Compreender as funções	Precisa entender, em linguagem simples, para que serve cada componente.
+Aprender visualmente	Deve poder observar imagens ou modelos 3D que facilitem a identificação e a compreensão das peças.
+Montar um computador virtualmente	Deve selecionar componentes e tentar posicioná-los nos locais corretos do ambiente de montagem.
+Receber feedback compreensível	Ao acertar ou errar, precisa entender o resultado e, quando necessário, como corrigir a ação.
+Aprender sem medo de errar	Deve poder experimentar, cometer erros e tentar novamente sem danificar equipamentos reais.
+Utilizar o sistema com facilidade	A interface deve ser intuitiva, com instruções claras e sem exigir conhecimentos técnicos prévios.
+Verificar o que aprendeu	Ao final, deve conseguir verificar seu desempenho e identificar o que precisa revisar.
+
 
 ## Checklist
 
-- [ ] Existe pelo menos uma persona por integrante.
-- [ ] As personas não são apenas diferenças demográficas superficiais.
-- [ ] Está claro o que é dado real e o que é hipótese/proto-persona.
-- [ ] A persona não “validou por ficção” uma hipótese da Entrega 1; afirmações continuam marcadas como hipótese quando não há evidência.
-- [ ] Objetivos e dores têm consequência para o design.
-- [ ] Contexto de uso está coerente com a Entrega 1.
+- [x] Existe pelo menos uma persona por integrante.
+- [x] As personas não são apenas diferenças demográficas superficiais.
+- [x] Está claro o que é dado real e o que é hipótese/proto-persona.
+- [x] A persona não “validou por ficção” uma hipótese da Entrega 1; afirmações continuam marcadas como hipótese quando não há evidência.
+- [x] Objetivos e dores têm consequência para o design.
+- [x] Contexto de uso está coerente com a Entrega 1.
 - [ ] Em TCC sem interface original, a persona possui relação explícita com a contribuição técnica.
-- [ ] Papéis administrativos, técnicos e decisórios só foram criados quando possuem objetivos/tarefas diferentes.
-- [ ] Jornada possui etapas, dores e oportunidades e não é apenas wireflow.
-- [ ] IDs das personas foram adicionados à rastreabilidade.
+- [x] Papéis administrativos, técnicos e decisórios só foram criados quando possuem objetivos/tarefas diferentes.
+- [x] Jornada possui etapas, dores e oportunidades e não é apenas wireflow.
+- [] IDs das personas foram adicionados à rastreabilidade.

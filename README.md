@@ -1,24 +1,15 @@
 # Projeto de Interação Humano-Computador (IHC)
 
-> **Template acadêmico para documentação do projeto no GitHub.**  
-> Substitua todo texto entre `{{...}}`, remova exemplos que não se aplicam e mantenha evidências no próprio repositório sempre que possível.
 
 ## Princípio do projeto da disciplina
 
 A disciplina utiliza **preferencialmente o tema do TCC em andamento** como domínio para exercitar os métodos de Interação Humano-Computador.
 
-Isso vale também quando o TCC é predominantemente técnico e **não previa o desenvolvimento de uma interface**.
-
-- Se o TCC **já prevê interface**, ela pode ser o objeto principal das atividades de IHC.
-- Se o TCC **não prevê interface**, a equipe deverá derivar um **escopo de IHC** a partir da contribuição técnica: quem poderia utilizar ou se beneficiar do resultado, o que essa pessoa precisaria fazer, em qual contexto e que interação seria necessária.
-- A interface criada na disciplina **não se torna automaticamente uma obrigação do TCC**. Ela pode ser um protótipo de aprendizagem, uma extensão conceitual ou uma demonstração de aplicação potencial. Sua incorporação ao TCC depende de decisão da equipe e do orientador.
-
-Leia obrigatoriamente o [Guia para definir o escopo de IHC a partir do tema do TCC](GUIA_ESCOPO_IHC.md).
 
 ## Identificação
 
-**Título do projeto de IHC:** Montagem e treinamento de hardware
-**TCC/projeto de origem:** Desenvolvimento de um Jogo Sério e Estudo Experimental de Abordagens Combinadas para Ensino de Montagem de Hardware
+**Título do projeto de IHC:**Desenvolvimento de interfaces para um Jogo Sério.
+**TCC/projeto de origem:** Montagem e treinamento de hardware Desenvolvimento de um Jogo Sério Aplicado ao Aprendizado e Medição de Desempenho de estudantes.
 **Orientador(a):** Rafael Gomes Alves
 **Disciplina:** Interação Humano-Computador  
 **Instituição:** Centro Universitário FEI
@@ -27,14 +18,13 @@ Leia obrigatoriamente o [Guia para definir o escopo de IHC a partir do tema do T
 ### Equipe
 
 | Nome completo | Matrícula | GitHub | Responsabilidade principal |
-|---|---:|---|---|
 | Beatriz Cristina Emerenciano | 22.222.041-0 | Beatriz-emerenciano| Pesquisa |
 | Larissa Fiuza dos Santos | 22.123.042-8 | LarissaFiuza7 | Desenvolvimento  |
 
 ## Relação entre TCC e projeto de IHC
 
 | Item | Descrição |
-|---|---
+
 | Tema central do TCC | Desenvolvimento de um Jogo sério e Estudo Experimental de Abordagens para Ensino de Montagem de Hardware |
 | Resultado técnico esperado do TCC |  modelo, estudo |
 | O TCC já previa interface? | sim |
@@ -44,45 +34,12 @@ Leia obrigatoriamente o [Guia para definir o escopo de IHC a partir do tema do T
 | Interface/recorte explorado na disciplina | Treinamento/Montagem |
 | Relação com o escopo formal do TCC |  protótipo demonstrativo |
 
-> **Importante:** a tabela acima explica a relação entre os dois trabalhos. Ela não altera o compromisso formal do TCC.
-
 ## Resumo do projeto pela perspectiva do usuário
-
-Escreva **um parágrafo curto e concreto** explicando: quem é o usuário escolhido, o que precisa alcançar, qual problema enfrenta ou qual atividade precisa executar, em qual contexto e como a contribuição do TCC se relaciona com essa situação.
-
-Evite começar pela tecnologia.
 
 Estudantes iniciantes da área de TI e pessoas sem vínculos com a área de ti e que não possui conhecimentos básicos de hardware e que precisam identificar os componentes de um computador, compreender suas funções e aplicar os conhecimentos teóricos na montagem de um equipamento. Durante o aprendizado, enfrentam dificuldades para relacionar a teoria à prática e posicionar corretamente as peças, recorrendo a materiais didáticos, pesquisas na internet e explicações teóricas, mas sem necessariamente adquirir experiência prática. O tema do TCC investiga uma abordagem de aprendizagem baseada em um Serious Game para o ensino de componentes de hardware e montagem virtual de computadores. Para fins da disciplina de IHC, será explorada uma interface interativa e visual que permita revisar informações sobre os componentes, identificá-los, posicioná-los virtualmente e receber feedback sobre as ações realizadas.
 
 Se alguma afirmação ainda não estiver sustentada por evidência, registre-a como hipótese na [Entrega 1](docs/01_conhecendo_o_problema.md).
 
-## Por que pensar em interface mesmo em TCCs técnicos?
-
-Algoritmos, modelos, APIs, análises de datasets e componentes de infraestrutura podem não exigir interface como resultado acadêmico do TCC. Porém, quando essas contribuições são transferidas para uma situação real, normalmente existem pessoas que:
-
-- configuram parâmetros;
-- fornecem ou selecionam dados;
-- iniciam ou acompanham processamento;
-- interpretam resultados;
-- comparam alternativas;
-- tomam decisões;
-- administram usuários e permissões;
-- consultam histórico;
-- geram relatórios;
-- investigam erros;
-- auditam mudanças.
-
-Essas atividades fornecem um campo legítimo para exercitar IHC.
-
-Possibilidades de interface incluem **dashboards, telas administrativas, configuração, relatórios, histórico com filtros, comparação de resultados, visualização de dados, acompanhamento de processamento, gestão de perfis e permissões, CRUDs justificados pelo domínio, alertas, auditoria e ajuda contextual**. Nenhuma dessas telas é obrigatória por si só: deve existir uma tarefa e um objetivo de usuário que a justifique.
-
-## Relação com apresentação e potencial de aplicação
-
-A reflexão sobre usuários ajuda a equipe a explicar o projeto para públicos externos, inclusive em eventos como a **INOVA**. Em vez de comunicar apenas a técnica implementada, a equipe pode apresentar:
-
-**problema humano → contribuição computacional → forma de uso → impacto potencial**.
-
-O protótipo de IHC pode, portanto, funcionar como uma demonstração do potencial de mercado, transferência tecnológica ou impacto extensionista do tema do TCC, sem necessariamente integrar a implementação final do trabalho de conclusão.
 
 ## Como usar este repositório
 
@@ -116,14 +73,6 @@ O protótipo de IHC pode, portanto, funcionar como uma demonstração do potenci
 | 14 | [Avaliação por observação de usuários](docs/14_observacao_usuario.md) | avaliação consolidada; nº de participantes finais = nº de integrantes | ⬜ |
 
 > Se o docente definir quantidade diferente para a turma/semestre, a orientação da disciplina prevalece.
-
-## Visão de continuidade
-
-O projeto deve formar uma cadeia de evidências:
-
-**tema/contribuição do TCC → possível aplicação → usuários/stakeholders → objetivos → problema/contexto → alternativas → necessidades → personas → cenários → tarefas → modelo conceitual → MoLIC → protótipo → planejamento → inspeção → teste com usuários → melhorias**.
-
-Uma entrega não deve “reiniciar” o projeto. Se o escopo de IHC foi criado para um DBA, por exemplo, as personas, tarefas, MoLIC, protótipo e avaliação devem permanecer coerentes com esse perfil, salvo quando novas evidências justificarem a revisão.
 
 ## Documentos de apoio
 

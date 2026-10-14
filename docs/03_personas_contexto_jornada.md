@@ -71,7 +71,6 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 
 <img width="240" height="150" alt="perosna02 (1)" src="https://github.com/user-attachments/assets/939a1a94-dc25-4bd8-9ee0-f975315ae650" />
 
-![Persona P01](../assets/03_personas/persona_p01.svg)
 
 
 | Campo | Descrição |

@@ -1,3 +1,4 @@
+![Uploading mapa_empatia_persona_2_mariana (1).svg…]()
 # Entrega 3 — Personas, mapa de empatia, contexto de uso e jornada
 
 **Data:** {08/10/2026}  
@@ -33,7 +34,7 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 ## 1. Personas
 
 ### Persona P01 — {{Lucas Ferreira - Estudante de Ciência da Computação}}
-<img width="527" height="351" alt="persona1 (1)" src="https://github.com/user-attachments/assets/71f49f6c-d8be-4150-9b93-4d75fa8f0a09" />
+<img width="150" height="150" alt="persona1 (1)" src="https://github.com/user-attachments/assets/71f49f6c-d8be-4150-9b93-4d75fa8f0a09" />
 
 
 **Autor(a):** {{Beatriz Cristina Emerenciano — 22.222041-0}}  
@@ -68,11 +69,10 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 **Hipóteses da Entrega 1 relacionadas:** {{H01}}
 
 
-<img width="240" height="186" alt="perosna02 (1)" src="https://github.com/user-attachments/assets/939a1a94-dc25-4bd8-9ee0-f975315ae650" />
-
-
+<img width="150" height="150" alt="perosna02 (1)" src="https://github.com/user-attachments/assets/939a1a94-dc25-4bd8-9ee0-f975315ae650" />
 
 ![Persona P01](../assets/03_personas/persona_p01.svg)
+
 
 | Campo | Descrição |
 |---|---|

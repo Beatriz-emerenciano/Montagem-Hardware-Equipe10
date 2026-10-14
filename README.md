@@ -28,8 +28,8 @@ Leia obrigatoriamente o [Guia para definir o escopo de IHC a partir do tema do T
 
 | Nome completo | Matrícula | GitHub | Responsabilidade principal |
 |---|---:|---|---|
-| Beatriz Cristina Emerenciano | 22.222.041-0 | Beatriz-emerenciano| desenvolvimento e pesquisa |
-| Larissa Fiuza dos Santos | 22.123.042-8 | LarissaFiuza7 | Desenvolvimento e pesquisa |
+| Beatriz Cristina Emerenciano | 22.222.041-0 | Beatriz-emerenciano| Pesquisa |
+| Larissa Fiuza dos Santos | 22.123.042-8 | LarissaFiuza7 | Desenvolvimento  |
 
 ## Relação entre TCC e projeto de IHC
 
@@ -42,7 +42,7 @@ Leia obrigatoriamente o [Guia para definir o escopo de IHC a partir do tema do T
 | Usuário principal adotado em IHC | estudante e/ou pessoas que não possuem conhecimento sobre hardware |
 | Objetivo principal desse usuário | Compreendersobre o funcionanmentoddos componentes principais de hardware e montagem básica de hardware |
 | Interface/recorte explorado na disciplina | Treinamento/Montagem |
-| Relação com o escopo formal do TCC | parte prevista / extensão conceitual / protótipo demonstrativo / outra |
+| Relação com o escopo formal do TCC |  protótipo demonstrativo |
 
 > **Importante:** a tabela acima explica a relação entre os dois trabalhos. Ela não altera o compromisso formal do TCC.
 
@@ -52,7 +52,7 @@ Escreva **um parágrafo curto e concreto** explicando: quem é o usuário escolh
 
 Evite começar pela tecnologia.
 
-> **Estrutura sugerida:** “`{{tipo de usuário}}` precisa `{{objetivo}}` em `{{contexto}}`. Atualmente enfrenta `{{problema/limitação}}` e utiliza `{{processo/alternativa atual}}`. O tema do TCC investiga `{{contribuição técnica}}`. Para fins da disciplina de IHC, será explorada uma interface que permita `{{forma de uso da contribuição}}`.”
+Estudantes iniciantes da área de TI e pessoas sem vínculos com a área de ti e que não possui conhecimentos básicos de hardware e que precisam identificar os componentes de um computador, compreender suas funções e aplicar os conhecimentos teóricos na montagem de um equipamento. Durante o aprendizado, enfrentam dificuldades para relacionar a teoria à prática e posicionar corretamente as peças, recorrendo a materiais didáticos, pesquisas na internet e explicações teóricas, mas sem necessariamente adquirir experiência prática. O tema do TCC investiga uma abordagem de aprendizagem baseada em um Serious Game para o ensino de componentes de hardware e montagem virtual de computadores. Para fins da disciplina de IHC, será explorada uma interface interativa e visual que permita revisar informações sobre os componentes, identificá-los, posicioná-los virtualmente e receber feedback sobre as ações realizadas.
 
 Se alguma afirmação ainda não estiver sustentada por evidência, registre-a como hipótese na [Entrega 1](docs/01_conhecendo_o_problema.md).
 

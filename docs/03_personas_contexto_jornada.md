@@ -110,6 +110,10 @@ Dessa forma, o projeto prioriza a acessibilidade didática para iniciantes absol
 ![Mapa de empatia](../assets/03_personas/mapa_empatia.svg)
 
 Documente também em texto: o que vê; ouve; diz/faz; pensa/sente; dores; ganhos. Diferencie **evidência** de **hipótese**.
+o que vê | Evidências|
+Diz/faz |H|
+Pensa/sente|H|
+Dores e ganhos |Evidências|
 
 ## 3. Contexto de uso — consolidação
 

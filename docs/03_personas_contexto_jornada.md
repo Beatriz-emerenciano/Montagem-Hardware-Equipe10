@@ -116,11 +116,16 @@ Documente também em texto: o que vê; ouve; diz/faz; pensa/sente; dores; ganhos
 | Dimensão | Descrição | Implicação de design |
 |---|---|---|
 | Usuários | {{Estudantes iniciantes de TI, pessoas leigas sem conhecimentos prévios de hardware e, para validação técnica, especialistas da área.}} | {{Utilizar linguagem acessível, apresentar conceitos básicos e oferecer orientações graduais, atendendo a diferentes níveis de conhecimento.}} |
-| Tarefas | {{Consultar informações sobre os componentes, identificar suas características e funções, visualizar modelos 3D, selecionar peças e posicioná-las nos locais corretos durante a montagem virtual.}} | {{Organizar o jogo em etapas de revisão e montagem, com instruções claras, interação intuitiva e feedback imediato sobre as ações realizadas.}} |
+
+| Tarefas |  {{Consultar informações sobre os componentes, identificar suas características e funções, visualizar modelos 3D, selecionar peças e posicioná-las nos locais corretos durante a montagem virtual.}} |  {{Organizar o jogo em etapas de revisão e montagem, com instruções claras, interação intuitiva e feedback imediato sobre as ações realizadas.}} |
+
 | Equipamentos | {{Computadores, notebooks, tablets ou smartphones com navegador web e acesso à internet}} | {{Desenvolver uma interface responsiva, compatível com diferentes tamanhos de tela e que não exija equipamentos especializados.}} |
+
 | Ambiente físico | {{Ambientes variados, como residências, salas de aula e laboratórios de informática, com diferentes condições de iluminação, ruído e espaço disponível.}} | {{Evitar dependência de condições físicas específicas e permitir a utilização do jogo em diferentes ambientes.}} |
+
 | Ambiente social/organizacional | {{Uso individual para aprendizagem autônoma ou em contexto educacional, como atividade complementar às aulas de arquitetura de computadores e hardware, com possível orientação de professores.}} | {{Permitir que o usuário realize as atividades de forma independente e que o jogo possa ser utilizado como recurso de apoio ao ensino.}} |
 | Papéis/permissões/governança | {{Usuários acessam as atividades de aprendizagem; professores ou pesquisadores podem orientar a aplicação e analisar os resultados dos testes. Especialistas podem validar a correção técnica do conteúdo.}} | {{Manter as atividades acessíveis aos participantes e organizar o registro dos resultados de forma adequada, respeitando a privacidade dos dados coletados.}} |
+
 | Volume de dados/histórico | {{O jogo pode registrar respostas, acertos, erros, tentativas, pontuações e progresso nas atividades, além dos resultados de testes de conhecimento antes e depois da utilização.}} | {{Armazenar apenas os dados necessários para acompanhar o progresso e avaliar a aprendizagem, com apresentação clara dos resultados e cuidados com a privacidade.}} |
 
 ## 4. Jornada do usuário — equipe

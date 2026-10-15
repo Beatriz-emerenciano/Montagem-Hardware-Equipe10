@@ -431,11 +431,39 @@ Responda:
 
 ## 7.3 Qual objetivo desse usuário será priorizado?
 
-{{Aplicar metodologias que resultem no usuário absorver conhecimento sobre os componentes e montagem de hardware}}
+{{objetivo prioritário do usuário é aprender a identificar os componentes de hardware, compreender suas funções e reconhecer onde devem ser instalados em um computador.}}
 
 ## 7.4 Que interface será explorada na disciplina?
 
-Complete: Montagem de hardware, tutorial, avaliação.
+Complete: para alcançar o objetivo principal: aprender a identificar os componentes de hardware, compreender suas funções e reconhecer seus locais de instalação.
+
+Interface do menu principal
+ Navegação 
+Apresenta as opções de acesso às funcionalidades do jogo:
+- Tutorial: aprender a utilizar a interface.
+- Revisão: conhecer os componentes.
+- Jogar: iniciar a montagem virtual.
+Objetivo de IHC: permitir que o usuário compreenda as opções e encontre facilmente a funcionalidade desejada.
+
+. Interface do tutorial de utilização
+ Orientação 
+Explica como selecionar, arrastar e soltar os componentes e como interpretar as mensagens do jogo.
+Objetivo de IHC: ensinar os controles e reduzir as dificuldades de interação, especialmente para pessoas sem experiência com jogos 3D.
+
+. Interface de revisão dos componentes
+ Consulta e exploração 
+Exibe os modelos 3D, nomes, funções e descrições dos componentes. O usuário poderá explorar visualmente as peças antes de montar o computador.
+Objetivo de IHC: facilitar a identificação e a compreensão dos componentes por meio de informações textuais e visuais.
+
+Interface de montagem virtual
+ Interface principal 
+Apresenta a bancada ou o gabinete em 3D, os componentes disponíveis e os locais de destino. O usuário seleciona uma peça e a arrasta até o local correto.
+Objetivo de IHC: possibilitar a prática de identificação e posicionamento, com instruções passo a passo e indicação de acertos ou erros.
+
+Interface de feedback e resultados
+ Avaliação do desempenho 
+Apresenta a pontuação, o progresso, os acertos e os erros cometidos, além de uma opção para continuar ou reiniciar a atividade.
+Objetivo de IHC: ajudar o usuário a compreender seu desempenho e identificar pontos que precisam de revisão.
 
 > **Para fins da disciplina de IHC, será projetada uma interface que permita a `{{perfil}}` utilizar `{{capacidade/resultado do TCC}}` para `{{objetivo}}`, no contexto de `{{situação}}`.**
 
@@ -549,13 +577,15 @@ Registre em [`../RASTREABILIDADE.md`](../RASTREABILIDADE.md).
 
 | Pergunta | Síntese atual |
 |---|---|
-| Qual é a contribuição central do TCC? | {{Contribuir para o aprendizado sobre identificação e montagem de componentes de hardware}} |
+| Qual é a contribuição central do TCC? | {{O problema que motivacional desse projeto é que pessoas iniciantes ou leigas em hardware podem apresentar dificuldades para identificar os componentes internos de um computador, compreender suas funções e entender como eles são posicionados durante a montagem. A falta de experiência prática pode dificultar a associação entre o conhecimento teórico e a aplicação desses conceitos em uma atividade de montagem.A contribuição deste trabalho consiste no desenvolvimento e na avaliação experimental de um jogo sério web, implementado em JavaScript, que integra interação tridimensional, manipulação de componentes por arrastar e soltar, validação de posicionamento e feedback sobre as ações realizadas. A solução será direcionada a pessoas iniciantes ou leigas em montagem de computadores, permitindo explorar visualmente os principais componentes de hardware e praticar seu posicionamento em um ambiente virtual.
+
+Além do desenvolvimento tecnológico, o trabalho investigará os resultados da utilização do sistema por meio de uma avaliação experimental com pré-teste e pós-teste e um grupo de comparação. Serão analisadas a variação do conhecimento dos participantes, a taxa de acertos e erros nas tarefas de montagem e a usabilidade da aplicação. Dessa forma, busca-se produzir evidências sobre os benefícios e as limitações da utilização de interação tridimensional e mecânicas de jogo no apoio à aprendizagem de conceitos básicos de hardware, contribuindo para o desenvolvimento e a avaliação de aplicações interativas na área de Ciência da Computação.}} |
 | O TCC já previa interface? | {{sim}} |
-| Quem é o usuário prioritário de IHC? | {{Pessoa iniciante}} |
+| Quem é o usuário prioritário de IHC? | {{Estudantes de TI, autodidatas ou profissionais formados na área com conhecimento apenas básico/superficial de hardware, sem experiência prática bem-sucedida em montagem e Pessoas sem vínculo com a área de TI (com ou sem formação em outras áreas) e sem nenhum conhecimento prévio sobre hardware ou montagem.}} |
 | O que ele precisa alcançar? | {{adquerir conhecimentos básicos a sólidos em hardware}} |
-| Qual problema/atividade será estudado? | {{ Verificar se a aplicação cumpre seu objetivo educacional e  Verificar se a interação prática virtual contribui para a compreensão do conteúdo}} |
-| Como isso acontece hoje? | {{através de pesquisa em artigos relacionados a tema iremos aplicar metodologias e desenvolver um jogo sério}} |
-| Qual é o contexto de uso? | {{transmitir e analisar a eficácia do conhecimento }} |
+| Qual problema/atividade será estudado? | {{Pessoas iniciantes ou leigas em hardware podem apresentar dificuldades para compreender as informações sobre os componentes de um computador e relacioná-las às ações necessárias para realizar uma montagem virtual. Em uma interface interativa tridimensional, essas dificuldades podem estar associadas à compreensão dos elementos visuais, à identificação dos locais corretos para posicionamento dos componentes e à interpretação do feedback fornecido pelo sistema após cada ação. Dessa forma, torna-se relevante investigar como a organização das informações e os mecanismos de interação de um jogo sério podem apoiar a execução dessas tarefas e favorecer a compreensão do processo de montagem.}} |
+| Como isso acontece hoje? | {{Hoje esse aprendizado concentra-se em a pessoa pesquisar informações em Aulas teóricas e materiais didáticos,videos tutoriais na internet, prática com montagem em casa ou em laboratórios.}} |
+| Qual é o contexto de uso? | {e aprendizagem introdutória de hardware em um ambiente virtual, utilizado por estudantes iniciantes que precisam compreender os componentes de um computador e aprender a posicioná-los corretamente, sem depender exclusivamente de equipamentos físicos.}} |
 | Que interface/recorte será explorado? | {{montagem de hardware}} |
 | Como a interface se relaciona ao TCC? | {{relaciona-se de maneira direta e pode impactá no resultado esperado}} |
 | Quais pontos ainda são hipóteses? 

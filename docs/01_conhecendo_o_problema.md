@@ -110,7 +110,7 @@ Desenvolvimento de um Jogo Sério Aplicado ao Aprendizado e Medição de Desempe
 
 ## 1.3 Qual é a **capacidade/contribuição central** produzida pelo TCC?
 
-[H]Nosso TCC propõe, o desenvolvimento de um jogo sério para aprendizado e treinamento de reconhecimento de componentes e montagem de hardware, o sistema permite o usuário identificar, explorar e compreender os principais componentes de um computador, além de realizar a montagem atravém de uma plataforma de jogo e/ou combinada com tutorial. A solução visa democratizar o acesso ao conhecimento técnico, antendendo desde iniciantes até aqueles que buscam consolidar conhecimentos básicos de forma prática e inovadora e compreender qual a melhor abordagem para absorver este conhecimento.
+[H]Nosso TCC propõe, o desenvolvimento de um jogo sério para aprendizado e treinamento de reconhecimento de componentes principais para conseguir realizar montagem de hardware, o sistema permite o usuário identificar, explorar e compreender os principais componentes de um computador, além de realizar a montagem atravém de uma plataforma de jogo e/ou combinada com tutorial. A solução visa democratizar o acesso ao conhecimento técnico, antendendo desde iniciantes até aqueles que buscam consolidar conhecimentos básicos de forma prática e inovadora e compreender qual a melhor abordagem para absorver este conhecimento.
 
 ## 1.4 O que se espera que esteja diferente **para pessoas, organizações ou processos** se essa contribuição for bem-sucedida?
 
@@ -137,7 +137,7 @@ Considere perfis profissionais e stakeholders, não apenas consumidores finais.
 | Perfil | Relação com a contribuição | O que faria | Status/evidência |
 |---|---|---|---|
 | {{DBA / analista / gestor / técnico / pesquisador / usuário final...}} | {{...}} | {{...}} | F / H / ? |
-|{{ Usuário final | Utilizaria o Serious Game para aprender conceitos de hardware, identificar componentes e praticar virtualmente a montagem de computadores e ganhar confiança para realizar a atividade de montar um hardware de modo seguro.}} | F - Público-alvo definido |
+|{{ Usuário primário | Utilizaria o Serious Game para aprender conceitos de hardware, identificar componentes e praticar virtualmente a montagem de computadores e ganhar confiança para realizar a atividade de montar um hardware de modo seguro.}} | {{Interagir com o sistema(jogo)}} | H|
 
 
 
@@ -148,7 +148,7 @@ Considere perfis profissionais e stakeholders, não apenas consumidores finais.
 | Stakeholder | Como é afetado | Usa interface? | Status/evidência |
 |---|---|---|---|
 | {{...}} | {{...}} | sim/não | {{...}} |
-|{{Pessoa que já possuem xonhecimento e prática solida montagem de hardware}}|{{Esse perfil em contato com o jogo terá apenas a experiência de usabilidade. }}| sim |{{[H]}}| 
+|{{Pessoa que já possuem conhecimento e prática sólidas de montagem de hardware}}|{{Esse perfil em contato com o jogo terá apenas a experiência de usabilidade. }}| sim |{{[H]}}| 
 
 ## 2.4 Que características desses perfis podem influenciar a interação?
 
@@ -230,8 +230,7 @@ Pode existir software concorrente, linha de comando, planilha, notebook, script,
 
 {{[F/H/?] ...}}
 
-[H]O usuário precisa interpretar informações sobre os componentes de hardware, incluindo seus nomes, características visuais, funções e locais corretos de instalação. Durante a etapa de revisão, deve compreender as explicações e relacioná-las às representações visuais dos componentes. Durante o jogo, precisa utilizar essas informações para decidir qual componente selecionar e em qual posição da placa-mãe deve arrastá-lo.
-Além disso, o usuário precisa interpretar as instruções apresentadas pela interface e o feedback recebido após cada tentativa, identificando se o posicionamento foi realizado corretamente ou se é necessário realizar uma nova ação. Essas informações são fundamentais para orientar a tomada de decisão durante a montagem virtual, especialmente para usuários com pouco ou nenhum conhecimento prévio sobre hardware.
+[H] Aprendizagem equivocada, incapacidade de concluir uma montagem, dano físico em uma situação real, perda de confiança ou necessidade de ajuda
 ## 4.5 Conte uma situação concreta.
 
 Escreva uma pequena narrativa com pessoa, objetivo, atividade, contexto, dificuldade e consequência. **Não descreva ainda a futura solução.**
@@ -244,11 +243,10 @@ Escreva uma pequena narrativa com pessoa, objetivo, atividade, contexto, dificul
 
 | Evidência/fonte | O que sustenta | Limitação |
 |---|---|---|
-| {{Literatura sobre ensino de hardware e montagem de computadores}} | {{Sustenta a necessidade de conhecimento sobre identificação, função e instalação dos componentes}} | {{Pode abordar métodos tradicionais sem considerar a proposta específica do projeto}} |
 
-|{{Materiais didáticos, tutoriais e vídeos sobre montagem de computadores}}|{{Demonstram como o conteúdo é atualmente apresentado aos estudantes}}|{[Normalmente são materiais passivos, com menor possibilidade de interação e prática}}|
+|F|{{Materiais didáticos, tutoriais e vídeos sobre montagem de computadores}}|{{Demonstram como o conteúdo é atualmente apresentado aos estudantes}}|{[Normalmente são materiais passivos, com menor possibilidade de interação e prática}}|
 
-|{{Curso técnico de informática}}|[{Sustenta a necessidade de conhecimento sobre identificação, função e instalação dos componentes}}|{{Pode abordar métodos tradicionais e exclusivos de quem realiza o curso presencial}}|
+|F|{{Curso técnico de informática}}|[{Sustenta a necessidade de conhecimento sobre identificação, função e instalação dos componentes}}|{{Pode abordar métodos tradicionais e exclusivos de quem realiza o curso presencial}}|
 
 ---
 
@@ -257,9 +255,7 @@ Escreva uma pequena narrativa com pessoa, objetivo, atividade, contexto, dificul
 ## 5.1 Onde e em quais situações a interação poderia ocorrer?
 
 {{[F/H/?] ...}}
-{{[H] A interação com o Serious Game poderá ocorrer em diferentes contextos de aprendizagem, como salas de aula, laboratórios de informática, ambientes de estudo e na residência do estudante. Por ser uma aplicação Web, o usuário poderá acessar o sistema por meio de um navegador, permitindo que as atividades sejam realizadas tanto individualmente quanto como atividade complementar orientada por um professor.}}
-
-{{[H] Em um contexto educacional, o jogo poderá ser utilizado antes de uma atividade prática com componentes físicos, durante atividades de aprendizagem ou como forma de revisão do conteúdo.}}
+{{[H] A interação com o Serious Game poderá ocorrer em diferentes contextos de aprendizagem, como salas de aula, laboratórios de informática, ambientes de estudo e na residência do estudante. Por ser uma aplicação Web, o usuário poderá acessar o sistema por meio de um navegador, permitindo que as atividades sejam realizadas tanto individualmente quanto como atividade complementar orientada por um professor,  poderá ser utilizado antes de uma atividade prática com componentes físicos, durante atividades de aprendizagem ou como forma de revisão do conteúdo.}}
 
 ## 5.2 Em quais dispositivos/equipamentos?
 
@@ -267,23 +263,14 @@ Escreva uma pequena narrativa com pessoa, objetivo, atividade, contexto, dificul
 
 {{[F] Os principais dispositivos considerados são smartphones, tablets e computadores/notebooks.}}
 
-{{[F] Nos dispositivos móveis, a interação será realizada principalmente por meio de toque na tela. Em computadores e notebooks, a interação poderá utilizar mouse e teclado.}}
-
-{{[H] O sistema poderá ser desenvolvido com interface responsiva para adaptar a apresentação do jogo a diferentes tamanhos de tela.}]
-
-
 ## 5.3 Existem condições físicas relevantes?
 
 Considere iluminação, ruído, mobilidade, conexão, privacidade, uso compartilhado, interrupções, pressão de tempo etc.
 
 {{[F/H/?] ...}}
-{{[F] Por se tratar de uma aplicação Web, o Serious Game poderá ser utilizado em diferentes ambientes, como salas de aula, laboratórios de informática ou na residência do estudante. Não há necessidade de condições físicas específicas de iluminação ou ruído para a utilização da interface.}}
+{{[H] Precisa ser estudado.}}
 
-{{[F] Uma condição relevante é a disponibilidade de um dispositivo compatível e de conexão com a Internet para acessar a aplicação.}}
-
-{{[H] Em dispositivos móveis, o tamanho da tela pode influenciar a interação com os modelos 3D e elementos do jogo, sendo necessário considerar uma interface responsiva e adequada ao uso por toque.}}
-
-{{[?] O usuário poderá sofrer interrupções durante a atividade, principalmente quando utilizar o sistema em ambientes externos ou compartilhados. Por isso, o salvamento do progresso poderá permitir que o estudante retome as atividades posteriormente.}}
+Dispositivo prioritário:** investigar se computador/notebook deve ser o foco inicial e se o uso móvel é realmente necessário e viável para manipulação 3D
 
 ## 5.4 Existem fatores sociais ou organizacionais?
 
@@ -291,13 +278,13 @@ Considere papéis, chefias, equipes, permissões, aprovação, responsabilidade 
 
 {{[F/H/?] ...}}
 
-{{[F] Durante o desenvolvimento e avaliação do projeto, a equipe responsável pelo TCC será responsável pela configuração dos conteúdos, implementação das funcionalidades e realização dos testes.}}
+{{[F] Equipe - Larissa responsável pelo desensenvolvimento e Beatriz responsável pelos testes e analise de resultados, organizado por turno e colaboração de ambas.}}
 
 ## 5.5 Existe necessidade de histórico, rastreabilidade ou auditoria?
 
 {{[F/H/?] ...}}
 
-{[[H] Para o funcionamento básico do Serious Game, não há necessidade de mecanismos formais de auditoria ou rastreabilidade, pois o sistema possui finalidade educacional e não envolve decisões profissionais críticas. Entretanto, o armazenamento do progresso do estudante, como fases concluídas, pontuação, erros e desempenho, poderá ser utilizado para permitir que o usuário acompanhe sua evolução durante o uso da aplicação.}}
+{[[H]{ estamos estudando a necessidade}}
 
 {[[H] Durante a avaliação do TCC, dados relacionados ao desempenho dos participantes poderão ser registrados para posterior análise dos resultados, respeitando os procedimentos definidos para a pesquisa.}}
 
@@ -305,7 +292,7 @@ Considere papéis, chefias, equipes, permissões, aprovação, responsabilidade 
 
 {{[F/H/?] ...}}
 
-{{[H] No contexto do Serious Game, um erro cometido pelo estudante durante uma atividade virtual não produz dano físico aos componentes, pois a interação ocorre em um ambiente simulado. Entretanto, a apresentação de uma informação incorreta, a validação inadequada de uma montagem ou um feedback equivocado pode levar o estudante a compreender ou memorizar um procedimento incorreto. Caso esse conhecimento seja posteriormente aplicado em uma montagem física, um procedimento inadequado poderá causar mau funcionamento ou, dependendo da ação realizada, danos aos componentes. Por isso, a precisão das informações e das regras de validação do jogo é relevante para a confiabilidade educacional da aplicação.}}
+{{[H] aprendizagem equivocada, incapacidade de concluir uma montagem, dano físico em uma situação real, perda de confiança ou necessidade de ajuda}}
 
 ---
 
@@ -324,49 +311,35 @@ Considere papéis, chefias, equipes, permissões, aprovação, responsabilidade 
 ## 6.2 Existem produtos que atuam na mesma área, mesmo sem serem equivalentes ao TCC?
 
 {{[F/H/?] ...}}
-{{[F] PC Building Simulator, que permite simular montagem e reparo e apresenta instruções passo a passo para iniciantes.}}
-{{[F] Assistente de montagem de PC IA MANUS.}}
+{{[F] PC Building Simulator, que permite simular montagem e reparo e apresenta instruções passo a passo para iniciantes. }}
+https://store.steampowered.com/app/621060/PC_Building_Simulator/ }}
+
 
 ## 6.3 Quais interfaces profissionais esse público já conhece?
 
 Exemplos possíveis: ferramentas de banco, IDEs, consoles de nuvem, dashboards, plataformas de dados, ferramentas de monitoramento, painéis de IA, sistemas administrativos.
-{{[H] > Assistente de montagem de PC IA MANUS.}}
+
 {{[H] > PC Building Simulator}}
 
 
 ## 6.4 O que essas soluções parecem fazer bem?
 
 {{[F/H/?] ...}}
-{{[[H] As soluções existentes parecem apresentar bem os componentes de computador e seus respectivos locais de instalação, utilizando imagens, modelos 3D, vídeos ou simulações.}}
 
-{{[H] Simuladores e jogos permitem que o usuário pratique procedimentos de montagem em um ambiente virtual, reduzindo a necessidade de utilizar imediatamente componentes físicos.}}
-
-{{[H] Algumas soluções apresentam instruções passo a passo, permitindo que usuários iniciantes acompanhem a sequência necessária para realizar determinadas atividades.}}
-
-{{[H] A utilização de elementos de jogo, como desafios, progressão e feedback, pode contribuir para tornar a aprendizagem mais interativa e estimular o usuário a repetir as atividades.}}
+{{ H - Como principal ajudar a solução de revisão onde o usuário pode vizualizar as peças  de hardware modeladas e saber sua função dos componentes principais para assim conseguir seguir com a etapa de montagem}}
 
 ## 6.5 O que parecem fazer mal, dificultar ou não atender?
 
 {{[F/H/?] ...}}
-{{[H] Algumas soluções podem apresentar uma quantidade elevada de informações e funcionalidades, tornando a experiência mais complexa para usuários que estão tendo o primeiro contato com montagem de computadores.}}
-
-{{[H] Soluções de simulação mais completas podem exigir computadores com maior capacidade de processamento ou instalação de softwares, dificultando o acesso em dispositivos mais simples.}}
-
-{{[H] Algumas alternativas podem estar mais voltadas à simulação de montagem e reparo para usuários interessados em hardware do que especificamente ao processo de aprendizagem introdutória.}}
-
-{{[H] Soluções que dependem de equipamentos específicos, como dispositivos de realidade virtual, podem apresentar maior dificuldade de acesso devido à necessidade de hardware adicional.}}
+{ Realizar a interação de montagem d ehardaew sem realizar uma revisão, isso poderá implicar em má compreensão}}
 
 ## 6.6 Que padrões de interface ou vocabulário parecem familiares a esse público?
 
 {{[F/H/?] ...}}
 
-{{[H] O público provavelmente está familiarizado com interfaces baseadas em menus, botões, ícones, imagens e elementos de interação comuns em jogos e aplicações Web.}}
-
-{{[H] Termos relacionados a componentes de hardware, como CPU, RAM, GPU, SSD, placa-mãe e fonte de alimentação, são utilizados em materiais e aplicações relacionadas ao tema.}}
-
 {{[H] Para usuários iniciantes, termos técnicos podem não ser completamente familiares, sendo necessário apresentar explicações simples e contextualizadas durante o processo de aprendizagem.}}
 
-{{[H] Elementos comuns de jogos, como "Iniciar", "Próxima fase", "Pontuação", "Concluir", "Tentar novamente", "Acerto" e "Erro", tendem a ser familiares para usuários que possuem experiência com jogos digitais.}}
+{{[H] Para usuários iniciantes elementos comuns de jogos, como "Iniciar", "Próxima fase", "Pontuação", "Concluir", "Tentar novamente", "Acerto" e "Erro", menu, ferramentas tendem a ser familiares para usuários que possuem experiência com jogos digitais de celulares.}}
 
 ---
 
@@ -388,16 +361,16 @@ Faça o exercício de transferência de uso:
 
 > **Imagine que o TCC foi concluído com sucesso e uma empresa, laboratório ou organização quer transformar a contribuição em algo utilizável. Quem precisaria interagir com ela e para quê?**
 
-Responda:
+Responda:Não aplicável
 
-1. quem poderia contratar/adotar a solução? {{qualquer pessoa que deseja adquerir conhecimento em componentes e montagem de hardware}}
-2. quem seria o usuário direto? {{Qualquer pessoa}}
-3. quem administraria/configuraria? {{ Criadores do Software}}
-4. quem interpretaria resultados? {{Sistema}}
-5. quem tomaria decisões? {{Sistema}}
-6. quais dados/entradas seriam necessários? {{dados sobre hardware}}
-7. quais resultados deveriam ser compreendidos? {{avaliação de aspectos compreendidos no aprendizado}}
-8. que erros/rupturas seriam possíveis? {{compreençao e montagem errada sobre dos componentes de hardware }}
+1. quem poderia contratar/adotar a solução? {{}}
+2. quem seria o usuário direto? {{}}
+3. quem administraria/configuraria? {{}}
+4. quem interpretaria resultados? {{}}
+5. quem tomaria decisões? {{}}
+6. quais dados/entradas seriam necessários? {{}}
+7. quais resultados deveriam ser compreendidos? {{}}
+8. que erros/rupturas seriam possíveis? {{}}
 
 ## 7.2 Qual perfil será priorizado no projeto de IHC?
 
@@ -467,20 +440,20 @@ Marque apenas as que parecem plausíveis e explique o objetivo correspondente.
 
 | Possibilidade | Pode fazer sentido? | Objetivo/tarefa que justificaria | Evidência atual |
 |---|---|---|---|
-| Dashboard/visão geral | talvez | {{sim}} | {{questionário para analise comparativa de resultados}} | {{H}}|
-| Configuração/parametrização | sim | {{ sim}} | {{analise e configuração de paramentos no jogo}} |{{H}}|
-| Entrada/upload/seleção de dados | sim | {{sim}} | {{interação do usuário com a gamificação}} |{{H}]|
-| Acompanhamento de processamento | sim | {{sim}} | {{acompanhamento das etapas de aprendizagem no jogo}}|{{H}} |
-| Relatório/resultados | sim | {{sim|{{análise do estudo experimental}} |{{H}}|
+| Dashboard/visão geral | tsim | {{sim}} | {{questionário para analise comparativa de resultados}} | {{H}}|
+| Configuração/parametrização | ?| {{ ?}} | {{Não sabemos}} |{{?}}|
+| Entrada/upload/seleção de dados | ? | {{?}} | {{interação do usuário com a gamificação}} |{{H}]|
+| Acompanhamento de processamento | sim | {{sim}} | {{não sabemos mas acreditamos que não}}|{{H}} |
+| Relatório/resultados | sim | {{sim|{{análise de resultados de desempenhos dos usuários no jogo}} |{{H}}|
 | Histórico com busca/filtros | não | {{não}} | {{não se aplica}} | ?|
-| Comparação de resultados | sim | {{sim}} | {{comparar os resultados do estudo experimental}} |H|
-| Explicabilidade/detalhamento | sim | {{para ensinamento e montagem de hardware através da plataforma de jogo}} | {{H}} |
+| Comparação de resultados | sim | {{sim}} | {{comparar os resultados da inteção do usuário com o jogo}} |H|
+| Explicabilidade/detalhamento | ? | {{?}} | {{?}} |
 | Administração/configurações globais | sim | {{sim}} | {{para contrução da gamificação}} | {H}
 | Usuários/perfis/permissões | talvez | {{sim}} | {{para separar e identificar o perfil de quem é usuário e quem é o administrador do jogo}} |H|
-| CRUD de entidade do domínio | talvez | {{talvez}} | {{para configuração de jogo}} | ?|
-| Auditoria/logs | não | {{não}} | {{não se aplica}} | ? |
-| Alertas/ocorrências | não | {{não}} | {{não se aplica}} | ?|
-| Ajuda/documentação | talvez | {{sim}} | {{para endimento e funcionamento do software}} | H|
+| CRUD de entidade do domínio | ? | {{?}} | {{}} | ?|
+| Auditoria/logs | ? | {{?}} | {?}} | ? |
+| Alertas/ocorrências | ?| {{?}} | {{}} | ?|
+| Ajuda/documentação | talvez | {{sim}} | {{para endimento e funcionamento do jogo}} | H|
 
 > **Atenção:** “login + dashboard + CRUD” não é uma solução universal. Cada padrão deve surgir de uma tarefa real.
 
@@ -555,23 +528,24 @@ Registre em [`../RASTREABILIDADE.md`](../RASTREABILIDADE.md).
 
 | Pergunta | Síntese atual |
 |---|---|
-[F]| Qual é a contribuição central do TCC? | {{O problema que motivacional desse projeto é que pessoas iniciantes ou leigas em hardware podem apresentar dificuldades para identificar os componentes internos de um computador, compreender suas funções e entender como eles são posicionados durante a montagem. A falta de experiência prática pode dificultar a associação entre o conhecimento teórico e a aplicação desses conceitos em uma atividade de montagem.A contribuição deste trabalho consiste no desenvolvimento e na avaliação experimental de um jogo sério web, implementado em JavaScript, que integra interação tridimensional, manipulação de componentes por arrastar e soltar, validação de posicionamento e feedback sobre as ações realizadas. A solução será direcionada a pessoas iniciantes ou leigas em montagem de computadores, permitindo explorar visualmente os principais componentes de hardware e praticar seu posicionamento em um ambiente virtual.
+[F]| Qual é a contribuição central do TCC? | {{O problema que motivacional desse projeto é que pessoas iniciantessem com pouco ou nenhum conhecimento e prática em hardware podem apresentar dificuldades para identificar os componentes internos de um computador, compreender suas funções e entender como eles são posicionados durante a montagem. A falta de experiência prática pode dificultar a associação entre o conhecimento teórico e a aplicação desses conceitos em uma atividade de montagem.
+A contribuição deste trabalho consiste no desenvolvimento de um jogo sério  em plataforma web, implementado em JavaScript, que integra interação tridimensional, manipulação de componentes por arrastar e soltar, validação de posicionamento e feedback sobre as ações realizadas. A solução será direcionada a pessoas iniciantes ou leigas em montagem de computadores, permitindo explorar visualmente os principais componentes de hardware e praticar seu posicionamento em um ambiente virtual.
 
-[F]Além do desenvolvimento tecnológico, o trabalho investigará os resultados da utilização do sistema por meio de uma avaliação experimental com pré-teste e pós-teste e um grupo de comparação. Serão analisadas a variação do conhecimento dos participantes, a taxa de acertos e erros nas tarefas de montagem e a usabilidade da aplicação. Dessa forma, busca-se produzir evidências sobre os benefícios e as limitações da utilização de interação tridimensional e mecânicas de jogo no apoio à aprendizagem de conceitos básicos de hardware, contribuindo para o desenvolvimento e a avaliação de aplicações interativas na área de Ciência da Computação.}} |
+[H]|Além do desenvolvimento tecnológico, o trabalho investigará os resultados da utilização do sistema por meio de uma avaliação experimental com pré-teste e pós-teste e um grupo de comparação. Serão analisadas a variação do conhecimento dos participantes, a taxa de acertos e erros nas tarefas de montagem e a usabilidade da aplicação e o ganho dessa ferramento para seu conhecimento sobre o tema. |
 | O TCC já previa interface? | {{sim}} |
-| Quem é o usuário prioritário de IHC? |[H] {{Estudantes de TI, autodidatas ou profissionais formados na área com conhecimento apenas básico/superficial de hardware, sem experiência prática bem-sucedida em montagem e Pessoas sem vínculo com a área de TI (com ou sem formação em outras áreas) e sem nenhum conhecimento prévio sobre hardware ou montagem.}} |
-| O que ele precisa alcançar? |[H] {{adquerir conhecimentos básicos a sólidos em hardware}} |
-| Qual problema/atividade será estudado? | {{Pessoas iniciantes ou leigas em hardware podem apresentar dificuldades para compreender as informações sobre os componentes de um computador e relacioná-las às ações necessárias para realizar uma montagem virtual. Em uma interface interativa tridimensional, essas dificuldades podem estar associadas à compreensão dos elementos visuais, à identificação dos locais corretos para posicionamento dos componentes e à interpretação do feedback fornecido pelo sistema após cada ação. Dessa forma, torna-se relevante investigar como a organização das informações e os mecanismos de interação de um jogo sério podem apoiar a execução dessas tarefas e favorecer a compreensão do processo de montagem.}} |
+
+| Quem é o usuário prioritário de IHC? |[H] {{Estudantes de TI, autodidatas ou profissionais formados na área com conhecimento apenas básico/superficial de hardware, sem experiência prática  em montagem e Pessoas sem vínculo com a área de TI (com ou sem formação em outras áreas) e sem nenhum conhecimento prévio sobre hardware ou montagem.}} |
+
+| O que ele precisa alcançar? |[H] {{adquerir conhecimentos e experiência  básicos em identificação e montagem hardware para o ganho de sua confiaçã e idependencia em sua atividade}} |
+
+| Qual problema/atividade será estudado? |[H] {{O problema é a dificuldade do usuario em compreender a realiação da atividade de montar um hardware e identificar os componentes/será estudada a forma de aborda uma solução que atenda esse probblema de compreesão} |
 | Como isso acontece hoje? |[H] {{Hoje esse aprendizado concentra-se em a pessoa pesquisar informações em Aulas teóricas e materiais didáticos,videos tutoriais na internet, prática com montagem em casa ou em laboratórios.}} |
-| Qual é o contexto de uso? |[H] {e aprendizagem introdutória de hardware em um ambiente virtual, utilizado por estudantes iniciantes que precisam compreender os componentes de um computador e aprender a posicioná-los corretamente, sem depender exclusivamente de equipamentos físicos.}} |
+
+| Qual é o contexto de uso? |[H] {O contexto é o usuário desenvolver interese em aprender montar harwdware e ao pesquisar em como adquerir esse conhecimento encontrar dificuldade para contruir esse conchecimento}} |
+
 | Que interface/recorte será explorado? |[F] {{montagem de hardware e revisão}} |
-| Como a interface se relaciona ao TCC? | {{A interface se relaciona diretamente ao seu TCC porque é por meio dela que o estudante interage com o jogo sério, acessa as informações sobre hardware.}} |
+| Como a interface se relaciona ao TCC? | {{ A montagem de hardware é o coração do nosso projeto, é por meio dela que pretendemos corresponder a solução do problema.}} |
 | Quais pontos ainda são hipóteses? 
-| H01 - O Serious Game Web 3D contribui para o aprendizado sobre identificação e montagem de componentes de hardware? |
-| H02 - A interação com modelos 3D facilita a compreensão das etapas de montagem? |
-| H03 - O feedback imediato ajuda o usuário a identificar e corrigir seus erros? |
-| H04 - Estudantes iniciantes conseguem utilizar o Serious Game com facilidade? |
-| H05 - O tutorial e revisão prepara adequadamente o usuário para realizar as atividades do jogo? |
 
 ### Delimitação
 
@@ -621,12 +595,12 @@ Essa síntese ajuda a apresentar o projeto para público não especializado sem 
 - [x] Foram considerados profissionais que configuram, administram, interpretam ou decidem, quando pertinente.
 - [x] Objetivo do usuário não foi confundido com objetivo do projeto.
 - [x] Processo/problema atual foi descrito antes da solução.
-- [ ] Existe situação concreta de uso/problema.
-- [ ] Contexto físico, social/organizacional, dispositivos e consequências de erro foram considerados.
-- [ ] Mercado/alternativas existentes foram levantados inicialmente.
-- [ ] Possibilidades como dashboard, relatório, histórico, filtros e CRUD foram tratadas como hipóteses de solução, não como requisitos automáticos.
-- [ ] Cada possibilidade de interface tem um objetivo/tarefa que poderia justificá-la.
-- [ ] Afirmações relevantes estão marcadas `[F]`, `[H]` ou `[?]`.
+- [x] Existe situação concreta de uso/problema.
+- [x] Contexto físico, social/organizacional, dispositivos e consequências de erro foram considerados.
+- [x] Mercado/alternativas existentes foram levantados inicialmente.
+- [x] Possibilidades como dashboard, relatório, histórico, filtros e CRUD foram tratadas como hipóteses de solução, não como requisitos automáticos.
+- [x] Cada possibilidade de interface tem um objetivo/tarefa que poderia justificá-la.
+- [x] Afirmações relevantes estão marcadas `[F]`, `[H]` ou `[?]`.
 - [ ] Hipóteses prioritárias receberam IDs e foram para a rastreabilidade.
-- [ ] O recorte de IHC é viável para modelar, prototipar e avaliar no semestre.
-- [ ] A equipe consegue explicar problema humano → contribuição computacional → forma de uso.
+- [x] O recorte de IHC é viável para modelar, prototipar e avaliar no semestre.
+- [x] A equipe consegue explicar problema humano → contribuição computacional → forma de uso.

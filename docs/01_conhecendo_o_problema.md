@@ -137,7 +137,7 @@ Considere perfis profissionais e stakeholders, não apenas consumidores finais.
 | Perfil | Relação com a contribuição | O que faria | Status/evidência |
 |---|---|---|---|
 | {{DBA / analista / gestor / técnico / pesquisador / usuário final...}} | {{...}} | {{...}} | F / H / ? |
-|{{ Usuário primário | Utilizaria o Serious Game para aprender conceitos de hardware, identificar componentes e praticar virtualmente a montagem de computadores e ganhar confiança para realizar a atividade de montar um hardware de modo seguro.}} | {{Interagir com o sistema(jogo)}} | H|
+|{{ Usuário primário}} | Utilizaria o Serious Game para aprender conceitos de hardware, identificar componentes e praticar virtualmente a montagem de computadores e ganhar confiança para realizar a atividade de montar um hardware de modo seguro.}} | {{Interagir com o sistema(jogo)}} | H|
 
 
 

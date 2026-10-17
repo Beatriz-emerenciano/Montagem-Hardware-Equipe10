@@ -220,10 +220,6 @@ Pode existir software concorrente, linha de comando, planilha, notebook, script,
 
 [H] O que pode ser difícil, demorado ou confuso para o usuário durante a utilização do jogo sério é identificar os componentes de hardware, compreender suas funções e reconhecer o local correto de posicionamento no ambiente virtual. Para usuários iniciantes, a ausência de conhecimentos prévios pode dificultar a associação entre as informações apresentadas na etapa de revisão e a execução das tarefas de montagem.
 
-[H]A interação por arrastar e soltar também pode gerar dificuldades caso os componentes sejam visualmente semelhantes, os locais de destino não sejam suficientemente claros ou a interface não indique adequadamente onde cada peça deve ser posicionada. Além disso, a repetição de tentativas incorretas pode tornar a atividade demorada e frustrante, principalmente quando o feedback não explica o erro ou não orienta o usuário sobre como prosseguir.
-
-[H]Outro aspecto relevante é a transparência das ações: o usuário precisa compreender se o componente foi selecionado, se o posicionamento foi realizado corretamente e por que determinada tentativa foi aceita ou rejeitada. Quando essas informações não são apresentadas de maneira clara, podem surgir dúvidas sobre o funcionamento do jogo e sobre o próprio conteúdo de hardware.
-
 [H]Portanto, o projeto deve buscar reduzir essas dificuldades por meio de representações visuais compreensíveis, instruções objetivas, áreas de posicionamento identificáveis e feedback claro após cada tentativa, favorecendo a autonomia do usuário e a compreensão das tarefas de montagem virtual.
 
 ## 4.3 Que informações o profissional precisa interpretar para tomar decisão?

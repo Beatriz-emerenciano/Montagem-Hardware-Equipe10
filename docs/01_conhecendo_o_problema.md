@@ -193,7 +193,6 @@ Considere conhecimento do domínio, experiência tecnológica, frequência de us
 
 [H] A01 - Montagem - Pois essa etapa é a principal de nosso projeto é nessa etapa onde o usuário terá maior interação e obterá resultados de aprendizado e desempenho. 
 
-## 3.4 Qual parece mais crítica? Que consequência existe se for mal executada?
 
  ## 3.4 Qual parece mais crítica? Que consequência existe se for mal executada?
 

@@ -156,21 +156,20 @@ Considere conhecimento do domínio, experiência tecnológica, frequência de us
 
 {{[F/H/?] ...}}
 
-{{[H] - Conhecimento prévio sobre hardware: usuários iniciantes ou provenientes de outras áreas podem não reconhecer componentes como placa-mãe, memória RAM e processador, nem compreender suas funções e seus locais de instalação. Isso pode aumentar a dificuldade na execução das tarefas de identificação e posicionamento. }}
+{{[H]  Conhecimento prévio sobre hardware: usuários iniciantes ou provenientes de outras áreas podem não reconhecer componentes como placa-mãe, memória RAM e processador, nem compreender suas funções e seus locais de instalação. Isso pode aumentar a dificuldade na execução das tarefas de identificação e posicionamento. }}
 
-{{[H] -Experiência tecnológica: mesmo que os usuários tenham familiaridade com computadores, smartphones e navegadores, isso não significa que saibam realizar a montagem de um computador. É necessário distinguir a experiência geral com tecnologia do conhecimento específico sobre hardware..}}
+{{[H] Experiência tecnológica: mesmo que os usuários tenham familiaridade com computadores, smartphones e navegadores, isso não significa que saibam realizar a montagem de um computador. É necessário distinguir a experiência geral com tecnologia do conhecimento específico sobre hardware..}}
 
-{[[H] -Familiaridade com interfaces interativas: usuários que já utilizaram jogos ou aplicações com interação por arrastar e soltar podem compreender mais rapidamente as ações necessárias. Aqueles sem essa experiência podem precisar de instruções iniciais claras e de indicações visuais sobre como interagir com os componentes..}}
+{[[H] Familiaridade com interfaces interativas: usuários que já utilizaram jogos ou aplicações com interação por arrastar e soltar podem compreender mais rapidamente as ações necessárias. Aqueles sem essa experiência podem precisar de instruções iniciais claras e de indicações visuais sobre como interagir com os componentes..}}
 
-{{[H] - Compreensão da linguagem técnica: termos específicos de hardware podem dificultar a compreensão das instruções. A utilização de linguagem simples, acompanhada de imagens, representações visuais e explicações sobre as funções dos componentes, pode facilitar a interpretação das informações.}}
+{{[H]  Compreensão da linguagem técnica: termos específicos de hardware podem dificultar a compreensão das instruções. A utilização de linguagem simples, acompanhada de imagens, representações visuais e explicações sobre as funções dos componentes, pode facilitar a interpretação das informações.}}
 
-{{[H] -Capacidade de relacionar informações e representações visuais: usuários sem conhecimento prévio podem apresentar maior dificuldade para associar a descrição de um componente à sua aparência tridimensional e à posição em que deve ser instalado. A etapa de revisão explicativa poderá apoiar esse processo, cuja contribuição será investigada no estudo.}}
+{{[H] Capacidade de relacionar informações e representações visuais: usuários sem conhecimento prévio podem apresentar maior dificuldade para associar a descrição de um componente à sua aparência tridimensional e à posição em que deve ser instalado. A etapa de revisão explicativa poderá apoiar esse processo, cuja contribuição será investigada no estudo.}}
 
 {{[H] Necessidade de orientação e feedback: usuários iniciantes podem precisar de indicações sobre as ações disponíveis, confirmação de posicionamentos corretos e mensagens compreensíveis quando cometerem erros. O feedback deve ajudar o usuário a entender o resultado de sua ação e, quando necessário, orientar sua próxima tentativa.  }}
 
 {{[H] Experiência com aprendizagem autodidata: usuários acostumados a estudar sozinhos podem ter diferentes estratégias para buscar informações, repetir explicações e aprender por tentativa e erro. A possibilidade de consultar os conteúdos e receber feedback pode favorecer a autonomia durante a atividade. }}
 
-{{[H] Acessibilidade e condições de uso: diferenças de visão, coordenação motora, familiaridade com dispositivos e tamanho de tela podem influenciar a seleção e o posicionamento dos componentes. Por isso, a interface deve considerar legibilidade, alvos de interação adequados, instruções claras e compatibilidade com diferentes dispositivos.  }}
 
 
 # 3. Entendendo objetivos e atividades

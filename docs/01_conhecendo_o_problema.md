@@ -507,10 +507,11 @@ A tecnologia aparece **agora**, depois do entendimento do uso.
 | ID | Hipótese/dúvida | Por que importa | Como poderá ser investigada |
 |---|---|---|---|
 | H0| {{}} | {{...}} | Entrega 2/3/7/... |
-| H01 | O uso do Serious Game Web 3D pode contribuir para o aprendizado sobre identificação e montagem de componentes de hardware | Verificar se a aplicação cumpre seu objetivo educacional | Aplicação de pré-teste e pós-teste de conhecimento com os participantes |
-| H02 | A interação com os componentes em um ambiente 3D pode facilitar a compreensão das etapas de montagem | Verificar se a interação prática virtual contribui para a compreensão do conteúdo | Observação do desempenho dos participantes durante as atividades e aplicação de questionário |
-| H03 | O feedback imediato pode auxiliar o usuário a identificar e corrigir seus erros durante as atividades | Verificar se o feedback contribui para o aprendizado e para a execução correta das atividades | Análise dos erros, tentativas e evolução do desempenho durante o jogo |
+| H01 | O uso do Serious Game Web 3D pode contribuir para o aprendizado sobre identificação e montagem de componentes de hardware? | Verificar se a aplicação cumpre seu objetivo educacional | Aplicação de pré-teste e pós-teste de conhecimento com os participantes |
+| H02 | A interação com os componentes em um ambiente 3D pode facilitar a compreensão das etapas de montagem?| Verificar se a interação prática virtual contribui para a compreensão do conteúdo | Observação do desempenho dos participantes durante as atividades e aplicação de questionário |
+| H03 | O feedback imediato pode auxiliar o usuário a identificar e corrigir seus erros durante as atividades? | Verificar se o feedback contribui para o aprendizado e para a execução correta das atividades | Análise dos erros, tentativas e evolução do desempenho durante o jogo |
 | H04 | Usuários iniciantes conseguem utilizar o Serious Game sem dificuldades significativas | Verificar se a aplicação possui usabilidade adequada para o público-alvo | Teste de usabilidade e questionário após a utilização do jogo |
+|H05|O tutorial e revisão prepara o usuário adquadamente para realizar as atividade central que é montagem??| Verificar se usabilidades e métodos combinadso corroboram para a compreesão e preparação para a etapa de montagem| testes|
 
 Registre em [`../RASTREABILIDADE.md`](../RASTREABILIDADE.md).
 

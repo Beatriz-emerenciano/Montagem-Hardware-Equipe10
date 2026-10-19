@@ -239,7 +239,6 @@ Escreva uma pequena narrativa com pessoa, objetivo, atividade, contexto, dificul
 | Evidência/fonte | O que sustenta | Limitação |
 |---|---|---|
 |F|Materiais didáticos, tutoriais e vídeos sobre montagem de computadores | Demonstram como o conteúdo é atualmente apresentado aos estudantes|Normalmente são materiais passivos, com menor possibilidade de interação e prática|
-
 |F|Curso técnico de informática|Sustenta a necessidade de conhecimento sobre identificação, função e instalação dos componentes|Pode abordar métodos tradicionais e exclusivos de quem realiza o curso presencial|
 
 ---

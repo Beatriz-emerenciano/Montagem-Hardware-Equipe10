@@ -8,15 +8,15 @@ Para projetos cujo TCC não previa interface, esta matriz é especialmente impor
 
 | Elemento | Registro da equipe | Evidência/justificativa | Estado |
 |---|---|---|---|
-| Tema do TCC | Analise de estudos | {{documento/TCC}} | definido |
-| Resultado técnico esperado | {{ análise, sistema}} | {{...}} | definido |
-| O TCC previa interface? | sim  | {{...}} | definido |
-| Capacidade/contribuição central | Tutorial interativo de montagem de Hardware| {{...}} | definido |
-| Possíveis beneficiários/stakeholders | { usuários / alunos / pessoas leigas} | {{fonte ou hipótese}} | F |
-| Usuário escolhido para IHC | Usuários que não possuem conhecimento sobre computadores| Porque o objetivo do software é oferecer conhecimento tecnológico para usuários leigos perante o assunto | F |
-| Objetivo principal do usuário | Aprender sobre computadores e como funciona e suas peças | {{...}} | F |
-| Contexto de uso adotado | auxiliar no aprendizado e analisar a eficácia do método educacional| {{...}} | F |
-| Interface/recorte de IHC | Interface web interativa para simulação da montagem de um computador, na qual o usuário seleciona, movimenta e posiciona componentes de hardware em uma representação digital.| verificação de conhecimento, tutorial e simulação de montagem| proposta |
+| Tema do TCC | Analise de estudos |  F - Documento/TCC | definido |
+| Resultado técnico esperado | Sistema e análise| H - análise o ganho da tecnologia desenvolvida para o aprendizado do usuário | definido |
+| O TCC previa interface? | sim  |  F -Telas para interação de aprendizado sobre os componentes de hardware e montagem | definido |
+| Capacidade/contribuição central |  através de uma revisão e montagem interativo de montagem de Hardware Auxiliar as pessoas a aprender sobre hardware e nanalise o ganho que essa interação fornece para aprendizado para o usuário| H | definido |
+| Possíveis beneficiários/stakeholders | Pessoas sem vínculo com a área de TI (com ou sem formação em outras áreas) e sem nenhum conhecimento prévio sobre hardware ou montagem, estudantes de TI, autodidatas ou profissionais formados na área com conhecimento apenas básico/superficial de hardware, sem experiência prática bem-sucedida em montagem.| H | definido|
+| Usuário escolhido para IHC |  Pessoas sem vínculo com a área de TI (com ou sem formação em outras áreas) e sem nenhum conhecimento prévio sobre hardware ou montagem, estudantes de TI, autodidatas ou profissionais formados na área com conhecimento apenas básico/superficial de hardware, sem experiência prática bem-sucedida em montagem| F | denifido|
+| Objetivo principal do usuário | Aprender sobre os componentes e montagem de hardware | H - Hardware é um assunto que pode ser trabalhoso de ser estudado principalmente para iniciantes  o objetivo é aulixar estudantes e pessoas leigas que estão iniciando seu aprendizado sobre harwdware | definido|
+| Contexto de uso adotado | Analisar o ganho do jogo sério desenvolvido no aprendizado do usuário | H}} | definido |
+| Interface/recorte de IHC | Tela de revisão e montagem.| F | definido |
 | Relação com o TCC | protótipo demonstrativo | definido |
 
 > Se o escopo de IHC mudar ao longo do semestre, preserve a decisão anterior no histórico e registre **qual evidência motivou a mudança**.
@@ -27,8 +27,8 @@ Use esta tabela para itens importantes marcados como `[H]` ou `[?]`. Preserve o 
 
 | ID | Afirmação / dúvida inicial | Tipo | Por que importa | Como/onde investigar | Evidência obtida | Estado atual | Impacto no projeto |
 |---|---|---|---|---|---|---|---|
-| H01 | {{...}} | H / ? | {{...}} | Entrega 2 / 3 / 7 / outra | {{link/fonte ou PENDENTE}} | aberta / sustentada / refutada / refinada | {{...}} |
-| H02 | {{...}} | H / ? | {{...}} | {{...}} | {{...}} | aberta | {{...}} |
+| H01 | O Sériis Game contribui para o aprendizado dobre identificação dos componentes e montagem de hardware | H  | {{importa sabermos se o projeto contribui em aprendizado aos usuários}} | Entrega 1 | {{ PENDENTE}} | aberta e refinada | {{alto}} |
+| H02 | {{Os estudantes com ou sem experiência tecnologica conseguem utilizar o Sérios Game com facilidade}} | H  | {{Importa saber se os métodos de usabilidade que aplicaremos corrobora para uma boa experi|ência e facilidade de interação para o usuário que busca aprender sobre hardware}} | {{Entrega 1}} | {{Pendente}} | aberta | {{alto}} |
 
 ## 3. Rastreabilidade entre contribuição técnica, necessidades e artefatos
 

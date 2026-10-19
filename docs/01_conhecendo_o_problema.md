@@ -321,12 +321,12 @@ Exemplos possíveis: ferramentas de banco, IDEs, consoles de nuvem, dashboards, 
 
 {{[F/H/?] ...}}
 
-{{ H - Como principal ajudar a solução de revisão onde o usuário pode vizualizar as peças  de hardware modeladas e saber sua função dos componentes principais para assim conseguir seguir com a etapa de montagem}}
+{{ H - intetação com as peças e montar o hardware}}
 
 ## 6.5 O que parecem fazer mal, dificultar ou não atender?
 
 {{[F/H/?] ...}}
-{ Realizar a interação de montagem d ehardaew sem realizar uma revisão, isso poderá implicar em má compreensão}}
+{ [H] Compreesão e realização da atividade sem conhecimento prévio}}
 
 ## 6.6 Que padrões de interface ou vocabulário parecem familiares a esse público?
 

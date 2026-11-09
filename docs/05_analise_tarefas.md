@@ -1,3 +1,4 @@
+<img width="641" height="322" alt="diagrama(HTA_REVISAO) drawio" src="https://github.com/user-attachments/assets/37247a3e-7084-4c0f-b702-cd5776b17606" />
 # Entrega 5 — Análise de tarefas: HTA, GOMS e CTT
 
 **Data:** {{15/10/2026}}  

@@ -32,16 +32,7 @@ Um CRUD pode gerar tarefas relevantes, mas “cadastrar usuário” só merece m
 | ID | Tarefa | Persona/cenário de origem | Frequência/criticidade | Autor responsável |
 |---|---|---|---|---|
 
-| T01 | Consultar informações sobre os componentes para compreender suas funções e características ns sessão de revisão.|Lucas estudante de ti para Aprendizagem de hardware para fins acadêmicos e Mariana de adminitração para Aprendizagem de hardware para o contexto profissional |alta/permite construir o conhecimento necessário para reconhecer e compreender os componentes.| Beatriz|
 
-| T02 | Identificar visualmente os componentes de hardware e diferenciá-los por suas características durante a montagem no jogo.| Lucas estudante de ti para Aprendizagem de hardware para fins acadêmicos e Mariana de adminitração para Aprendizagem de hardware para o contexto profissional/Aprendizagem de hardware para fins acadêmicos}} | alta/é uma atividade fundamental para iniciantes e necessária para avançar na aprendizagem. | Larissa |
-
-| T03 |Relacionar os componentes às suas posições corretas durante a montagem virtual de um computador.| Lucas/estudante de ti para Aprendizagem de hardware para fins acadêmicos e Mariana de adminitração para Aprendizagem de hardware para o contexto profissional | Média / Alta — é uma tarefa central para aprender a organização física dos componentes. |Beatriz|
-
-| T04 |Verificar se compreendeu o conteúdo por meio de atividades de identificação e posicionamento dos componentes e pontuação||Lucas estudante de ti para Aprendizagem de hardware para fins acadêmicos e Mariana de adminitração para Aprendizagem de hardware para o contexto profissional|alta/Alta — permite avaliar o conhecimento adquirido e reconhecer dificuldades de aprendizagem. | Larissa |
-| T05 | Interpretar o retorno recebido após uma resposta ou posicionamento incorreto e tentar corrigir o erro durante a etapa de montagem|Lucas/estudante de ti para Aprendizagem de hardware para fins acadêmicos e Mariana de administração para Aprendizagem de hardware para o contexto profissional|média/Alta — ajuda o usuário a compreender os erros e aprimorar seu desempenho durante a aprendizagem. | Larissa |
-
- |T06 | Revisar os componentes e suas características antes de realizar as atividades de montagem virtual.|Lucas/estudante de ti para Aprendizagem de hardware para fins acadêmicos e Mariana de administração para Aprendizagem de hardware para o contexto profissional|VARIÁVEL/Alta — pode apoiar a recuperação de conhecimentos prévios; sua contribuição é uma questão a ser investigada no experimento do TCC.|Beatriz|
 
 
 > Priorize tarefas necessárias para que o usuário alcance objetivos centrais. Não desperdice a modelagem em ações triviais isoladas, como “clicar em login”, se o objetivo relevante é maior. Da mesma forma, não modele o funcionamento interno do algoritmo como se fosse uma tarefa humana.
@@ -66,6 +57,8 @@ Um CRUD pode gerar tarefas relevantes, mas “cadastrar usuário” só merece m
 | ID | Objetivo/operação | Plano/ordem | Problema ou decisão de design observada |
 |---|---|---|---|
 | 0 | {{objetivo principal}} | {{1 }} 2 > 3 / 1 ou 2 etc.> | {{...}} |
+| 0 | {{Revisar os componentes}} | 0>1 >2>2.1>2.2  | {{ordem das tarefas}} |
+| 1 | {{Montar o hardware(jogo)}} | 0>1 >2>2.1>2.2  | {{não há}} |
 
 **Verificação do HTA:**
 

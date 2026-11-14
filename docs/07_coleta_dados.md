@@ -1,7 +1,7 @@
 # Entrega 7 — Coleta de dados, necessidades e aspectos éticos
 
 **Data:** {{dd/mm/aaaa}}  
-**Status:** ⬜ não iniciada
+**Status:**  🟨 em andamento Responsabilidade: 
 
 ## Objetivo da atividade
 
@@ -32,7 +32,8 @@ Antes de decidir “que dados coletar”, retome os itens `[H]` e `[?]` da Entre
 
 | ID | Hipótese/lacuna | Evidência atual | Decisão que depende da resposta | Prioridade |
 |---|---|---|---|---|
-| H01 | {{...}} | {{...}} | {{...}} | alta / média / baixa |
+| H01 | {{O Sérios Game contribui para o aprendizado Sobre identificação dos componentes e montagem de hardware}} | {{nenhuma}} | {{decisão depende do resultados do pós teste do jogo}} | alta|
+|H02|{{Os estudantes com ou sem experiência tecnologica conseguem utilizar o Sérios Game com facilidade}}|nenhuma|sim, depende dos testes de usabilidade(SUS)|alta|
 
 ## Parte A — necessidades e requisitos de IHC
 
@@ -40,7 +41,7 @@ Antes de decidir “que dados coletar”, retome os itens `[H]` e `[?]` da Entre
 
 ### A01 — {{autor}}
 
-**Autor(a):** {{nome — matrícula}}
+**Autor(a):** {{Beatriz Cristina Emerenciano — 22.222.041-0}}
 
 #### Que dados coletar?
 

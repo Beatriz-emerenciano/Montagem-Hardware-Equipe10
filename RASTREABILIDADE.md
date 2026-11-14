@@ -27,7 +27,7 @@ Use esta tabela para itens importantes marcados como `[H]` ou `[?]`. Preserve o 
 
 | ID | Afirmação / dúvida inicial | Tipo | Por que importa | Como/onde investigar | Evidência obtida | Estado atual | Impacto no projeto |
 |---|---|---|---|---|---|---|---|
-| H01 | O Sériis Game contribui para o aprendizado dobre identificação dos componentes e montagem de hardware | H  | {{importa sabermos se o projeto contribui em aprendizado aos usuários}} | Entrega 1 | {{ PENDENTE}} | aberta e refinada | {{alto}} |
+| H01 | O Sériis Game contribui para o aprendizado Sobre identificação dos componentes e montagem de hardware | H  | {{importa sabermos se o projeto contribui em aprendizado aos usuários}} | Entrega 1 | {{ PENDENTE}} | aberta e refinada | {{alto}} |
 | H02 | {{Os estudantes com ou sem experiência tecnologica conseguem utilizar o Sérios Game com facilidade}} | H  | {{Importa saber se os métodos de usabilidade que aplicaremos corrobora para uma boa experi|ência e facilidade de interação para o usuário que busca aprender sobre hardware}} | {{Entrega 1}} | {{Pendente}} | aberta | {{alto}} |
 
 ## 3. Rastreabilidade entre contribuição técnica, necessidades e artefatos
@@ -35,7 +35,7 @@ Use esta tabela para itens importantes marcados como `[H]` ou `[?]`. Preserve o 
 | ID | Capacidade do TCC utilizada | Necessidade/problema | Persona | Cenário problema | Objetivo/tarefa | HTA/GOMS/CTT | Cenário de interação / signos | MoLIC | Tela(s) Figma | Heurística / problema | Tarefa no teste | Decisão/melhoria |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | R0 | {{ex.: recomendação de otimização}} | {{...}} | {{P01}} | {{C01}} | {{T01}} | {{links}} | {{...}} | {{M01}} | {{F01...}} | {{V01 ou —}} | {{UT01}} | {{...}} |
-| R01 | {{ex.:recomendação de definir o oscopo de hardeare}} | {{Investigar as hipóteses e fatos}} | {{Estudantes de TI, autodidatas ou profissionais formados na área com conhecimento apenas básico/superficial de hardware, sem experiência prática bem-sucedida em montagem}} | {{Um estudante que comprou um hardware para jogar,trabalhar, estudar , mas não sabe como montar, pois até alguma snoções sobre componentes mas sem experiência prática bem sucedida.}} | {{Solidificar os conhecimentos e experiência em montagem de hardware}} | {{links}} | {{...}} | {{M01}} | {{F01...}} | {{V01 ou —}} | {{UT01}} | {{...}} |
+| R01 | {{ex.:recomendação de definir o oscopo de hardeare}} | {{Investigar as hipóteses e fatos}} | {{Estudantes de TI, autodidatas ou profissionais formados na área com conhecimento apenas básico/superficial de hardware, sem experiência prática bem-sucedida em montagem}} | {{Um estudante que comprou um hardware para jogar,trabalhar, estudar , mas não sabe como montar, pois até alguma snoções sobre componentes mas sem experiência prática bem sucedida.}} | {{Solidificar os conhecimentos e experiência em montagem de hardware}} | {{links}} | {{REVISÃO E MONTAGEM}} | {{ambiente virtual}} | {{F01...}} | {{V01 ou —}} | {{UT01}} | {{...}} |
 | R02 |  |  |  |  |  |  |  |  |  |  |  |  |
 
 ## 4. Rastreabilidade de padrões de interface

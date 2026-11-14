@@ -30,7 +30,7 @@ Um CRUD pode gerar tarefas relevantes, mas “cadastrar usuário” só merece m
 ## Seleção das tarefas
 
 | ID | Tarefa | Persona/cenário de origem | Frequência/criticidade | Autor responsável |
-|---|---|---|---|---|
+|||---|---|---|
 
 
 
@@ -39,7 +39,7 @@ Um CRUD pode gerar tarefas relevantes, mas “cadastrar usuário” só merece m
 
 ---
 
-## HTA — T01 {{ Revisão de hardware.}}
+## HTA — T01 {{ Etapa de revisão de componentes.}}
 
 **Autor(a):** {{Beatriz Cristina Emerenciano — 22.22041-0}}
 
@@ -88,25 +88,199 @@ Um CRUD pode gerar tarefas relevantes, mas “cadastrar usuário” só merece m
 | 3 | {{Selecionar componente}} | 2.1 | {{...}} |
 | 4 | {{encaixar componente}} | 2.2 | {{...}} |
 
-## GOMS — T02 {{nome da tarefa}}
+## GOMS — T01 {{Etapa de revisão de componentes}}
 
-**Autor(a):** {{nome — matrícula}}
+**Autor(a):** {{Beatriz Cristina Emerenciano — 22.222.041-0}}
 
 ### Goal
+GOAL 1: Acessar a etapa de revisão de componentes.
+METHOD 1.A: Acessar a revisão pelo menu principal.
 
-`G0: {{meta do usuário}}`
+OP. 1.A.1: Abrir o navegador e acessar o endereço do jogo.
 
-### Métodos, operadores e regras de seleção
+OP. 1.A.2: Visualizar o menu principal.
 
-- **Method M1:** {{...}}
-  - Operators: {{perceber, apontar, clicar, digitar, decidir... conforme o nível adotado}}
-- **Method M2:** {{...}}
-  - Operators: {{...}}
-- **Selection Rule SR1:** usar M1 quando {{condição}}; usar M2 quando {{condição}}.
+OP. 1.A.3: Identificar a opção "Revisão de componentes".
+
+OP. 1.A.4: Posicionar o cursor do mouse sobre a opção desejada (computador/notebook) ou localizar visualmente a opção na tela (celular).
+
+OP. 1.A.5: Clicar com o botão esquerdo do mouse (computador/notebook) ou tocar na opção "Revisão de componentes" (celular).
+
+GOAL 2: Selecionar um componente de hardware para consulta.
+METHOD 2.A: Selecionar um componente na lista apresentada.
+
+(SEL. RULE: o usuário escolhe livremente qual componente deseja consultar.)
+
+OP. 2.A.1: Visualizar a lista de componentes disponíveis.
+
+OP. 2.A.2: Identificar o componente desejado.
+
+OP. 2.A.3: Posicionar o cursor do mouse sobre o botão correspondente (computador/notebook) ou localizar o botão na tela (celular).
+
+OP. 2.A.4: Clicar com o botão esquerdo do mouse (computador/notebook) ou tocar no botão correspondente (celular).
+
+GOAL 3: Consultar as informações do componente selecionado.
+METHOD 3.A: Visualizar a imagem e as informações apresentadas pelo sistema.
+
+OP. 3.A.1: Visualizar a imagem do componente selecionado.
+
+OP. 3.A.2: Identificar a área destinada à descrição do componente.
+
+OP. 3.A.3: Ler a descrição apresentada.
+
+OP. 3.A.4: Ler as informações sobre as funções do componente.
+
+OP. 3.A.5: Utilizar a rolagem do mouse (computador/notebook) ou deslizar o dedo verticalmente na tela (celular), caso as informações ultrapassem a área visível.
+
+OP. 3.A.6: Analisar as informações apresentadas.
+
+GOAL 4: Consultar outro componente de hardware.
+METHOD 4.A: Retornar à lista de componentes e selecionar outra opção.
+
+(SEL. RULE: o usuário deseja continuar a revisão e consultar outros componentes.)
+
+OP. 4.A.1: Localizar a opção de retorno à lista de componentes.
+
+OP. 4.A.2: Posicionar o cursor do mouse sobre o botão de retorno (computador/notebook) ou localizar o botão na tela (celular).
+
+OP. 4.A.3: Clicar com o botão esquerdo do mouse (computador/notebook) ou tocar no botão de retorno (celular).
+
+OP. 4.A.4: Visualizar novamente a lista de componentes.
+
+OP. 4.A.5: Identificar outro componente que deseja consultar.
+
+OP. 4.A.6: Posicionar o cursor sobre o botão correspondente (computador/notebook) ou localizar a opção na tela (celular).
+
+OP. 4.A.7: Clicar com o botão esquerdo do mouse (computador/notebook) ou tocar no botão correspondente (celular).
+
+OP. 4.A.8: Repetir a consulta das informações do componente selecionado.
+
+GOAL 5: Finalizar a etapa de revisão.
+METHOD 5.A: Retornar ao menu principal.
+
+(SEL. RULE: o usuário considera que já revisou os componentes desejados.)
+
+OP. 5.A.1: Localizar a opção de retorno ao menu principal.
+
+OP. 5.A.2: Posicionar o cursor do mouse sobre o botão (computador/notebook) ou localizar a opção na tela (celular).
+
+OP. 5.A.3: Clicar com o botão esquerdo do mouse (computador/notebook) ou tocar no botão (celular).
+
+OP. 5.A.4: Visualizar o menu principal.
+
 
 > Não chame qualquer passo de “método”. Em GOMS, métodos são sequências alternativas capazes de atingir uma meta; regras de seleção explicam quando escolher entre eles.
 
 ---
+
+## GOMS — T01 {{Montagem de hardware}}
+
+**Autor(a):** {{Larissa Fiuza Santos — 22.123.042-8}}
+
+GOAL 0: Realizar a montagem dos componentes de hardware no computador simulado.
+GOAL 1: Iniciar a etapa de montagem do jogo.
+METHOD 1.A: Acessar a etapa de montagem pelo menu principal.
+
+OP. 1.A.1: Visualizar o menu principal do jogo.
+
+OP. 1.A.2: Identificar a opção "Jogar".
+
+OP. 1.A.3: Posicionar o cursor do mouse sobre o botão "Jogar" (computador/notebook) ou localizar o botão na tela (celular).
+
+OP. 1.A.4: Clicar com o botão esquerdo do mouse (computador/notebook) ou tocar no botão "Jogar" (celular).
+
+OP. 1.A.5: Aguardar o carregamento da etapa de montagem.
+
+OP. 1.A.6: Visualizar a mesa com o computador simulado e as peças de hardware disponíveis.
+
+GOAL 2: Identificar o local de encaixe do componente.
+METHOD 2.A: Identificar a região indicada para a montagem.
+
+OP. 2.A.1: Observar o computador apresentado sobre a mesa.
+
+OP. 2.A.2: Identificar a região iluminada no computador.
+
+OP. 2.A.3: Observar as peças de hardware disponíveis acima da mesa.
+
+OP. 2.A.4: Interpretar a indicação visual para identificar qual tipo de componente deve ser encaixado.
+
+GOAL 3: Selecionar o componente de hardware correto.
+METHOD 3.A: Escolher uma peça entre as opções disponíveis.
+
+(SEL. RULE: o usuário identifica, entre as peças apresentadas, aquela que corresponde à região iluminada do computador.)
+
+OP. 3.A.1: Visualizar as opções de componentes de hardware disponíveis.
+
+OP. 3.A.2: Analisar as características visuais das peças apresentadas.
+
+OP. 3.A.3: Identificar o componente correspondente ao local de encaixe.
+
+OP. 3.A.4: Posicionar o cursor do mouse sobre a peça escolhida (computador/notebook) ou localizar visualmente a peça na tela (celular).
+
+GOAL 4: Arrastar e encaixar o componente no local indicado.
+METHOD 4.A: Arrastar a peça selecionada até a região iluminada.
+
+(SEL. RULE: o usuário utiliza o mouse ou a tela sensível ao toque, conforme o dispositivo utilizado.)
+
+OP. 4.A.1: Pressionar e manter pressionado o botão esquerdo do mouse sobre a peça selecionada (computador/notebook) ou tocar e manter o dedo pressionado sobre a peça (celular).
+
+OP. 4.A.2: Arrastar o cursor do mouse em direção à região iluminada (computador/notebook) ou deslizar o dedo pela tela até a região indicada (celular).
+
+OP. 4.A.3: Posicionar a peça sobre a região iluminada.
+
+OP. 4.A.4: Soltar o botão esquerdo do mouse (computador/notebook) ou retirar o dedo da tela (celular).
+
+OP. 4.A.5: Visualizar a resposta do sistema sobre o encaixe realizado.
+
+GOAL 5: Verificar o resultado da montagem.
+METHOD 5.A: Verificar se o componente foi encaixado corretamente.
+
+(SEL. RULE: se o componente estiver correto, o sistema confirma o encaixe; se estiver incorreto, o usuário deverá tentar novamente.)
+
+OP. 5.A.1: Observar a resposta visual apresentada pelo sistema.
+
+OP. 5.A.2: Verificar se o componente foi encaixado corretamente.
+
+OP. 5.A.3: Caso o encaixe esteja correto, visualizar a peça integrada ao computador.
+
+OP. 5.A.4: Caso o encaixe esteja incorreto, observar a indicação de erro apresentada pelo sistema.
+
+OP. 5.A.5: Retornar à seleção de componentes para realizar uma nova tentativa, caso necessário.
+
+GOAL 6: Continuar a montagem dos componentes.
+METHOD 6.A: Repetir o processo de seleção e encaixe para os próximos componentes.
+
+(SEL. RULE: enquanto houver componentes pendentes de montagem, o usuário deverá repetir o processo.)
+
+OP. 6.A.1: Observar a nova região iluminada no computador.
+
+OP. 6.A.2: Identificar o próximo local de encaixe.
+
+OP. 6.A.3: Visualizar as novas opções de componentes disponíveis.
+
+OP. 6.A.4: Selecionar o componente correspondente.
+
+OP. 6.A.5: Arrastar a peça até a região indicada, utilizando o mouse ou a tela sensível ao toque.
+
+OP. 6.A.6: Soltar a peça no local indicado.
+
+OP. 6.A.7: Verificar a resposta do sistema.
+
+OP. 6.A.8: Repetir o procedimento até concluir a montagem de todos os componentes solicitados.
+
+GOAL 7: Finalizar a montagem do computador.
+METHOD 7.A: Visualizar o resultado final da montagem.
+
+(SEL. RULE: todos os componentes solicitados foram encaixados corretamente.)
+
+OP. 7.A.1: Visualizar o computador com os componentes montados.
+
+OP. 7.A.2: Aguardar a apresentação da pontuação final.
+
+OP. 7.A.3: Visualizar a pontuação obtida na atividade.
+
+OP. 7.A.4: Encerrar a etapa de montagem.
+
 
 ## CTT — T03 {{nome da tarefa}}
 

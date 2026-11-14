@@ -39,7 +39,7 @@ Um CRUD pode gerar tarefas relevantes, mas “cadastrar usuário” só merece m
 
 ---
 
-## HTA — T01 {{ Consultar a seção de revisão e conhecer os componentes de hardware.}}
+## HTA — T01 {{ Revisão de hardware.}}
 
 **Autor(a):** {{Beatriz Cristina Emerenciano — 22.22041-0}}
 
@@ -47,6 +47,8 @@ Um CRUD pode gerar tarefas relevantes, mas “cadastrar usuário” só merece m
 
 {{objetivo, ponto de início, conclusão esperada, contexto}}
 {{Permitir que o usuário identifique e compreenda a função dos principais componentes de hardware de um computador, utilizando imagens ilustrativas e descrições explicativas disponibilizadas na interface do jogo sério, Ponto de inicio: O usuário inicia na tela principal do jogo sério e seleciona a opção "Revisão" ou "Conhecendo os componentes", sendo direcionado para a página de apresentação dos componentes em forma de lista e selecionar um componente para vizualizar a imagem e ler a descrição sobre ., conclusão esperada: O usuário consegue visualizar os componentes apresentados, reconhecer suas características e compreender suas respectivas funções, adquirindo conhecimentos básicos para realizar posteriormente a atividade de montagem do computador, Contexto: A tarefa ocorre em um ambiente digital interativo, por meio de uma interface acessada em computador ou celular,  direcionada principalmente a pessoas iniciantes em hardware, como estudantes da área de computação e pessoas autodidatas que desejam aprender sobre os componentes e suas funções. }}
+
+
 
 ### Diagrama
 
@@ -56,9 +58,11 @@ Um CRUD pode gerar tarefas relevantes, mas “cadastrar usuário” só merece m
 
 | ID | Objetivo/operação | Plano/ordem | Problema ou decisão de design observada |
 |---|---|---|---|
-| 0 | {{objetivo principal}} | {{1 }} 2 > 3 / 1 ou 2 etc.> | {{...}} |
-| 0 | {{Revisar os componentes}} | 0>1 >2>2.1>2.2  | {{ordem das tarefas}} |
-| 1 | {{Montar o hardware(jogo)}} | 0>1 >2>2.1>2.2  | {{não há}} |
+| 0 | {{Acessar etapa de revisão}} | 0 | {{...}} |
+| 1| {{Lista de componentes}} | 1 | {{...}} |
+| 2 | {{Selecionar componente}} | 2  | {{...}} |
+| 3 | {{vizualizar e ler a descrição}} | 2.1 | {{...}} |
+| 4 | {{retornar a lista de componentes}} | 2.2 | {{...}} |
 
 **Verificação do HTA:**
 
@@ -67,7 +71,22 @@ Um CRUD pode gerar tarefas relevantes, mas “cadastrar usuário” só merece m
 - Os **planos** indicam ordem, alternativa, repetição ou condição?
 - A decomposição parou em nível útil para projeto de interação?
 
+
+## HTA — T02 {{ Etapa de Montagem de hardware.}}
+
+### Descrição da tarefa
+{{objetivo, ponto de início, conclusão esperada, contexto}}
+{{Permitir que o usuário identifique e compreenda os componentes de hardware de um computador para montar,O usuário inicia na tela principal do jogo sério e seleciona a opção "Montagem", a conclusão espera que dutante o ambiente virtuação o usuário consiga identificar os componentes e o local certo para encaixe.A tarefa ocorre em um ambiente digital interativo, por meio de uma interface acessada em computador ou celular,  direcionada principalmente a pessoas iniciantes em hardware, como estudantes da área de computação e pessoas autodidatas que desejam aprender sobre os componentes e suas funções. }}
+
 ---
+
+| ID | Objetivo/operação | Plano/ordem | Problema ou decisão de design observada |
+|---|---|---|---|
+| 0 | {{ montagem de hardware}} | 0 | {{...}} |
+| 1| {{Vizualizar a mesa e o hardware}} | 1 | {{...}} |
+| 2 | {{Identificar componente}} | 2  | {{...}} |
+| 3 | {{Selecionar componente}} | 2.1 | {{...}} |
+| 4 | {{encaixar componente}} | 2.2 | {{...}} |
 
 ## GOMS — T02 {{nome da tarefa}}
 

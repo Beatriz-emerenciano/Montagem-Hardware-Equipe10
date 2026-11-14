@@ -10,9 +10,14 @@ Externalizar rapidamente ideias de interação em baixa fidelidade para explorar
 
 ## 1. Escopo do protótipo
 
-**Personas:** {{...}}  
-**Cenários/tarefas cobertos:** {{C01/T01...}}  
-**Objetivos principais:** {{...}}
+**Personas:** {{Lucas, 22 anos , estudante de ciência da computação, auto de data em seus estudo com hardware e computadores}}  
+**Cenários/tarefas cobertos:** {{{Utiliza o jogo em casa ou na faculdade, principalmente pelo notebook, durante os estudos ou como complemento às aulas de arquitetura de computadores e hardware/ etapa de revisão e montagem}}  
+**Objetivos principais:** {{Conseguir identificar cada componente de hardware e entender suas funçoes e compreender a montagem}}
+
+**Personas:** {{Mariana, 32 anos , analista administrativo, quer aprende rosbre hardware para conseguir por conta própia consertar o computador da empresa}}  
+**Cenários/tarefas cobertos:** {{{Utiliza o jogo em casa ou no trabalho nas horas livres, principalmente pelo notebook, durante os estudos ou como complemento às aulas de arquitetura de computadores e hardware/ etapa de revisão e montagem}}  
+**Objetivos principais:** {{Conseguir identificar cada componente de hardware e entender suas funçoes e compreender a montagem}}
+
 
 ## 1.1 Possíveis famílias de interface
 
@@ -35,7 +40,9 @@ Escolha apenas o que for coerente com tarefas e cenários. Para TCCs técnicos, 
 
 | Fluxo | Tarefa/objetivo | Por que foi priorizado |
 |---|---|---|
-| PF01 | {{...}} | {{...}} |
+| PF01 | {{Acessar a etapa de revisão e consultar os componentes de hardware, visualizando suas imagens, descrições e funções.}} | {{Foi priorizado por ser uma etapa fundamental para a aprendizagem, permitindo que o usuário conheça e identifique os componentes de hardware antes de realizar a montagem do computador. Além disso, possibilita que o usuário consulte as informações no próprio ritmo, selecionando os componentes que deseja conhecer.}} |
+
+|PF01|Iniciar a etapa de montagem, identificar a região indicada pelo sistema, selecionar o componente de hardware correto e arrastá-lo até o local correspondente para realizar o encaixe, repetindo o processo até concluir a montagem do computador.|Foi priorizado por representar a principal atividade prática do jogo sério, permitindo que o usuário aplique os conhecimentos adquiridos sobre os componentes de hardware. Além disso, possibilita avaliar o desempenho do usuário durante a montagem, considerando a identificação das peças, a escolha dos componentes corretos e a execução das etapas de montagem.|
 
 ## 3. Telas e estados
 

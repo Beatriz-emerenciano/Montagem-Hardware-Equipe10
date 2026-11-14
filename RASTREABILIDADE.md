@@ -27,8 +27,8 @@ Use esta tabela para itens importantes marcados como `[H]` ou `[?]`. Preserve o 
 
 | ID | Afirmação / dúvida inicial | Tipo | Por que importa | Como/onde investigar | Evidência obtida | Estado atual | Impacto no projeto |
 |---|---|---|---|---|---|---|---|
-| H01 | O Sériis Game contribui para o aprendizado Sobre identificação dos componentes e montagem de hardware | H  | {{importa sabermos se o projeto contribui em aprendizado aos usuários}} | Entrega 1 | {{ PENDENTE}} | aberta e refinada | {{alto}} |
-| H02 | {{Os estudantes com ou sem experiência tecnologica conseguem utilizar o Sérios Game com facilidade}} | H  | {{Importa saber se os métodos de usabilidade que aplicaremos corrobora para uma boa experi|ência e facilidade de interação para o usuário que busca aprender sobre hardware}} | {{Entrega 1}} | {{Pendente}} | aberta | {{alto}} |
+| H01 | O Sérios Game contribui para o aprendizado Sobre identificação dos componentes e montagem de hardware | H  | {{importa sabermos se o projeto(tecnologia desenvolvida) tem um impacto no conhecimento do usuário}} | Entrega 1 | {{ PENDENTE}} | aberta e refinada | {{alto}} |
+| H02 | {{Os estudantes com ou sem experiência tecnologica conseguem utilizar o Sérios Game com facilidade}} | H  | {{Importa saber se os métodos de usabilidade que aplicaremos corrobora para uma boa experi|ência e facilidade de interação para o usuário que busca aprender sobre hardware, importa avaliação da tecnologia desenvolvida}} | {{Entrega 1}} | {{Pendente}} | aberta | {{alto}} |
 
 ## 3. Rastreabilidade entre contribuição técnica, necessidades e artefatos
 

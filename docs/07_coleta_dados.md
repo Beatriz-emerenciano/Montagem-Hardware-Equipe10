@@ -47,13 +47,20 @@ Antes de decidir “que dados coletar”, retome os itens `[H]` e `[?]` da Entre
 
 | Dado/informação | Hipótese/lacuna relacionada | Por que é necessário | Qual decisão de design pode afetar |
 |---|---|---|---|
-| {{...}} | {{H01/H02/...}} | {{...}} | {{...}} |
+| {{Experiência com jogos digitais e jogos educativos}} | {{H01}} | {{	Permite identificar se os participantes possuem familiaridade com computadores e suas funcionalidades.}} | {{Organização da interface, instruções de interação e mecânicas de movimentação dos componentes.}} |
+
+| {{Experiência com computadores e conhecimentos básicos de informática.}} | {{H02}} | {{Permite identificar se os participantes possuem familiaridade com computadores e suas funcionalidades..}} | {{Linguagem utilizada, nível de complexidade das explicações e apresentação dos conteúdos..}} |
 
 #### De quem coletar?
 
 | Perfil/stakeholder | Critério de inclusão | Relação com persona/público |
 |---|---|---|
-| {{...}} | {{...}} | {{...}} |
+| {{Pessoas com pouca ou nenhuma experiência em montagem de computadores}} | {{Pessoas com pouca ou nenhuma experiência em montagem de computadores
+e ou não possuir experiência prática significativa com montagem de hardware.}} | {{ significativa pois  representam o público que mais se aproxima da proposta educacional do jogo, permitindo avaliar sua contribuição para o aprendizado.}} |
+
+|Pessoas autodidatas interessadas em informática|er interesse em aprender sobre componentes de computadores, mesmo sem formação específica na área.| componentes de computadores, mesmo sem formação específica na área.
+
+Representam pessoas que buscam aprender de maneira independente, utilizando recursos digitais e interativos.|
 
 #### Aspectos éticos
 
@@ -66,11 +73,11 @@ Analise voluntariedade, consentimento, minimização de dados, privacidade, risc
 > Cada integrante deve preparar uma técnica/instrumento completo. As técnicas devem ser diferentes entre si e **questionário deve estar entre as técnicas escolhidas**, conforme o enunciado da disciplina.
 
 ### Instrumento I01 — {{nome da técnica}}
-
-**Autor(a):** {{nome — matrícula}}  
 **Técnica:** questionário / entrevista semiestruturada / observação / grupo focal / outra autorizada  
-**Objetivo:** {{...}}  
-**Público:** {{...}}
+**Autor(a):** {{Beatriz Crisitna Emerenciano — 22.222.041-0}}  
+**Técnica:** questionário 
+**Objetivo:** {{Identifica ro nivel de conhecimento e experiência e avaliar o jogo, usabilidadee o ganho de conhecimento  para o usuário no usuário}}  
+**Público:** {{Pessoas com pouca ou nenhuma experiência em montagem de computadores}}
 
 #### Procedimento padronizado de aplicação
 

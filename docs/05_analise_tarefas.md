@@ -3,7 +3,7 @@
 # Entrega 5 — Análise de tarefas: HTA, GOMS e CTT
 
 **Data:** {{15/10/2026}}  
-**Status:** 🟨 em andamento  
+**Status:** 🟩 concluído Responsabilidade:  
 **Responsabilidade:** cada integrante modela pelo menos 1 HTA, 1 GOMS e 1 CTT. As três técnicas podem abordar a mesma funcionalidade ou funcionalidades distintas, conforme a orientação da disciplina.
 
 ## Objetivo da atividade
@@ -29,8 +29,11 @@ Um CRUD pode gerar tarefas relevantes, mas “cadastrar usuário” só merece m
 
 ## Seleção das tarefas
 
-| ID | Tarefa | Persona/cenário de origem | Frequência/criticidade | Autor responsável |
-|||---|---|---|
+| H1 | Tarefa | Persona/cenário de origem | Frequência/criticidade | Autor responsável |
+| Tarefas | {{Consulte informações sobre os componentes, identifique suas características e funções, visualize modelos 3D e ler sua descrição} | Lucas estudante de ti iniciando seus estudos |alta frequencia |Beatriz|
+
+|H2|realizar uma montagem virtual básica de computador de forma intuitiva, acessível e sem conhecimentos prévios.|Mariana iniciando seus estudos por conta própia acessa a plataforma so jogo|alta|Larissa|
+
 
 
 
@@ -73,6 +76,9 @@ Um CRUD pode gerar tarefas relevantes, mas “cadastrar usuário” só merece m
 
 
 ## HTA — T02 {{ Etapa de Montagem de hardware.}}
+
+**Autor(a):** {{Larissa Fiuza Santos — 22.123.042-8}}
+
 
 ### Descrição da tarefa
 {{objetivo, ponto de início, conclusão esperada, contexto}}
@@ -302,10 +308,25 @@ OP. 7.A.4: Encerrar a etapa de montagem.
 | Operador/relação | Significado no diagrama | Exemplo no modelo |
 |---|---|---|
 | {{...}} | {{...}} | {{...}} |
+Etapa de montagem:
+| >> | Ativação: a segunda tarefa começa somente após a primeira terminar. | Após iniciar a etapa de montagem, o sistema carrega a mesa com o computador e as peças. |
+| [ ] >> | Ativação com passagem de informação: a segunda tarefa recebe informações produzidas pela primeira. | Após selecionar o componente, a informação da peça escolhida é utilizada na tarefa de encaixe. |
+| [ ] | Escolha: representa tarefas alternativas, nas quais uma opção é escolhida em detrimento da outra. | Após verificar o encaixe, o sistema apresenta o caminho de acerto ou o caminho de erro. |
+| ||| | Concorrência: permite que duas tarefas sejam realizadas em qualquer ordem ou simultaneamente. | Observar o computador e observar as peças disponíveis podem ocorrer em paralelo. |
+| |[ ]| | Concorrência com comunicação: permite tarefas simultâneas ou em qualquer ordem, com troca de informações. | Não há uma situação de concorrência com comunicação claramente necessária no modelo atual. |
+| |=| | Independência: as tarefas podem ocorrer em qualquer ordem, mas uma precisa terminar antes que a outra comece. | Não há aplicação evidente dessa relação na montagem apresentada. |
+| [> | Desativação: uma tarefa é completamente interrompida por outra. | Não há aplicação necessária dessa relação no fluxo normal de montagem. |
+| |> | Suspensão/retomada: uma tarefa pode ser interrompida e retomada após a conclusão de outra. | Não há aplicação evidente dessa relação no modelo atual. |
 
-Identifique, quando aplicável, tarefas de usuário, sistema, interação e tarefas abstratas. Verifique se concorrência, escolha, habilitação, desabilitação e repetição estão representadas corretamente segundo a notação adotada em aula.
+Etapa de revisão:
+| >> | Ativação: a segunda tarefa começa somente após a primeira terminar. | O usuário acessa a etapa de revisão e, em seguida, o sistema apresenta a lista de componentes de hardware. |
 
----
+| [ ] | Escolha: representa duas tarefas alternativas disponíveis. Quando uma delas é iniciada, a outra é desabilitada. | Após consultar as informações de um componente, o usuário pode escolher entre consultar outro componente ou finalizar a etapa de revisão. |
+
+| * | Repetição: indica que uma tarefa ou sequência de tarefas pode ser executada repetidamente. | O usuário pode repetir o processo de selecionar e consultar componentes para visualizar diferentes peças de hardware. |
+
+| ||| | Tarefas concorrentes: indica que duas ou mais tarefas podem ser realizadas em qualquer ordem ou simultaneamente. | Não se aplica diretamente à etapa de revisão, pois a consulta dos componentes ocorre de maneira sequencial, sem atividades simultâneas. |
+
 
 ## Síntese da equipe
 
@@ -313,13 +334,13 @@ Quais problemas de interação, oportunidades e requisitos apareceram a partir d
 
 ## Checklist
 
-- [ ] Cada integrante produziu ao menos 1 HTA, 1 GOMS e 1 CTT.
-- [ ] Cada artefato identifica autor e tarefa.
-- [ ] Diagramas são legíveis e possuem fonte editável quando possível.
-- [ ] HTA contém planos, não apenas árvore de tópicos.
-- [ ] GOMS distingue Goals, Operators, Methods e Selection Rules.
-- [ ] CTT usa operadores temporais e tipos de tarefa coerentes.
-- [ ] Há texto explicando cada diagrama.
+- [x] Cada integrante produziu ao menos 1 HTA, 1 GOMS e 1 CTT.
+- [x] Cada artefato identifica autor e tarefa.
+- [x] Diagramas são legíveis e possuem fonte editável quando possível.
+- [x] HTA contém planos, não apenas árvore de tópicos.
+- [x] GOMS distingue Goals, Operators, Methods e Selection Rules.
+- [x] CTT usa operadores temporais e tipos de tarefa coerentes.
+- [x] Há texto explicando cada diagrama.
 - [ ] Tarefas estão ligadas a cenários/personas na rastreabilidade.
-- [ ] Em TCC técnico, as tarefas descrevem o que a pessoa faz com a contribuição/resultados, não passos internos do código.
+- [x] Em TCC técnico, as tarefas descrevem o que a pessoa faz com a contribuição/resultados, não passos internos do código.
 - [ ] CRUDs, relatórios, filtros e atividades administrativas foram escolhidos por relevância ao objetivo do usuário.

@@ -35,7 +35,7 @@ Use esta tabela para itens importantes marcados como `[H]` ou `[?]`. Preserve o 
 | ID | Capacidade do TCC utilizada | Necessidade/problema | Persona | Cenário problema | Objetivo/tarefa | HTA/GOMS/CTT | Cenário de interação / signos | MoLIC | Tela(s) Figma | Heurística / problema | Tarefa no teste | Decisão/melhoria |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | R0 | {{ex.: recomendação de otimização}} | {{...}} | {{P01}} | {{C01}} | {{T01}} | {{links}} | {{...}} | {{M01}} | {{F01...}} | {{V01 ou —}} | {{UT01}} | {{...}} |
-| R01 | {{ex.:recomendação de definir o oscopo de hardeare}} | {{Investigar as hipóteses e fatos}} | {{Estudantes de TI, autodidatas ou profissionais formados na área com conhecimento apenas básico/superficial de hardware, sem experiência prática bem-sucedida em montagem}} | {{Um estudante que comprou um hardware para jogar,trabalhar, estudar , mas não sabe como montar, pois até alguma snoções sobre componentes mas sem experiência prática bem sucedida.}} | {{Solidificar os conhecimentos e experiência em montagem de hardware}} | {{links}} | {{REVISÃO E MONTAGEM}} | {{ambiente virtual}} | {{F01...}} | {{V01 ou —}} | {{UT01}} | {{...}} |
+| R01 | {{ex.:recomendação de definir o oscopo de hardeare}} | {{Investigar as hipóteses e fatos}} | {{Estudantes de TI, autodidatas ou profissionais formados na área com conhecimento apenas básico/superficial de hardware, sem experiência prática bem-sucedida em montagem}} | {{Um estudante que comprou um hardware para jogar,trabalhar, estudar , mas não sabe como montar, pois até alguma snoções sobre componentes mas sem experiência prática bem sucedida.}} | {{Solidificar os conhecimentos e experiência em montagem de hardware}} | {{links}} | {{REVISÃO E MONTAGEM}} | {{ambiente virtual}} | {{revisão e Montagem}} | {{compreender e identificar o componente de hardware}} | {{usabilidade}} | {{...}} |
 | R02 |  |  |  |  |  |  |  |  |  |  |  |  |
 
 ## 4. Rastreabilidade de padrões de interface
@@ -44,15 +44,15 @@ Use esta tabela quando o projeto incorporar padrões como dashboard, relatório,
 
 | ID da tela/fluxo | Padrão de interface | Objetivo/tarefa que justifica | Informação/ação principal | Evidência de necessidade | Artefatos relacionados |
 |---|---|---|---|---|---|
-| F01 | dashboard | {{T01}} | {{...}} | {{H01/evidência...}} | {{C01/M01}} |
-| F02 | histórico com filtros | {{T02}} | {{...}} | {{...}} | {{...}} |
-| F03 | administração/CRUD | {{T03}} | {{...}} | {{...}} | {{...}} |
+| F01 | revisão | {{T01}} | {{visualizar componentes e fazer leitura}} | {{H01}} | {{C01/M01}} |
+| F02 | Montagem de hardware | {{T01}} | {{identificar componentes corretos aprendidos na etapa de revisão}} | {{H2}} | {{C02/M02}} |
+
 
 ## 5. Registro de mudanças de escopo
 
 | Data | O que mudou | Evidência/feedback que motivou | Artefatos afetados | Responsável |
 |---|---|---|---|---|
-| {{...}} | {{...}} | {{...}} | {{...}} | {{...}} |
+| {{14/11}} | {{nenhuma mudança}} | {{...}} | {{...}} | {{Beatriz}} |
 
 ## Como usar
 

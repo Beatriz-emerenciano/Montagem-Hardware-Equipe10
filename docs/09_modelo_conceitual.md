@@ -61,12 +61,28 @@ Mariana, 32 anos, trabalha como analista administrativa e deseja aprender mais s
 
 ## 2. Design centrado na comunicação
 
+**Nome do cenário:** {{CI01}}
+
+| Tópico > subtópico | Falas e signos envolvidos | Intenção/efeito esperado |
+|---|---|---|
+| {{objetivo}} | U: Quero aprender a identificar os componentes de hardware e entender como realizar a montagem de um computador.| {{Expressar a necessidade da usuária de adquirir conhecimentos básicos sobre hardware por meio do jogo.}} |
+| > {{Acessar o jogo}} | {{U: Vou acessar o jogo para começar a aprender.D: Menu principal com as opções "Revisar componentes" e "Jogar".}} | {{Permitir que a usuária compreenda as opções disponíveis e identifique como iniciar sua aprendizagem.}} |
+| > {{subtópico}} | {{Consultar os componentes}} | {{...}} |
+| > {{subtópico}} | {{U: Não conheço muito bem essas peças. Quero entender para que servem.D: Lista de componentes com opções como gabinete, placa-mãe, memória RAM, HD, fonte de alimentação e placa de vídeo.}} | {{Apresentar os componentes de maneira organizada, facilitando sua identificação e consulta.}} |
+| > {{Visualizar informações}} | {{U: Vou selecionar a memória RAM para entender sua função.D: Exibição de imagem, descrição e principais funções da memória RAM, acompanhadas de uma opção para retornar à lista.}} | {{Permitir que Mariana compreenda as características e funções dos componentes antes de iniciar a montagem.}} |
+
 **Nome do cenário:** {{CI02}}
 
 | Tópico > subtópico | Falas e signos envolvidos | Intenção/efeito esperado |
 |---|---|---|
-| {{objetivo}} | `U: ...` / `D: ...` | {{...}} |
-| > {{subtópico}} | {{...}} | {{...}} |
+| > {{Iniciar a montagem}} | {{U: Agora quero colocar em prática o que aprendi.D: Botão "Jogar" e apresentação da mesa com o computador e os componentes disponíveis.}} | {{Indicar como iniciar a atividade prática e estabelecer uma transição entre a revisão e a montagem.}} |
+| > {{Identificar o local de encaixe}} | {{U: Qual peça devo colocar primeiro e onde devo encaixá-la?D: Destaque visual da região de encaixe e apresentação de três opções de componentes.}} | {{Orientar a usuária visualmente, facilitando a identificação do local em que o próximo componente deve ser inserido.}} |
+| > {{Selecionar e arrastar o componente}} | {{U: Vou selecionar a peça que acredito ser correta e arrastá-la até a região indicada.D: Indicação visual das peças disponíveis e da área de destino para o encaixe.}} | {{Permitir que a usuária realize a interação de seleção e movimentação do componente utilizando o mouse ou o toque na tela.}} |
+| > {{Lidar com uma seleção incorreta}} | {{U: Escolhi uma peça, mas ela não corresponde ao local indicado. Como posso continuar?D: Mensagem de feedback informando que o componente selecionado está incorreto e permitindo uma nova tentativa.}} | {{Comunicar o erro de maneira compreensível e permitir que a usuária retome a atividade sem precisar reiniciá-la.}} |
+| > {{Confirmar o encaixe correto}} | {{U: Consegui encaixar o componente corretamente.D: Feedback visual indicando o encaixe correto e apresentação da próxima etapa da montagem.}} | {{Reforçar o acerto realizado e orientar a continuidade da atividade.}} |
+| > {{Finalizar a montagem}} | {{U: Concluí a montagem dos componentes.
+
+D: Tela de conclusão com a pontuação obtida na atividade.}} | {{Informar que a atividade foi concluída e permitir que a usuária visualize seu desempenho.}} |
 
 **Convenção:** `U` = usuário; `D` = preposto do designer/sistema, conforme a abordagem de Engenharia Semiótica adotada na disciplina.
 

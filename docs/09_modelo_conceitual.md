@@ -1,7 +1,7 @@
 # Entrega 9 — Modelo conceitual e design centrado na comunicação
 
 **Data:** {{dd/mm/aaaa}}  
-**Status:** ⬜ não iniciada  
+**Status:** 🟨 em andamento  
 **Responsabilidade:** soluções individuais, com consolidação da equipe para mapa de objetivos e esquema de signos.
 
 ## Objetivo da atividade
@@ -27,22 +27,41 @@ Dashboards, relatórios, filtros e CRUDs devem aparecer no modelo conceitual por
 
 Para cada cenário de problema, produza uma versão em que a solução já pode ser descrita. **Destaque claramente o texto alterado** em relação ao cenário original.
 
-### CI01 — {{título}}
+### CI01 — {{etapa de revisão}}
 
-**Autor(a):** {{nome — matrícula}}  
+**Autor(a):** {{Beatriz Cristina Emerenciano — 22.222.041-0}}  
 **Origem:** cenário problema {{C01}}
 
-{{cenário de interação com alterações marcadas}}
+{{Lucas, estudante de Ciência da Computação, acessa o jogo para aprender sobre montagem de hardware. Ao entrar na etapa de revisão, encontra uma lista organizada dos componentes disponíveis. Ao selecionar um deles, visualiza uma imagem acompanhada de uma descrição objetiva e das principais funções do componente, facilitando sua identificação e compreensão.
+
+Na etapa de montagem, o jogo destaca visualmente a região em que o próximo componente deve ser encaixado e apresenta três opções de peças para seleção. Lucas escolhe o componente que considera correto e o arrasta até a área indicada. Caso selecione uma peça incorreta, o jogo apresenta um feedback visual informando que a escolha não corresponde ao local indicado e permite uma nova tentativa. Quando o encaixe está correto, o componente é integrado à montagem e o jogo avança para a próxima etapa. Ao concluir a atividade, Lucas visualiza sua pontuação final.}}
 
 ### Diferenças relevantes
 
 | Alteração | Por que foi necessária | Evidência/artefato que justifica |
 |---|---|---|
-| {{...}} | {{...}} | {{...}} |
+| {{Inclusão de imagens, descrições e funções dos componentes na etapa de revisão.}} | {{Facilitar a identificação e a compreensão dos componentes por usuários iniciantes.}} | {{Protótipo da etapa de revisão e fluxo de telas P01–P04.}} |
+| {{Destaque visual da região de encaixe na etapa de montagem.}} | {{Orientar o usuário sobre o local em que o componente deve ser inserido, reduzindo dúvidas durante a atividade.}} | {{Protótipo da etapa de montagem e fluxo de telas P05–P09.}} |
+
+### CI01 — {{etapa de montagem}}
+
+**Autor(a):** {{Larissa Fiuza Santos — 22.123.042-8}}  
+**Origem:** cenário problema {{C02}}
+
+Mariana, 32 anos, trabalha como analista administrativa e deseja aprender mais sobre os componentes de hardware para conseguir compreender melhor o funcionamento do computador utilizado na empresa.Em seguida, Mariana acessa a etapa de montagem. O jogo apresenta orientações visuais, destacando a região em que o próximo componente deve ser encaixado e disponibilizando três opções de peças. Mesmo sem experiência com esse tipo de interação, ela pode acompanhar as indicações apresentadas na tela e utilizar o mouse para selecionar e arrastar o componente até o local indicado. Caso escolha uma peça incorreta, o jogo apresenta um feedback informando o erro e permite que ela tente novamente. Após concluir a montagem, Mariana visualiza sua pontuação final e consegue identificar seu desempenho na atividade.
+
+### Diferenças relevantes
+
+| Alteração | Por que foi necessária | Evidência/artefato que justifica |
+|---|---|---|
+| {{Apresentação de três opções de componentes para seleção.}} | {{Permitir que o usuário pratique o reconhecimento e a escolha dos componentes adequados.}} | {{Descrição da mecânica de montagem do jogo.}} |
+| {{Feedback visual para seleções incorretas.}} | {{Informar o resultado da ação e permitir que o usuário compreenda que precisa realizar uma nova tentativa.}} | {{Requisito de prevenção e recuperação de erros e fluxo de estados da montagem.}} |
+| {{Apresentação da pontuação final.}} | {{Permitir que o participante visualize seu resultado ao concluir a atividade.}} | {{Requisito funcional da etapa de montagem.}} |
+
 
 ## 2. Design centrado na comunicação
 
-**Nome do cenário:** {{CI01}}
+**Nome do cenário:** {{CI02}}
 
 | Tópico > subtópico | Falas e signos envolvidos | Intenção/efeito esperado |
 |---|---|---|

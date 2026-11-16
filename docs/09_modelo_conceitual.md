@@ -105,7 +105,9 @@ Cada integrante apresenta seu mapa e a equipe cria um **mapa consolidado**, elim
 
 | ID | Objetivo | Persona(s) | Cenário(s) | Prioridade |
 |---|---|---|---|---|
-| O01 | {{...}} | {{P01}} | {{CI01}} | {{...}} |
+| O00 | {{Aprender sobre identificação e montagem de componentes de hardware por meio do jogo sério.}} | {{P01 – Lucas; P02 – Mariana}} | {{CI01; CI02	}} | {{Alta}} |
+| 001 | {{Consultar os componentes de hardware, visualizando suas imagens, descrições e funções.}} | {{P01 – Lucas}} | {{CI01}} | {{Alta}} |
+|O02	|Realizar a montagem simulada de um computador, selecionando e encaixando corretamente os componentes apresentados pelo jogo.|P02 – Mariana|CI02|Alta|
 
 ## 4. Esquema conceitual de signos
 

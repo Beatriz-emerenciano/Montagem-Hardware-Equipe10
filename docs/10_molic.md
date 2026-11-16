@@ -1,6 +1,6 @@
 # Entrega 10 — MoLIC
 
-**Data:** {{dd/mm/aaaa}}  
+**Data:** {{16/11/2026}}  
 **Status:** ⬜ não iniciada  
 **Responsabilidade:** 1 solução completa por integrante
 

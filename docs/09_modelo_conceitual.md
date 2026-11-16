@@ -1,7 +1,7 @@
 # Entrega 9 — Modelo conceitual e design centrado na comunicação
 
 **Data:** {{dd/mm/aaaa}}  
-**Status:** 🟨 em andamento  
+**Status:** 🟩 concluída
 **Responsabilidade:** soluções individuais, com consolidação da equipe para mapa de objetivos e esquema de signos.
 
 ## Objetivo da atividade
@@ -115,7 +115,46 @@ Consolide as informações em **uma tabela única**.
 
 | Grupo | Signo | Origem | Observações/semântica | Tipo de conteúdo | Restrição | Valor padrão | Prevenção | Recuperação |
 |---|---|---|---|---|---|---|---|---|
-| Credenciais | usuário | domínio | {{...}} | texto | não nulo | — | {{...}} | {{...}} |
+|Grupo|Signo|Origem|Observações/semântica|Tipo de conteúdo|Restrição|Valor padrão|Prevenção|Recuperação|
+
+|Navegação|Menu principal|Sistema|Apresenta as opções disponíveis para acessar as etapas do jogo.|Interface visual|Deve apresentar as opções de forma clara.|Menu inicial|Organização visual das opções.|Retornar ao menu principal.|
+
+|Navegação|Revisar componentes|Sistema|Identifica a opção para acessar a etapa de revisão dos componentes de hardware.|Texto/botão|Deve estar disponível no menu principal.|—|Nome claro e objetivo.|Retornar ao menu.|
+
+|Navegação|Jogar|Sistema|Identifica a opção para iniciar a etapa de montagem de hardware.|Texto/botão|Deve estar disponível no menu principal.|—|Nome claro e objetivo.|Retornar ao menu.|
+
+|Revisão|Lista de componentes|Sistema|Apresenta os componentes disponíveis para consulta: gabinete, placa-mãe, memória RAM, HD, fonte de alimentação e placa de vídeo.|Texto/imagem|Deve apresentar os componentes previstos no jogo.|Lista de componentes|Organização e identificação dos itens.|Voltar à lista de componentes.|
+
+|Revisão|Nome do componente|Domínio|Identifica cada peça de hardware pelo nome utilizado na área de informática.|Texto|Deve corresponder ao componente apresentado.|Nome do componente selecionado|Utilizar nomenclatura conhecida no domínio.|Selecionar outro componente.|
+
+|Revisão|Imagem do componente|Sistema|Representa visualmente o componente selecionado, permitindo seu reconhecimento.|Imagem|Deve corresponder ao nome do componente.|Imagem do componente selecionado|Associação correta entre imagem e nome.|Retornar à lista e selecionar outro componente.|
+
+|Revisão|Descrição do componente|Domínio|Apresenta informações sobre o componente e sua finalidade no computador.|Texto|Deve ser coerente com a função real do componente.|Descrição correspondente|Utilizar linguagem acessível ao público iniciante.|Consultar novamente a descrição.|
+
+|Revisão|Funções do componente|Domínio|Explica as principais funções desempenhadas pelo componente no computador.|Texto|As informações devem ser corretas e compreensíveis.|Funções correspondentes|Apresentar explicações objetivas.|Consultar novamente as informações.|
+
+|Revisão|Voltar|Sistema|Permite retornar à lista de componentes após visualizar as informações.|Texto/botão|Deve retornar à tela anterior.|—|Identificação clara da ação.|Retornar à lista.|
+
+|Montagem|Mesa e computador|Sistema|Apresenta o ambiente visual no qual o usuário realizará a montagem simulada.|Imagem/modelo 3D|Deve permitir visualizar o gabinete e a área de montagem.|Ambiente inicial da montagem|Organização visual dos elementos.|Reiniciar a etapa, se disponível.|
+
+|Montagem|Região iluminada|Sistema|Indica o local em que o próximo componente deverá ser encaixado.|Destaque visual|Deve indicar corretamente o local de instalação.|Região correspondente à etapa atual|Destaque visual perceptível.|Apresentar novamente a indicação.|
+
+|Montagem|Opções de componentes|Sistema|Apresenta três opções de peças para que o usuário identifique qual deve ser utilizada.|Imagem/modelo 3D|Deve apresentar as opções previstas para a etapa.|Três opções de componentes|Exibir as peças de forma visualmente distinguível.|Permitir nova tentativa de seleção.|
+
+|Montagem|Componente selecionado|Usuário|Representa a peça escolhida pelo usuário para realizar a montagem.|Entrada/interação|Deve corresponder a uma das opções apresentadas.|Nenhum componente selecionado|Apresentar opções identificáveis.|Permitir selecionar outra peça.|
+
+|Montagem|Ação de arrastar e soltar|Usuário|Representa a ação de arrastar o componente escolhido até a região iluminada.|Interação|O componente deve ser posicionado na área de encaixe.|—|Indicação visual do local de encaixe.|Permitir repetir a ação.|
+
+|Montagem|Validação do encaixe|Sistema|Verifica se o componente selecionado corresponde ao local indicado.|Processamento|Deve comparar a peça e a região de instalação.|Resultado da validação|Orientar visualmente a ação de montagem.|Exibir feedback e permitir nova tentativa.|
+
+|Montagem|Feedback de erro|Sistema|Informa que o componente selecionado ou o encaixe está incorreto.|Texto/feedback visual|Deve indicar que a tentativa não foi aceita.|Mensagem de erro|Orientações claras durante a montagem.|Permitir nova tentativa.|
+
+|Montagem|Feedback de acerto|Sistema|Informa que o componente foi encaixado corretamente.|Texto/feedback visual|Deve ser apresentado somente após uma validação positiva.|Mensagem de acerto|Validar o encaixe antes de avançar.|Prosseguir para o próximo componente.|
+
+|Montagem|Progresso da montagem|Sistema|Representa a evolução da atividade conforme os componentes são encaixados.|Informação visual|Deve acompanhar o avanço da montagem.|Estado inicial da montagem|Indicação clara das etapas concluídas.|Continuar a partir da próxima etapa.|
+
+|Montagem|Pontuação final|Sistema|Apresenta a pontuação obtida pelo usuário ao concluir a montagem.|Informação numérica|Deve corresponder ao desempenho registrado no jogo.|Pontuação calculada pelo sistema|Informar claramente o resultado final.|Retornar ao menu ou iniciar novamente, se disponível.|
+
 
 ### Regras para os signos
 
@@ -130,12 +169,12 @@ Quais objetivos/tópicos/signos deverão necessariamente aparecer nos diagramas 
 
 ## Checklist
 
-- [ ] Cenários de interação mostram alterações em relação aos cenários de problema.
-- [ ] Cada solução individual identifica autor e cenário de origem.
-- [ ] Tópicos/falas/signos são coerentes com objetivos do usuário.
+- [x] Cenários de interação mostram alterações em relação aos cenários de problema.
+- [x] Cada solução individual identifica autor e cenário de origem.
+- [x] Tópicos/falas/signos são coerentes com objetivos do usuário.
 - [ ] Mapas individuais foram consolidados.
-- [ ] O esquema de signos está em uma tabela única e sem duplicações conceituais.
-- [ ] Nomes de objetivos/signos serão reutilizados na Entrega 10.
-- [ ] Em TCC técnico, signos representam conceitos do domínio compreensíveis ao usuário, não apenas variáveis/estruturas internas.
+- [x] O esquema de signos está em uma tabela única e sem duplicações conceituais.
+- [x] Nomes de objetivos/signos serão reutilizados na Entrega 10.
+- [x] Em TCC técnico, signos representam conceitos do domínio compreensíveis ao usuário, não apenas variáveis/estruturas internas.
 - [ ] Padrões como dashboard, relatório, filtros, administração e CRUD possuem objetivos e signos correspondentes.
-- [ ] A interface comunica não só o resultado técnico, mas também seu significado para a tarefa.
+- [x] A interface comunica não só o resultado técnico, mas também seu significado para a tarefa.

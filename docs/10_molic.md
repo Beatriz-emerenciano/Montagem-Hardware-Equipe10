@@ -35,7 +35,7 @@ Modele também rupturas plausíveis: entrada inválida, falha de processamento, 
 
 ![MoLIC M01](../assets/10_molic/molic_m01.svg)
 
-**Fonte editável:** {{adicione aqui o link para o arquivo `.drawio`, `.svg` editável ou outro formato utilizado pela equipe}}
+**Fonte editável:** {{adicione aqui o link para o arquivo : molic montagem: https://drive.google.com/file/d/1NMjWdBKqKFU0f4sPV2rXT7oDgdLMuyp8/view?usp=sharing}}
 
 ### Leitura do diagrama
 

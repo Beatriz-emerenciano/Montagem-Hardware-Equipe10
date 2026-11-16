@@ -32,10 +32,15 @@ Para cada cenário de problema, produza uma versão em que a solução já pode 
 **Autor(a):** {{Beatriz Cristina Emerenciano — 22.222.041-0}}  
 **Origem:** cenário problema {{C01}}
 
-{{Lucas, estudante de Ciência da Computação, acessa o jogo para aprender sobre montagem de hardware. Ao entrar na etapa de revisão, encontra uma lista organizada dos componentes disponíveis. Ao selecionar um deles, visualiza uma imagem acompanhada de uma descrição objetiva e das principais funções do componente, facilitando sua identificação e compreensão.
+Cenário original (problema):
 
-Na etapa de montagem, o jogo destaca visualmente a região em que o próximo componente deve ser encaixado e apresenta três opções de peças para seleção. Lucas escolhe o componente que considera correto e o arrasta até a área indicada. Caso selecione uma peça incorreta, o jogo apresenta um feedback visual informando que a escolha não corresponde ao local indicado e permite uma nova tentativa. Quando o encaixe está correto, o componente é integrado à montagem e o jogo avança para a próxima etapa. Ao concluir a atividade, Lucas visualiza sua pontuação final.}}
+Lucas, estudante de Ciência da Computação, acessa o jogo para aprender sobre montagem de hardware. Ao entrar na etapa de revisão, encontra uma lista de componentes, mas tem dificuldade para compreender a função de cada um. Na etapa de montagem, não entende claramente onde deve encaixar cada peça e acaba selecionando componentes incorretos. Quando isso acontece, não recebe informações suficientes para compreender o erro, ficando em dúvida sobre como continuar.
 
+Cenário revisado (com soluções):
+
+Lucas, estudante de Ciência da Computação, acessa o jogo para aprender sobre montagem de hardware. Ao entrar na etapa de revisão, encontra uma lista organizada dos componentes disponíveis. Ao selecionar um deles, visualiza uma imagem acompanhada de uma descrição objetiva e das principais funções do componente, facilitando sua identificação e compreensão.
+
+Na etapa de montagem, o jogo destaca visualmente a região em que o próximo componente deve ser encaixado e apresenta três opções de peças para seleção. Lucas escolhe o componente que considera correto e o arrasta até a área indicada. Caso selecione uma peça incorreta, o jogo apresenta um feedback visual informando que a escolha não corresponde ao local indicado e permite uma nova tentativa. Quando o encaixe está correto, o componente é integrado à montagem e o jogo avança para a próxima etapa. Ao concluir a atividade, Lucas visualiza sua pontuação final.
 ### Diferenças relevantes
 
 | Alteração | Por que foi necessária | Evidência/artefato que justifica |
@@ -48,8 +53,12 @@ Na etapa de montagem, o jogo destaca visualmente a região em que o próximo com
 **Autor(a):** {{Larissa Fiuza Santos — 22.123.042-8}}  
 **Origem:** cenário problema {{C02}}
 
-Mariana, 32 anos, trabalha como analista administrativa e deseja aprender mais sobre os componentes de hardware para conseguir compreender melhor o funcionamento do computador utilizado na empresa.Em seguida, Mariana acessa a etapa de montagem. O jogo apresenta orientações visuais, destacando a região em que o próximo componente deve ser encaixado e disponibilizando três opções de peças. Mesmo sem experiência com esse tipo de interação, ela pode acompanhar as indicações apresentadas na tela e utilizar o mouse para selecionar e arrastar o componente até o local indicado. Caso escolha uma peça incorreta, o jogo apresenta um feedback informando o erro e permite que ela tente novamente. Após concluir a montagem, Mariana visualiza sua pontuação final e consegue identificar seu desempenho na atividade.
+Cenário original (problema):
 
+Mariana, 32 anos, trabalha como analista administrativa e deseja aprender mais sobre os componentes de hardware para conseguir compreender melhor o funcionamento do computador utilizado na empresa. Ao acessar o jogo, ela tenta iniciar a etapa de montagem, mas percebe que não possui conhecimento suficiente para reconhecer os componentes apresentados. Durante a atividade, Mariana fica em dúvida sobre a função de cada peça e não sabe como identificar qual delas deve selecionar. Além disso, por não ter experiência com jogos que utilizam movimentação de objetos, apresenta dificuldade para arrastar os componentes até os locais indicados.
+
+Cenário revisado (com soluções):
+Mariana, 32 anos, trabalha como analista administrativa e deseja aprender mais sobre os componentes de hardware para conseguir compreender melhor o funcionamento do computador utilizado na empresa. Ao acessar o jogo, decide iniciar pela etapa de revisão, na qual encontra uma lista organizada dos componentes de hardware. Ao selecionar cada componente, visualiza uma imagem acompanhada de uma descrição e das suas principais funções, permitindo que compreenda melhor as características das peças antes de iniciar a montagem.
 ### Diferenças relevantes
 
 | Alteração | Por que foi necessária | Evidência/artefato que justifica |

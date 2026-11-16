@@ -83,17 +83,17 @@ Alternativas e rupturas — Etapa de Montagem
 
 ### Checklist específico de modelagem
 
-- [ ] Existe **ponto de abertura** coerente com o início do objetivo.
-- [ ] As **cenas de conversa** representam tópicos/assuntos, não nomes de páginas apenas.
-- [ ] As transições/falas deixam claro o que o usuário ou o sistema comunica.
-- [ ] Há **ponto(s) de encerramento** para objetivos concluídos/abandonados quando aplicável.
+- [x] Existe **ponto de abertura** coerente com o início do objetivo.
+- [x] As **cenas de conversa** representam tópicos/assuntos, não nomes de páginas apenas.
+- [x] As transições/falas deixam claro o que o usuário ou o sistema comunica.
+- [x] Há **ponto(s) de encerramento** para objetivos concluídos/abandonados quando aplicável.
 - [ ] Processamentos do sistema estão representados conforme a notação adotada em aula, sem “inventar” fala do usuário.
-- [ ] Rupturas (breakdowns) relevantes têm feedback e caminho de recuperação, não becos sem saída.
-- [ ] Acessos ubíquos/atalhos só aparecem quando semanticamente justificáveis.
-- [ ] O diagrama cobre caminhos alternativos importantes, e não apenas o “happy path”.
-- [ ] Nomes de objetivos, tópicos e signos são coerentes com a Entrega 9.
-- [ ] O diagrama é legível em tamanho normal no GitHub.
-- [ ] O MoLIC representa a conversa usuário–sistema, não o fluxo interno do algoritmo.
+- [x] Rupturas (breakdowns) relevantes têm feedback e caminho de recuperação, não becos sem saída.
+- [x] Acessos ubíquos/atalhos só aparecem quando semanticamente justificáveis.
+- [x] O diagrama cobre caminhos alternativos importantes, e não apenas o “happy path”.
+- [x] Nomes de objetivos, tópicos e signos são coerentes com a Entrega 9.
+- [x] O diagrama é legível em tamanho normal no GitHub.
+- [x] O MoLIC representa a conversa usuário–sistema, não o fluxo interno do algoritmo.
 - [ ] Processamento, filtros, administração, relatórios e históricos incluem retornos/rupturas quando relevantes.
 
 > Repita M02, M03... para todos os integrantes.
@@ -104,7 +104,7 @@ Alternativas e rupturas — Etapa de Montagem
 
 | Objetivo | MoLIC que cobre | Lacunas/duplicidades | Decisão |
 |---|---|---|---|
-| O01 | M01 | {{...}} | {{...}} |
+| O01 (Compreender componentes de hardware) | M01 (Etapa de Revisão — gco: Compreender componentes de hardware)    | {{Lacunas: Não contempla retorno direto do menu/acesso ubíquo caso o usuário desista de revisar sem abrir um componente; a cena Consultar lista de componentes não possui tratamento de ruptura ([TA]) caso a lista falhe ao carregar.   Duplicidades: A transição u: iniciar montagem (gco: Montar computador) aparece tanto na saída da cena Examinar componente (M01) quanto no ponto de abertura do diagrama M02.}} | {{Manter e refinar: Manter o M01 como módulo independente de consulta livre, adicionando uma fala de saída/cancelamento (u: voltar ao menu) na lista inicial e mantendo a ponte gco: Montar computador para integração direta com o M02.}} |
 
 ### Preparação para o Figma
 

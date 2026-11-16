@@ -1,6 +1,6 @@
 # Entrega 7 — Coleta de dados, necessidades e aspectos éticos
 
-**Data:** {{dd/mm/aaaa}}  
+**Data:** {{15/11/2026}}  
 **Status:**  🟩 concluído Responsabilidade mínima: cada integrante analisa pelo menos 1 concorrente/interface representativa; a equipe produz síntese comparativa.
 
 ## Objetivo da atividade

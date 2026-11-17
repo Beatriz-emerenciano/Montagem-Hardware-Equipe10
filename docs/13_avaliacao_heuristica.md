@@ -1,7 +1,7 @@
 # Entrega 13 — Avaliação de IHC por inspeção heurística
 
-**Data:** {{dd/mm/aaaa}}  
-**Status:** ⬜ não iniciada  
+**Data:** {{16/11/2026}}  
+**Status:** 🟩 concluído  
 **Responsabilidade:** 1 avaliação completa por integrante, sobre todas as telas/estados relevantes do projeto.
 
 ## Objetivo da atividade
@@ -50,7 +50,7 @@ Em TCCs técnicos, observe especialmente se a interface comunica o estado do pro
 | Telas/estados | {{tela de detapa de revisão e tela de montagem}} |
 | Fluxos | {{M01/M02...}} |
 | Dispositivo/viewport | {{Computador Desktop / Notebook — Aplicação Web Responsiva, viewport padrão 1440x900px (resolução mínima suportada 1366x768px), operando via mouse/trackpad e teclado físico.}} |
-| Avaliadores | {{nomes}} |
+| Avaliadores | {{Beatriz,Larissa}} |
 
 ## 3. Procedimento individual
 
@@ -100,7 +100,15 @@ Ao justificar, considere **frequência, impacto e persistência** do problema no
 
 | ID | Heurística | Tela/estado | Problema observado | Evidência | Severidade | Justificativa da severidade | Recomendação |
 |---|---|---|---|---|---:|---|---|
-| V01 | H1 | {{F02}} | {{o que ocorre, em que ação e qual consequência}} | ![print](../assets/13_heuristica/v01.svg) | 3 | {{frequência/impacto/persistência}} | {{correção específica}} |
+## Avaliador A01 — {{Beatriz}}
+| V01 | H4 (Consistência e padrões) | {{ransição F03 → F04 (Etapa de Revisão M01 para Etapa de Montagem M02}} | {{oransição F03 → F04 (Etapa de Revisão M01 para Etapa de Montagem M02}} | ![print](../assets/13_heuristica/v01.svg) | 2 (Problema menor / Moderado) | {{requência: Ocorre em 100% das transições entre Revisão e Montagem.Impacto: Médio — causa estranhamento visual e fadiga ocular na troca de luminância, embora não impeça a conclusão da tarefa.Persistência: Contínua durante toda a etapa de montagem.}} | {{Unificar o sistema de design (Design Tokens) dos dois módulos adotando o mesmo esquema cromático (manter o Dark Mode técnico da Revisão em toda a aplicação ou aplicar o Light Mode de alto contraste também em F02 e F03).}} |
+
+## Avaliador A01 — {{Larissa}}
+|V02|H4 (Consistência e padrões)|F06 (Tela final da Etapa de Montagem — estado concluído)|Após o encaixe dos 3 componentes no gabinete, o botão de ação primária no canto inferior direito exibe o rótulo "Montar novamente >" em vez da ação de encerramento Concluir (u: concluir / gcc: Montar computador) prevista no diagrama MoLIC M02. Isso induz o usuário que deseja finalizar a atividade a reiniciar o ciclo acidentalmente.|(Rodapé inferior direito de F06)|2 (Problema menor / Moderado)|Frequência: Ocorre ao final de toda partida concluída.
+Impacto: Médio — pode gerar cliques indevidos de reinício em usuários que buscam apenas encerrar a etapa e registrar a pontuação.
+Persistência: Pontual no encerramento da cena.|Substituir o botão primário de F06 por Concluir (conectado ao encerramento gcc: Montar computador) e posicionar "Montar novamente" como botão secundário (outlined) ao lado esquerdo.|
+
+
 
 **Qualidade do relato:** o problema deve ser observável e localizado. Evite “interface confusa” sem dizer **o que**, **onde**, **quando** e **para quem**.
 
@@ -108,7 +116,9 @@ Ao justificar, considere **frequência, impacto e persistência** do problema no
 
 | Heurística sem violação | Exemplo no sistema | Evidência | Por que atende |
 |---|---|---|---|
-| {{H4}} | {{...}} | {{print}} | {{...}} |
+| {{H2 (Compatibilidade entre o sistema e o mundo real)}} | {{Uso de nomenclatura fiel à arquitetura de computadores (Placa-mãe, Memória RAM, SSD/HD, CPU, Fonte, Gabinete), ilustrações técnicas representativas de cada componente físico e descrições funcionais em linguagem didática na tela Examinar componente (F03)}} | {{(Tela F03 — Examinar componente)}} | {{Alinha o vocabulário e as metáforas visuais da interface ao repertório real do estudante, facilitando o reconhecimento imediato das peças sem exigir tradução de termos técnicos obscuros.}} |Beatriz|
+| {{H6 (Reconhecimento em lugar de lembrança)}} | {{Grade de cards na tela Consultar Lista de Componentes (F02) exibindo simultaneamente o número de ordem, categoria, miniatura vetorial e resumo funcional ("A base que conecta tudo", "Agilidade para suas tarefas").}} | {{(Tela F02 — Consultar Lista de Componentes)}} | {{Mantém todas as pistas visuais e conceituais visíveis durante a escolha, dispensando que o usuário memorize características de uma tela para outra.}} |Larissa|
+| {{H9 (Auxiliar os usuários a reconhecer, diagnosticar e recuperar-se de erros)}} | {{Banner de ruptura ([TA]) em âmbar de alto contraste na tela F03R: "Não foi possível carregar a imagem. A descrição continua disponível. Tente novamente ou volte à lista.", acompanhado do botão Tentar novamente e preservação do texto de estudo.}} | {{(Tela F03R — Estado de falha de carregamento)}} | {{Expressa a falha em linguagem natural (sem códigos de erro), tranquiliza o usuário informando que o progresso está salvo e oferece ação direta de recuperação na própria cena.}} |Beatriz e Larissa|
 
 > Repita a seção para A02, A03... um avaliador por integrante.
 
@@ -118,7 +128,7 @@ Problemas iguais ou muito semelhantes encontrados por avaliadores diferentes dev
 
 | ID consolidado | Achados individuais | Heurística | Problema | Severidade final | Prioridade | Responsável pela correção |
 |---|---|---|---|---:|---|---|
-| HC01 | V01(A01), V04(A02) | H1 | {{...}} | {{...}} | alta | {{...}} |
+| HC01 | V01(A01), V01(A03) | H4 (Consistência e padrões) | {{Alternância abrupta de tema visual entre a Etapa de Revisão (Dark Mode com botões verdes) e a Etapa de Montagem (Light Mode com botões roxos) na transição F03 → F04, quebrando a unidade visual do sistema e causando desconforto ocular na troca de luminância.}} | {{2 (Moderada)}} | alta | {{Beatriz (UI/Design no Figma)}} |
 
 ## 8. Síntese e plano de melhoria
 
@@ -129,13 +139,13 @@ Problemas iguais ou muito semelhantes encontrados por avaliadores diferentes dev
 
 ## Checklist
 
-- [ ] Cada integrante fez uma inspeção completa e identificada.
-- [ ] Todas as telas/estados relevantes foram examinados.
-- [ ] Estados administrativos, filtros, relatórios, históricos, processamento e erros foram incluídos quando existentes.
+- [x] Cada integrante fez uma inspeção completa e identificada.
+- [x] Todas as telas/estados relevantes foram examinados.
+- [x] Estados administrativos, filtros, relatórios, históricos, processamento e erros foram incluídos quando existentes.
 - [ ] A inspeção avaliou a interface/protótipo, não o mérito técnico do algoritmo/modelo.
-- [ ] H1–H10 aparecem na matriz de cobertura de cada avaliador.
-- [ ] Parte de violações contém apenas violações, sem “forçar” exemplos.
-- [ ] Todo problema tem print/localização e contexto.
-- [ ] Severidade possui justificativa, não apenas número.
-- [ ] Recomendação resolve a causa ou reduz o impacto.
-- [ ] Achados duplicados foram consolidados ao final.
+- [x] H1–H10 aparecem na matriz de cobertura de cada avaliador.
+- [x] Parte de violações contém apenas violações, sem “forçar” exemplos.
+- [x] Todo problema tem print/localização e contexto.
+- [x] Severidade possui justificativa, não apenas número.
+- [x] Recomendação resolve a causa ou reduz o impacto.
+- [x] Achados duplicados foram consolidados ao final.

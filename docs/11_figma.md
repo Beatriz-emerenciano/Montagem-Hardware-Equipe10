@@ -44,7 +44,11 @@ Quando aplicável, considere: vazio/sem dados; carregamento/processamento; suces
 
 | MoLIC | Objetivo | Fluxo/telas no Figma | Estados de erro/recuperação | Responsável |
 |---|---|---|---|---|
-| M01 | O01 | `F01 → F02 → F03` | `F02E, F03R` | {{...}} |
+
+Etapa de revisão
+|M01 (Etapa de Revisão) |O01 (Compreender componentes de hardware)|(Acesso Ubíquo / Menu) → F02 (Consultar lista de componentes) → F03 (Examinar componente)|F03R (Estado de ruptura [TA] na cena Examinar componente: alerta de erro ao carregar detalhes + botão de recuperação Tentar Novamente) | {{ Beatriz (ou membro responsável do grupo)M02 (Etapa de Montagem)   O02 (Montar computador na prática)   F04 (Montar computador — estado inicial) → F05 (Encaixe validado / próximo destaque em loop) → F06 (Visualizar resultado da montagem)   (Inclui fechamento F06 → F01 via u: concluir / gcc: Montar computador)   F04R (Estado de ruptura [TA] após u: soltar componente: banner de alerta de componente incorreto ou fora da área de encaixe com retorno imediato à cena Montar computador)   Beatriz (ou membro responsável do grupo)  }} |
+|M02 (Etapa de Montagem) |O02 (Montar computador na prática)|F04 (Montar computador — estado inicial) → F05 (Encaixe validado / próximo destaque em loop) → F06 (Visualizar resultado da montagem)(Inclui fechamento F06 → F01 via u: concluir / gcc: Montar computador)|F04R (Estado de ruptura [TA] após u: soltar componente: banner de alerta de componente incorreto ou fora da área de encaixe com retorno imediato à cena Montar computador)| {{Larissa}} |
+
 
 ## Catálogo de telas/estados
 

@@ -36,7 +36,7 @@ Quando aplicável, considere: vazio/sem dados; carregamento/processamento; suces
 
 **Protótipo:** {{https://www.figma.com/design/GOwGWxzY02kVQPyRxh8Hvy/Untitled?node-id=8-11497&t=fK84Mhn0DBXdw7mc-1}}  
 **Arquivo editável:** {{https://www.figma.com/design/GOwGWxzY02kVQPyRxh8Hvy/Untitled?node-id=8-11497&m=dev&t=fK84Mhn0DBXdw7mc-1}}  
-**Última verificação de permissão:** {{dd/mm/aaaa}}
+**Última verificação de permissão:** {{16/11/2026}}
 
 > Teste o link em janela anônima. O avaliador deve conseguir abrir o protótipo sem solicitar permissão.
 

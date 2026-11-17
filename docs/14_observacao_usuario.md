@@ -28,33 +28,56 @@ O fluxograma deve representar, no mínimo: planejamento → recrutamento → con
 
 ### Passo 1 — Objetivos e versão avaliada
 
-**Versão/commit/Figma:** {{...}}  
+**Versão/commit/Figma:** {{16/11/2026}}  
 **Metas de usabilidade relacionadas:** {{MU01...}}
 
 ### Passo 2 — Participantes
 
 | ID | Perfil | Critérios que justificam participação | Integrante responsável |
 |---|---|---|---|
-| U01 | {{sem nome real}} | {{...}} | {{...}} |
+| U01 | {{Estudante de graduação em Ciência da Computação (1º semestre, 19 anos — nível iniciante em hardware, sem experiência prática prévia em montagem de computadores).}} | {{Representa fielmente o público-alvo primário do Hardware Quest (estudantes ingressantes que precisam compreender a função básica dos componentes na etapa de Revisão M01 e praticar o encaixe guiado na etapa de Montagem M02), possuindo familiaridade básica com navegação web em desktop/notebook.}} | {{Beatriz}} |
+| | U02 | {{Estudante de curso técnico em Informática / Sistemas de Informação (2º período, 20 anos — conhecimento teórico introdutório sobre peças, com pouca prática em bancada).}} | {{Representa o perfil de estudante em fase de consolidação de conceitos de hardware, permitindo avaliar se os signos visuais, alertas de ruptura ([TA]) e atalhos de teclado suportam tanto a consulta rápida quanto a autonomia na montagem sem depender de instruções externas.}} | {{Larissa}} | 
 
 ### Passo 3 — Consentimento e privacidade
 
-- Termo/registro de consentimento: {{link}}
+- Termo/registro de consentimento: {{Apresentação da pesquisa
+
+Esta pesquisa faz parte do Trabalho de Conclusão de Curso (TCC) de graduação em Ciência da Computação do Centro Universitário FEI.
+
+O objetivo é desenvolver e avaliar um jogo sério voltado à aprendizagem de identificação e montagem de componentes de hardware, analisando a usabilidade do jogo, o desempenho dos participantes e sua contribuição para a aprendizagem.Os dados serão utilizados exclusivamente para fins acadêmicos e científicos, no desenvolvimento do Trabalho de Conclusão de Curso.
+
+As informações serão tratadas de forma confidencial e terão acesso restrito aos pesquisadores. Os resultados poderão ser apresentados no trabalho acadêmico, mas sem a divulgação individual dos nomes e endereços de e-mail dos participantes.
+
+A participação nesta pesquisa é voluntária. O participante poderá optar por não participar, sem qualquer prejuízo.
+
+Ao selecionar a opção de aceite, declara que leu e compreendeu as informações apresentadas e que concorda em participar da pesquisa, autorizando o tratamento dos dados informados para as finalidades descritas neste termo.
+
+Identificação dos responsáveis
+
+Pesquisadoras responsáveis: Beatriz Cristina Emerenciano e Larissa Santos Fiuza.
+
+Professor orientador: Rafael Gomes Alves.
+
+Instituição: Centro Universitário FEI.00}}
+
 - Gravação de tela/áudio/vídeo: sim/não e finalidade.
 - Forma de anonimização: IDs `U01`, `U02`...
 - Local e período de armazenamento: {{...}}
 
 ### Passo 4 — Teste piloto
 
-**Data:** {{...}}  
-**O que foi validado:** roteiro, duração, entendimento das instruções, protótipo, gravação.  
-**Mudanças após piloto:** {{...}}
+**Data:** {{16/11/2026}}  
+**O que foi validado:** roteiro,entendimento das instruções  
+**Mudanças após piloto:** {{ em desenvolvimento}}
 
 ### Passo 5 — Tarefas
 
 | ID | Cenário/instrução apresentada | Critério de sucesso | Métricas | Ligação com modelo |
 |---|---|---|---|---|
+| UT01 | {{"Você acabou de entrar no jogo Hardware Quest e quer entender melhor o que cada peça faz antes de começar. Dê uma olhada nas opções disponíveis e descubra qual é a função principal da Placa-mãe.}} | {{resultado observável}} | sucesso, tempo, erros, ajudas, satisfação | {{T01/M01/F01}} |
 | UT01 | {{“Você precisa...” sem dizer o controle}} | {{resultado observável}} | sucesso, tempo, erros, ajudas, satisfação | {{T01/M01/F01}} |
+| UT01 | {{“Você precisa...” sem dizer o controle}} | {{resultado observável}} | sucesso, tempo, erros, ajudas, satisfação | {{T01/M01/F01}} |
+v
 
 ### Passo 6 — Protocolo do moderador
 

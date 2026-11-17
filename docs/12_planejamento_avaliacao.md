@@ -43,26 +43,32 @@ Se o protótipo utiliza dados ou resultados simulados, documente isso no plano.
 | QA03 | {{Ao ocorrer uma ruptura de encaixe ([TA] d: componente incorreto ou fora da area de encaixe em F04R), o usuário compreende o erro e se recupera com facilidade?}} | Observação de usuários (Teste com cenário de erro induzido)|Taxa de recuperação autônoma após o alerta [TA], número de tentativas repetidas no mesmo slot errado e relatos verbais (Think-Aloud). | {{MU03: ≥ 85% dos participantes corrigem o posicionamento na tentativa seguinte sem abandonar a tarefa.}} |
 | QA04 | {{A linguagem técnica, os signos de hardware e os controles de retorno (Voltar para lista, Concluir) são intuitivos e consistentes entre revisão e montagem?}} |Avaliação heurística + Entrevista pós-teste |Violações na H2 (Correspondência entre o sistema e o mundo real) e H4 (Consistência e padrões); escala de facilidade percebida (1 a 5). | {{MU04: Nota média ≥ 4,0/5,0 na clareza das instruções e ausência de ambiguidade nos rótulos de ação.}} |
 | QA05| {{Os elementos interativos, destaques de encaixe (regiao_destacada) e mensagens de erro são acessíveis via teclado e possuem contraste adequado?}} |Razão de contraste medida (texto ≥ 4.5:1; componentes ≥ 3:1), tamanho mínimo de alvo (≥ 44x44px) e navegação completa por Tab/Enter.  | {{MU05: 100% dos fluxos principais e alertas [TA] operáveis via teclado e em conformidade com WCAG 2.2 nível AA.}} |
-| QA02 | {{inspeção heurística / Checklist WCAG 2.2 AA}} | | | {{...}} |
-| QA02 | {{}} | | | {{...}} |
+
 
 ## C. Escopo e participantes
 
 | Item | Planejamento |
 |---|---|
-| Perfis | {{...}} |
-| Critérios de inclusão/exclusão | {{...}} |
-| Nº de participantes | {{...}} |
-| Ambiente | presencial/remoto/campo/laboratório |
-| Dispositivo | {{...}} |
-| Protótipo/versão | {{...}} |
-| Teste piloto | {{quem, quando, o que validar}} |
+| Perfis | {{Estudantes de graduação em áreas de computação/tecnologia (calouros ou períodos iniciais) e estudantes do ensino médio/técnico com interesse em hardware, representando o público-alvo educacional do Hardware Quest (nível iniciante a intermediário em montagem de computadores).}} |
+| Critérios de inclusão/exclusão | {{Inclusão: Ter idade ≥ 18 anos (ou consentimento formal), possuir familiaridade básica com navegação web (mouse/teclado) e aceitar o Termo de Consentimento Livre e Esclarecido (TCLE) Exclusão: Técnicos profissionais de manutenção de hardware com experiência avançada (evitando viés de conhecimento prévio na etapa de revisão) e integrantes da própria equipe de desenvolvimento do projeto..}} |
+| Nº de participantes | {{30 participantes.}} |
+| Ambiente | remoto |
+| Dispositivo | {{omputador desktop ou notebook (resolução mínima 1366x768px ou 1440x900px) equipado com mouse/trackpad, teclado físico (para validar acessibilidade e navegação por Tab/Enter) e navegador web atualizado (Google Chrome, Edge ou Firefox).}} |
+| Protótipo/versão | {{Protótipo navegável de média/alta fidelidade no Figma (v1.0), contemplando os fluxos completos dos diagramas MoLIC M01 (Etapa de Revisão: telas F01 → F02 → F03 e estado de ruptura F03R) e M02 (Etapa de Montagem: telas F04 → F05 → F06 e estado de ruptura F04R)}} |
+| Teste piloto | {{• Quem: 1 colega estudante externo ao grupo de desenvolvimento, conduzido pelo moderador e acompanhado pelo observador.
+
+
+• Quando: 2 dias antes do início oficial da coleta com os participantes.
+
+
+• O que validar: Clareza do enunciado das tarefas e do roteiro Think-Aloud, funcionamento de todos os links/hotspots e estados de erro no protótipo do Figma, calibração do tempo total da sessão (meta de 15–20 min) e adequação da planilha de registro de métricas.}} |
 
 ## D. Lista de tarefas de avaliação
 
 | ID | Cenário neutro entregue ao usuário | Objetivo oculto da avaliação | Critério de sucesso | Tempo-limite (se houver) |
 |---|---|---|---|---|
-| UT01 | {{...}} | {{T01/O01}} | {{...}} | {{...}} |
+| UT01 | {{"Você acabou de entrar no jogo Hardware  e quer entender melhor o que cada peça faz antes de começar. Dê uma olhada nas peças disponíveis e descubra qual é a função principal da Placa-mãe."}} | {{Validar o acionamento do acesso ubíquo (F01), a navegação na lista de componentes (F02) e a leitura dos signos detalhados na cena Examinar componente (F03).}} | {{T01 / O01 (M01): Validar o acionamento do acesso ubíquo (F01), a navegação na lista de componentes (F02) e a leitura dos signos detalhados na cena Examinar componente (F03).}} | {{O participante acessa a área de revisão, seleciona a Placa-mãe e identifica verbalmente sua função na tela de detalhes (F03) sem precisar de ajuda do moderador.}} |2 minutos|
+| UT02 | {{"Agora que você já viu a Placa-mãe, verifique também para que serve a Memória RAM e, em seguida, vá para a parte prática de montagem do computador."}} | {{T02/O02}} | {{T02 / O01 → O02 (M01): Avaliar a percepção e o uso do fluxo alternativo de retorno (u: voltar para lista / pressup: usuario deseja consultar outro componente) e a transição de meta (u: iniciar montagem / gco: Montar computador).}} | {{O participante retorna à lista (F02), abre os detalhes da Memória RAM (F03) e aciona o botão para iniciar a montagem (F04) com sucesso.}} |2minutos|
 
 > Uma boa instrução descreve o objetivo do participante sem dizer **onde clicar** ou usar o rótulo exato do controle que está sendo testado.
 
@@ -89,11 +95,11 @@ Defina antes dos testes:
 ## Checklist
 
 - [ ] As seis etapas DECIDE foram contextualizadas, não apenas expandidas por sigla.
-- [ ] Perguntas de avaliação têm método e evidência correspondentes.
-- [ ] O plano distingue avaliação de IHC de avaliação técnica/científica do TCC.
-- [ ] Dados ou processamentos simulados no protótipo estão declarados.
-- [ ] Tarefas vêm de objetivos/cenários relevantes.
-- [ ] Critérios de sucesso foram definidos antes da coleta.
-- [ ] Questões práticas e éticas estão resolvidas.
-- [ ] Instrumentos estão prontos antes da Entrega 13/14.
-- [ ] Plano diz como dados serão analisados e apresentados.
+- [x] Perguntas de avaliação têm método e evidência correspondentes.
+- [x] O plano distingue avaliação de IHC de avaliação técnica/científica do TCC.
+- [x] Dados ou processamentos simulados no protótipo estão declarados.
+- [x] Tarefas vêm de objetivos/cenários relevantes.
+- [x] Critérios de sucesso foram definidos antes da coleta.
+- [x] Questões práticas e éticas estão resolvidas.
+- [x] Instrumentos estão prontos antes da Entrega 13/14.
+- [x] Plano diz como dados serão analisados e apresentados.

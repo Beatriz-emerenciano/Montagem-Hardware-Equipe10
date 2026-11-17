@@ -46,7 +46,7 @@ Em TCCs técnicos, observe especialmente se a interface comunica o estado do pro
 
 | Item | Definição |
 |---|---|
-| Versão avaliada | {{link/commit/data}} |
+| Versão avaliada | {{https://www.figma.com/design/GOwGWxzY02kVQPyRxh8Hvy/Untitled?node-id=8-11497&t=fK84Mhn0DBXdw7mc-1%7D%7D  e  https://www.figma.com/design/aBMOmlgOWEY6xu68Mx2nhb/Untitled?node-id=2-1195&t=W4srdMUEHGzcyYeH-1%7D%7D/commit/16/11}} |
 | Telas/estados | {{tela de detapa de revisão e tela de montagem}} |
 | Fluxos | {{M01/M02...}} |
 | Dispositivo/viewport | {{Computador Desktop / Notebook — Aplicação Web Responsiva, viewport padrão 1440x900px (resolução mínima suportada 1366x768px), operando via mouse/trackpad e teclado físico.}} |
@@ -76,22 +76,25 @@ Ao justificar, considere **frequência, impacto e persistência** do problema no
 
 ---
 
-## Avaliador A01 — {{nome}}
+## Avaliador A01 — {{Beatriz}}
 
 ### 4. Matriz de cobertura das 10 heurísticas
 
 | Heurística | Telas/fluxos examinados | Houve violação? | IDs dos achados | Exemplo de boa prática se não violada |
 |---|---|---|---|---|
-| H1 | {{...}} | sim/não | {{V01...}} | {{...}} |
-| H2 | {{...}} | sim/não |  |  |
-| H3 | {{...}} | sim/não |  |  |
-| H4 | {{...}} | sim/não |  |  |
-| H5 | {{...}} | sim/não |  |  |
-| H6 | {{...}} | sim/não |  |  |
-| H7 | {{...}} | sim/não |  |  |
-| H8 | {{...}} | sim/não |  |  |
-| H9 | {{...}} | sim/não |  |  |
-| H10 | {{...}} | sim/não |  |  |
+| H1 (Visibilidade do status do sistema)| {{F01 → F02 → F03 (Revisão) e F04 → F05 → F06 (Montagem)}} | não | {{}} | {{Barra de progresso contínua (Progresso: Componente 1 de 3 até 3 de 3 concluídos), breadcrumb de localização (01 Revisão — 02 Montagem) e selo ✓ Encaixado no gabinete}} |
+| HeurísticaTelas/fluxos examinadosHouve violação?IDs dos achadosExemplo de boa prática se não violadaH1 (Visibilidade do status do sistema)   F01 → F02 → F03 (Revisão) e F04 → F05 → F06 (Montagem)não—Barra de progresso contínua (Progresso: Componente 1 de 3 até 3 de 3 concluídos), breadcrumb de localização (01 Revisão — 02 Montagem) e selo ✓ Encaixado no gabinete.   H2 (Compatibilidade entre sistema e mundo real) | {{F02, F03, F04, F05}} | não |  |so de ilustrações técnicas fiéis aos componentes físicos (Placa-mãe, Memória RAM, CPU, etc.), vista interna do gabinete aberta ("Bancada de Montagem") e linguagem didática sem jargões de sistema.  |
+| HeurísticaTelas/fluxos examinadosHouve violação?IDs dos achadosExemplo de boa prática se não violadaH1 (Visibilidade do status do sistema)   F01 → F02 → F03 (Revisão) e F04 → F05 → F06 (Montagem)não—Barra de progresso contínua (Progresso: Componente 1 de 3 até 3 de 3 concluídos), breadcrumb de localização (01 Revisão — 02 Montagem) e selo ✓ Encaixado no gabinete.   H2 (Compatibilidade entre sistema e mundo real)   F02, F03, F04, F05não—Uso de ilustrações técnicas fiéis aos componentes físicos (Placa-mãe, Memória RAM, CPU, etc.), vista interna do gabinete aberta ("Bancada de Montagem") e linguagem didática sem jargões de sistema.   H3 (Controle e liberdade do usuário) | {{F02, F03, F04, F05}} | não | |Botões persistentes ← Voltar ao Menu e ← Voltar para lista na revisão; botão Sair da Montagem, acesso rápido Consultar Componentes e atalho Esc: cancelar seleção antes do encaixe.  |
+|H4 (Consistência e padrões) | {{Transição M01 (F01–F03) → M02 (F04–F06) e tela final F06}} | sim |V01, V02  | (Violada pela alternância abrupta de Dark Mode na Revisão para Light Mode na Montagem [V01] e pelo rótulo "Montar novamente" no lugar do fechamento u: concluir previsto no MoLIC [V02]). |
+
+
+## Avaliador A01 — {{Larissa}}
+| H5 (Prevenção de erros)| {{F03, F04, F05}} | não |  |Destaque visual da zona de encaixe com borda tracejada (Área de Encaixe: Placa-mãe), aviso preventivo "Antes de montar: Verifique a compatibilidade entre as peças" e indicador de peça em foco antes da confirmação.  |
+|H6 (Reconhecimento em vez de memorização)| {{F02, F04, F05}} | não |  |Miniaturas e resumos funcionais visíveis em todos os cards da grade (F02); bandeja lateral mantém ícones, nomes e descrições das 3 peças visíveis simultaneamente ao gabinete durante toda a montagem (F04)).  |
+| H7 (Flexibilidade e eficiência de uso) | {{F02, F03, F04, F05}} | não |  |Suporte híbrido para interação via mouse (clique / arrastar e soltar) e atalhos completos de teclado (1–6 para abrir peças na revisão; Espaço, Setas, Enter, Esc e M na montagem)  |
+| H8 (Estética e design minimalista)| {{F02, F03, F04, F05, F06}} | sim|V03  | (Layout geral limpo, mas violada pela presença de microtextos com fonte excessivamente reduzida nas legendas inferiores da bancada de montagem e caixas ALT, prejudicando a legibilidade [V03]) |
+|H9 (Reconhecer, diagnosticar e recuperar-se de erros)| {{F03R (Falha de imagem) e F04R (Ruptura [TA] no encaixe)}} | não |  | Banners de alerta em âmbar de alto contraste com linguagem clara ("Componente incorreto ou fora da área de encaixe" e "Não foi possível carregar a imagem"), acompanhados de botões diretos de recuperação (Tentar novamente) e manutenção do progresso. |
+| H10 (Ajuda e documentação) | {{F02, F03, F04, F05}} | não | - | Instruções contextuais integradas no topo da bancada ("Encontre o ponto de conexão: Selecione a peça e confirme o encaixe..."), descrições ALT visíveis nas ilustrações e botão persistente Consultar Componentes durante a prática |
 
 ### 5. Declaração de violações
 

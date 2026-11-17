@@ -47,9 +47,9 @@ Em TCCs técnicos, observe especialmente se a interface comunica o estado do pro
 | Item | Definição |
 |---|---|
 | Versão avaliada | {{link/commit/data}} |
-| Telas/estados | {{lista completa}} |
+| Telas/estados | {{tela de detapa de revisão e tela de montagem}} |
 | Fluxos | {{M01/M02...}} |
-| Dispositivo/viewport | {{...}} |
+| Dispositivo/viewport | {{Computador Desktop / Notebook — Aplicação Web Responsiva, viewport padrão 1440x900px (resolução mínima suportada 1366x768px), operando via mouse/trackpad e teclado físico.}} |
 | Avaliadores | {{nomes}} |
 
 ## 3. Procedimento individual

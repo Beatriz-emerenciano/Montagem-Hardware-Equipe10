@@ -1,7 +1,7 @@
 # Entrega 12 — Planejamento da avaliação de usabilidade (DECIDE)
 
-**Data:** {{dd/mm/aaaa}}  
-**Status:** ⬜ não iniciada  
+**Data:** {{16/11/2026}}  
+**Status:** 🟩 concluída
 **Responsabilidade:** 1 solução por equipe
 
 ## Objetivo da atividade
@@ -38,8 +38,13 @@ Se o protótipo utiliza dados ou resultados simulados, documente isso no plano.
 
 | ID | Pergunta | Método | Métrica/evidência | Critério esperado |
 |---|---|---|---|---|
-| QA01 | {{usuários completam T01 sem ajuda?}} | observação | sucesso, ajuda, erro | {{MU01}} |
-| QA02 | {{há problemas de feedback?}} | heurística | violações H1 | {{...}} |
+| QA01 | {{Os usuários conseguem acessar a etapa de revisão, consultar um componente (F02 → F03) e iniciar a montagem sem solicitar ajuda?}} | Observação de usuários (Teste de usabilidade) |axa de sucesso na tarefa (T01), número de pedidos de ajuda e cliques fora de fluxo.| {{MU01: ≥ 90% de conclusão sem ajuda externa e média de ≤ 1 erro de navegação por participante.}} |
+| QA02 | {{O sistema fornece feedbacks visíveis, claros e imediatos sobre o progresso e o resultado de cada encaixe (F04 → F05)?}} |Avaliação heurística + Observação | Número e severidade de violações na H1 (Visibilidade do status do sistema); tempo de reação do usuário após soltar a peça.| {{MU02: Zero violações críticas/graves na H1 e reconhecimento imediato do status (acerto ou erro) em ≤ 3 segundos.}} |
+| QA03 | {{Ao ocorrer uma ruptura de encaixe ([TA] d: componente incorreto ou fora da area de encaixe em F04R), o usuário compreende o erro e se recupera com facilidade?}} | Observação de usuários (Teste com cenário de erro induzido)|Taxa de recuperação autônoma após o alerta [TA], número de tentativas repetidas no mesmo slot errado e relatos verbais (Think-Aloud). | {{MU03: ≥ 85% dos participantes corrigem o posicionamento na tentativa seguinte sem abandonar a tarefa.}} |
+| QA04 | {{A linguagem técnica, os signos de hardware e os controles de retorno (Voltar para lista, Concluir) são intuitivos e consistentes entre revisão e montagem?}} |Avaliação heurística + Entrevista pós-teste |Violações na H2 (Correspondência entre o sistema e o mundo real) e H4 (Consistência e padrões); escala de facilidade percebida (1 a 5). | {{MU04: Nota média ≥ 4,0/5,0 na clareza das instruções e ausência de ambiguidade nos rótulos de ação.}} |
+| QA05| {{Os elementos interativos, destaques de encaixe (regiao_destacada) e mensagens de erro são acessíveis via teclado e possuem contraste adequado?}} |Razão de contraste medida (texto ≥ 4.5:1; componentes ≥ 3:1), tamanho mínimo de alvo (≥ 44x44px) e navegação completa por Tab/Enter.  | {{MU05: 100% dos fluxos principais e alertas [TA] operáveis via teclado e em conformidade com WCAG 2.2 nível AA.}} |
+| QA02 | {{inspeção heurística / Checklist WCAG 2.2 AA}} | | | {{...}} |
+| QA02 | {{}} | | | {{...}} |
 
 ## C. Escopo e participantes
 
